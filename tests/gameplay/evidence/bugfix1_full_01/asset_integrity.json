@@ -1,0 +1,25 @@
+{
+  "hashed_baseline_files": 1790,
+  "protected_files_checked": 1036,
+  "protected_changes": [],
+  "missing_files": [],
+  "expected_modified_files": [
+    "docs\\perspective_connection_design.md",
+    "docs\\PERSPECTIVE_CONNECTION_TECH_PROTOTYPE_REPORT.md",
+    "prototype\\perspective\\connectivity.gd",
+    "prototype\\perspective\\cube_visual.gd",
+    "prototype\\perspective\\debug_overlay.gd",
+    "prototype\\perspective\\grid_movement.gd",
+    "prototype\\perspective\\perspective_controller.gd",
+    "tests\\gameplay\\perspective_connection_tech_test.gd",
+    "tests\\gameplay\\run_validation.ps1",
+    "tests\\gameplay\\test_perspective_logic.gd",
+    "tests\\gameplay\\test_perspective_runtime.gd"
+  ],
+  "excluded_open_runtime_logs": [
+    "tests\\gameplay\\evidence\\manual\\stderr.log",
+    "tests\\gameplay\\evidence\\manual\\stdout.log"
+  ],
+  "tileset_sample_sha256": "AA4CCBBE859FEA4084CAB6DBD7A2987F5E702A448D00829A3048B3A244744BB1",
+  "status": "PASS"
+}

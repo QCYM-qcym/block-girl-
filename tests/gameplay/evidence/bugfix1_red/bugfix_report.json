@@ -1,0 +1,416 @@
+{
+	"case": "all",
+	"checks": 84,
+	"display": "Windows",
+	"driver": "d3d12",
+	"failures": [
+		"E advances exactly one 90-degree view step 2",
+		"E advances exactly one 90-degree view step 3",
+		"E visits all four views",
+		"Q advances exactly one 90-degree view step 1",
+		"Q advances exactly one 90-degree view step 2",
+		"Q visits all four views",
+		"drag_right advances exactly one 90-degree view step 2",
+		"drag_right advances exactly one 90-degree view step 3",
+		"drag_right visits all four views",
+		"drag_left advances exactly one 90-degree view step 1",
+		"drag_left advances exactly one 90-degree view step 2",
+		"drag_left visits all four views",
+		"1000 discrete rotations without drift",
+		"Inner valid view and projection activates link attempt 0",
+		"Inner graph exposes authored edge attempt 0",
+		"Inner neighbor query returns B attempt 0",
+		"Inner starts roll before node commit attempt 0",
+		"Inner completes A to B traversal attempt 0",
+		"Inner disabled edge blocks return",
+		"round-trip Shift preserves cell pose and view",
+		"Inner valid view and projection activates link attempt 1",
+		"Inner graph exposes authored edge attempt 1",
+		"Inner neighbor query returns B attempt 1",
+		"Inner starts roll before node commit attempt 1",
+		"Inner completes A to B traversal attempt 1",
+		"Inner disabled edge blocks return",
+		"round-trip Shift preserves cell pose and view",
+		"Inner valid view and projection activates link attempt 2",
+		"Inner graph exposes authored edge attempt 2",
+		"Inner neighbor query returns B attempt 2",
+		"Inner starts roll before node commit attempt 2",
+		"Inner completes A to B traversal attempt 2",
+		"Inner disabled edge blocks return",
+		"round-trip Shift preserves cell pose and view"
+	],
+	"godot": {
+		"build": "steam",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (steam)",
+		"timestamp": 0
+	},
+	"renderer": "forward_plus",
+	"trace": [
+		{
+			"action": "E",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "E",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "E",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "E",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "Q",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "Q",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "Q",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "Q",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "drag_right",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "drag_right",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "drag_right",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "drag_right",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "drag_left",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "drag_left",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "drag_left",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "drag_left",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"a_screen": "(962.0, 262.0)",
+			"active": false,
+			"allowed_perspectives": [
+				1
+			],
+			"allowed_world_states": [
+				0
+			],
+			"anchor_a": "A_east",
+			"anchor_b": "B_west",
+			"b_screen": "(962.0, 262.0)",
+			"cube_orientation": "(1, 0, 0)|(0, -1, 0)|(0, 0, -1)",
+			"direction_match": true,
+			"elevation_a": 0,
+			"elevation_b": 0,
+			"enabled": true,
+			"graph_edge_present": false,
+			"graph_revision": 28,
+			"grid": "(4, 2)",
+			"label": "before_inner_cross_0",
+			"movement_phase": "idle",
+			"neighbor_list": [
+				"(4, 1)",
+				"(4, 3)",
+				"(3, 2)"
+			],
+			"player_node": "(4, 2)",
+			"projection_distance": 0.0,
+			"reason": "wrong world",
+			"requested_destination": "(4, 2)",
+			"requested_world_direction": "(1, 0)",
+			"rotation_busy": false,
+			"view": 1,
+			"world": 1
+		},
+		{
+			"a_screen": "(962.0, 262.0)",
+			"active": false,
+			"allowed_perspectives": [
+				1
+			],
+			"allowed_world_states": [
+				0
+			],
+			"anchor_a": "A_east",
+			"anchor_b": "B_west",
+			"b_screen": "(962.0, 262.0)",
+			"cube_orientation": "(1, 0, 0)|(0, -1, 0)|(0, 0, -1)",
+			"direction_match": true,
+			"elevation_a": 0,
+			"elevation_b": 0,
+			"enabled": true,
+			"graph_edge_present": false,
+			"graph_revision": 28,
+			"grid": "(4, 2)",
+			"label": "after_inner_cross_0",
+			"movement_phase": "idle",
+			"neighbor_list": [
+				"(4, 1)",
+				"(4, 3)",
+				"(3, 2)"
+			],
+			"player_node": "(4, 2)",
+			"projection_distance": 0.0,
+			"reason": "wrong world",
+			"requested_destination": "(4, 2)",
+			"requested_world_direction": "(1, 0)",
+			"rotation_busy": false,
+			"view": 1,
+			"world": 1
+		},
+		{
+			"a_screen": "(962.0, 262.0)",
+			"active": false,
+			"allowed_perspectives": [
+				1
+			],
+			"allowed_world_states": [
+				0
+			],
+			"anchor_a": "A_east",
+			"anchor_b": "B_west",
+			"b_screen": "(962.0, 262.0)",
+			"cube_orientation": "(1, 0, 0)|(0, -1, 0)|(0, 0, -1)",
+			"direction_match": true,
+			"elevation_a": 0,
+			"elevation_b": 0,
+			"enabled": true,
+			"graph_edge_present": false,
+			"graph_revision": 34,
+			"grid": "(4, 2)",
+			"label": "before_inner_cross_1",
+			"movement_phase": "idle",
+			"neighbor_list": [
+				"(4, 1)",
+				"(4, 3)",
+				"(3, 2)"
+			],
+			"player_node": "(4, 2)",
+			"projection_distance": 0.0,
+			"reason": "wrong world",
+			"requested_destination": "(4, 2)",
+			"requested_world_direction": "(1, 0)",
+			"rotation_busy": false,
+			"view": 1,
+			"world": 1
+		},
+		{
+			"a_screen": "(962.0, 262.0)",
+			"active": false,
+			"allowed_perspectives": [
+				1
+			],
+			"allowed_world_states": [
+				0
+			],
+			"anchor_a": "A_east",
+			"anchor_b": "B_west",
+			"b_screen": "(962.0, 262.0)",
+			"cube_orientation": "(1, 0, 0)|(0, -1, 0)|(0, 0, -1)",
+			"direction_match": true,
+			"elevation_a": 0,
+			"elevation_b": 0,
+			"enabled": true,
+			"graph_edge_present": false,
+			"graph_revision": 34,
+			"grid": "(4, 2)",
+			"label": "after_inner_cross_1",
+			"movement_phase": "idle",
+			"neighbor_list": [
+				"(4, 1)",
+				"(4, 3)",
+				"(3, 2)"
+			],
+			"player_node": "(4, 2)",
+			"projection_distance": 0.0,
+			"reason": "wrong world",
+			"requested_destination": "(4, 2)",
+			"requested_world_direction": "(1, 0)",
+			"rotation_busy": false,
+			"view": 1,
+			"world": 1
+		},
+		{
+			"a_screen": "(962.0, 262.0)",
+			"active": false,
+			"allowed_perspectives": [
+				1
+			],
+			"allowed_world_states": [
+				0
+			],
+			"anchor_a": "A_east",
+			"anchor_b": "B_west",
+			"b_screen": "(962.0, 262.0)",
+			"cube_orientation": "(1, 0, 0)|(0, -1, 0)|(0, 0, -1)",
+			"direction_match": true,
+			"elevation_a": 0,
+			"elevation_b": 0,
+			"enabled": true,
+			"graph_edge_present": false,
+			"graph_revision": 40,
+			"grid": "(4, 2)",
+			"label": "before_inner_cross_2",
+			"movement_phase": "idle",
+			"neighbor_list": [
+				"(4, 1)",
+				"(4, 3)",
+				"(3, 2)"
+			],
+			"player_node": "(4, 2)",
+			"projection_distance": 0.0,
+			"reason": "wrong world",
+			"requested_destination": "(4, 2)",
+			"requested_world_direction": "(1, 0)",
+			"rotation_busy": false,
+			"view": 1,
+			"world": 1
+		},
+		{
+			"a_screen": "(962.0, 262.0)",
+			"active": false,
+			"allowed_perspectives": [
+				1
+			],
+			"allowed_world_states": [
+				0
+			],
+			"anchor_a": "A_east",
+			"anchor_b": "B_west",
+			"b_screen": "(962.0, 262.0)",
+			"cube_orientation": "(1, 0, 0)|(0, -1, 0)|(0, 0, -1)",
+			"direction_match": true,
+			"elevation_a": 0,
+			"elevation_b": 0,
+			"enabled": true,
+			"graph_edge_present": false,
+			"graph_revision": 40,
+			"grid": "(4, 2)",
+			"label": "after_inner_cross_2",
+			"movement_phase": "idle",
+			"neighbor_list": [
+				"(4, 1)",
+				"(4, 3)",
+				"(3, 2)"
+			],
+			"player_node": "(4, 2)",
+			"projection_distance": 0.0,
+			"reason": "wrong world",
+			"requested_destination": "(4, 2)",
+			"requested_world_direction": "(1, 0)",
+			"rotation_busy": false,
+			"view": 1,
+			"world": 1
+		}
+	]
+}

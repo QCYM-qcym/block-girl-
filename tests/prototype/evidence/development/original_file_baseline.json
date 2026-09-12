@@ -1,0 +1,3882 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "21B01A606C9F85F18BB9230245F00AB104DF7409CBB2FE9423F6751CA72BA754"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "D6194B1A176268740A0B7F153BD4926908B4A0955A9A311181C0200B4329BC94"
+  },
+  {
+    "path": "icon.svg",
+    "sha256": "6C80384360A5B269D1054BFB27241258154E2CC8167C522016FDC1820E84E0F8"
+  },
+  {
+    "path": "icon.svg.import",
+    "sha256": "68E0DDBE01990CA872A802BB6506BDF861A318D3FAC79BBF48A2388D97EE2FF7"
+  },
+  {
+    "path": "project.godot",
+    "sha256": "934463D23AB05A06CDD79999DD3026232DD4813C74B47F6DCC40E1DAA75DC093"
+  },
+  {
+    "path": "production\\mechanisms\\mechanism_issues.md",
+    "sha256": "894E1B77333F5F8F2AF3C88D9DE28D3A04CFD6B4EA4CD3BF3367319B11C8B670"
+  },
+  {
+    "path": "production\\mechanisms\\mechanism_manifest.json",
+    "sha256": "1A4F1E00D63634CEE8858AC017D3A1BA2FCF60DE121513A30E4CD88D8502C42A"
+  },
+  {
+    "path": "production\\mechanisms\\mechanism_manifest.md",
+    "sha256": "2E0D709040A1F87BAC6D89391085AE8F17AC3306F06CF0E05AED5BCE5D2319BE"
+  },
+  {
+    "path": "production\\mechanisms\\MECHANISM_SPEC.md",
+    "sha256": "5EAE935E55CCD84FE8502824DAFA213D3F2644D6FDBB7F7CFCA4CCFE56324956"
+  },
+  {
+    "path": "production\\mechanisms\\mechanism_visual.gd",
+    "sha256": "DDE278E782EC4A46BCA835E182A171C79BA07D32B90EB1F4685F8073F25F5227"
+  },
+  {
+    "path": "production\\mechanisms\\mechanism_visual.gd.uid",
+    "sha256": "3A6B1891FC691D362BFA6D4535280300517108DC145A725AE97B7FC6AA996194"
+  },
+  {
+    "path": "production\\mechanisms\\PUZZLE_MECHANISM_PRODUCTION_REPORT.md",
+    "sha256": "662AF42D395FA00657F4E9ED096BAF088DD24FD3E22F764E05C71BB144D80263"
+  },
+  {
+    "path": "production\\mechanisms\\source_inventory.md",
+    "sha256": "0F82A3CE3E3B7D3752AA011EA280065E82D5171B4D35BBD77984CD73F0F96751"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door_inner_frames.tres",
+    "sha256": "759DEBE3B7213473DCCF92B00750E850F2B31984F787085EB2582FA2017DADFE"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door_inner.png",
+    "sha256": "3B7E4E3EBB05A35391A7CAC13A52D3ECDF2C1A5ABD0AF05332E16E4DC766839B"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door_inner.png.import",
+    "sha256": "3ACB9F2F17D481A858602F8D8925BA365E0BB5D8A6A71B7F770D36C4EA80AD49"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door_surface_frames.tres",
+    "sha256": "0E4BB9EAA6445F7D8E0FE33F025BB1F34ACCB7689EC72CC1EBB0EF8709AE44B1"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door_surface.png",
+    "sha256": "71B4ABF9E3A8401049E576C5F386B59FB62BF0D8231D1D2444F51F31FCA89EFF"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door_surface.png.import",
+    "sha256": "14B30F0C60ACA33ACE3E5A65A4B089BE5F5C2150D4203ADB9ED321442B246A2E"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door.gd",
+    "sha256": "39403E8771EE744E82E08807B9ADB331E6913ECA99DCF5E5422083B54B8147B0"
+  },
+  {
+    "path": "production\\mechanisms\\door\\door.gd.uid",
+    "sha256": "BF59626A8D8D5C9BEFA5D618C8D524C58B7E2542FBD940AEF2B52D0CE9D80525"
+  },
+  {
+    "path": "production\\mechanisms\\door\\Door.tscn",
+    "sha256": "BF7FAB71D21EE89539AFD92D080C2D70E136C2D57BC9DE792D2B306F1E4ABB24"
+  },
+  {
+    "path": "production\\mechanisms\\door\\DoorInner.tscn",
+    "sha256": "A331E033AC91722572464F11840577180DE9E6D2CD89DEFA4F2048401297B773"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit_inner_frames.tres",
+    "sha256": "E4B645747D7F3F955E02AE84B0498EA537EF3FDE6B7863C76C3DB47C61F78341"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit_inner.png",
+    "sha256": "AF6755336274F6E82489B39E82ADC7FE510541205553226AA4C87929AA487E07"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit_inner.png.import",
+    "sha256": "B0B58C92D97B3EA560DA716AC33E2367BF43AD9694B5C3D41DA2994AB256213E"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit_surface_frames.tres",
+    "sha256": "DBA7FC5601DEB4911C69293610726BB42054E15E049C090E84BB3717A2AB64EF"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit_surface.png",
+    "sha256": "648831B05C62FA8D5C7D01BD38D7D4D9DCEA1A23CBA95264B09507F9A0517B35"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit_surface.png.import",
+    "sha256": "B98D7A5DA95DA1A2FD7097BD5050D90A06F86DCCB52675FF6A2E07625F0A3DD0"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit.gd",
+    "sha256": "C70FA4220E03CACD347475D92C8BCA500D510B8459660D3E17C6BFBE81DD415D"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\exit.gd.uid",
+    "sha256": "94CECFF5CF6E687C58A3D2C501EE1E26B96B956E405B194C3DE70FD64E7BFFDA"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\ExitGoal.tscn",
+    "sha256": "C84353767705E8DC0DDC83BDA3B5E1155ED12985F85C50CDAB137ADA1CEB994A"
+  },
+  {
+    "path": "production\\mechanisms\\exit\\ExitGoalInner.tscn",
+    "sha256": "7C98F78A57020AB50B028B384F38F5B8D3CF631D37CC904BB84D809A037DC0C1"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform_inner_frames.tres",
+    "sha256": "C18CF0BCC25975F608B64C81177045CF9DD712F2C0D60F53609ADD6E84A06D7D"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform_inner.png",
+    "sha256": "373122D599BFA19EA6C49480973D8560724E453D703FB233686D7E0837073438"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform_inner.png.import",
+    "sha256": "E6EAD3EDE11C8CC4C66A6DE9431B7FA065DCAB44A53F73868739AAB2C5CEA995"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform_surface_frames.tres",
+    "sha256": "FB856C7D4C097D4F9800AF8B143D25B08116F71D01906780E7B2D752ED4D55FE"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform_surface.png",
+    "sha256": "4A3A4E5CD62B2914E5F0738862DAE0AE6F31E4A22050220FCC3CF66DA1EA8A11"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform_surface.png.import",
+    "sha256": "67FA873E50FB2469AA51D9788FB9408E586784AEFAFF33AED2C7D463554BB597"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform.gd",
+    "sha256": "8F97305282CB301C91BC75CE08C4E14B7C94FCB98D11A53233F7A21D277743C6"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\moving_platform.gd.uid",
+    "sha256": "73E6F657F5F425072DDEFA32BD019375E6A463BA61207115BE78627361C5D2F9"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\MovingPlatform.tscn",
+    "sha256": "A4737249C21B61D76F669FB20E3154C84CC6FD758236F372853C3A097367A5DB"
+  },
+  {
+    "path": "production\\mechanisms\\moving_platform\\MovingPlatformInner.tscn",
+    "sha256": "2C2981AC1E10107AF4D52F76397134BA6D02507112E99C9B45E1C4454EF14435"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate_inner_frames.tres",
+    "sha256": "6B10B0F10F314816EA762CEB981DA5C5ABD833AB45AA28DB51A2A819D74849C8"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate_inner.png",
+    "sha256": "EFFDC1256C405E3C3A20F7063B7523EF0DB3E2A5762397D2D1153DC709122FD9"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate_inner.png.import",
+    "sha256": "87C7CBD3581111AD3412BBAB1E1D646120763ACFDE7DB9A44F708ECE0420EDF5"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate_surface_frames.tres",
+    "sha256": "3A47232D824369A047F12D85FE745225EFDC7EC728B0D1B14FB190A2582D222B"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate_surface.png",
+    "sha256": "4FCCC0FF8D894A635C5AB39A01FD7787BB8EBEAC1FF458EC6B205F51F8CF4AD9"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate_surface.png.import",
+    "sha256": "5C8516FDA83F23E1297B8DD66F2240D643E4415A66DBA77AD8265D99A71B3E4A"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate.gd",
+    "sha256": "AF2D9CEB509809FFBBF3A22A4C26A621700121F9BE06F5D0C5CC153AE3CC8EF1"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\pressure_plate.gd.uid",
+    "sha256": "FEBA06DAF27A81C20D78C6BB5C0A3F74115748B523DE1663F86B14CE9FB17D12"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\PressurePlate.tscn",
+    "sha256": "0A4DF0D5933F229541D2FA2FC12F2F38CBA8A87279A9ED4D81A011F11D429D1F"
+  },
+  {
+    "path": "production\\mechanisms\\pressure_plate\\PressurePlateInner.tscn",
+    "sha256": "61A8980EB34D173122D7B15F6257BB73C74E0C982F45B7EA7F91108028C38A31"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\RotatingPlatform.tscn",
+    "sha256": "23ED03D3D99BB776DF9C9B35D8A490D10BC58257816027CB6643A2E630D15F4A"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\RotatingPlatformInner.tscn",
+    "sha256": "3E181C666134C09D2D687E8A6164405CA903F538B335CCE7E35283753148FC28"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator_inner_frames.tres",
+    "sha256": "4F965169A8E6A1F790FBD48AC1A7DA7AC39529CA1852421172C1B49E530F59D1"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator_inner.png",
+    "sha256": "5D5BFC349F2E43435EB52D3B31052BA3CC5A315AA087DB389C13C18D95E465DD"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator_inner.png.import",
+    "sha256": "9560E410C418E8F8206E56318E8A436C9A6BEDE4F08BBB3D2819188E8F8D9D59"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator_surface_frames.tres",
+    "sha256": "0CBD8E72D2D05C6219DADED4C0E4CF7977012A7FA72F313F50888BF8D2991C3B"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator_surface.png",
+    "sha256": "2C2F3AF90E6B9855470417B535D040AAF2DC40C221ADFF18E3EAA96C741F037D"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator_surface.png.import",
+    "sha256": "9EC2C632AB7F2E1F2278C5DE7B42EF4C2FBB9CF13CE94333AF1632DBB9B3F757"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator.gd",
+    "sha256": "75CA9FA0CE9978F4E214AE8E7010073AA5CFBBEF5240153320A99FD358728387"
+  },
+  {
+    "path": "production\\mechanisms\\rotator\\rotator.gd.uid",
+    "sha256": "9CF0CA37113DFF62A756A6BE1653FBC0F4481AB7B2093588C4B6E2F306B860A2"
+  },
+  {
+    "path": "production\\sprites\\animation_layout.json",
+    "sha256": "62AED271F981A16FF52B98FE6B01609D78A6C34B677728DF2C4D090FF4FAE641"
+  },
+  {
+    "path": "production\\sprites\\asset_manifest.md",
+    "sha256": "AFF1470F75A32E3B5379DB701AEFD65FB9D79159CF0F33076A14F0CBF86BABBC"
+  },
+  {
+    "path": "production\\sprites\\mortis_cube_sheet.png",
+    "sha256": "308AED6F83FB7D18C280A7647BCCB1891C33731A88E04F1DC6EA1833E258C420"
+  },
+  {
+    "path": "production\\sprites\\mortis_cube_sheet.png.import",
+    "sha256": "978058170DFDD8B8780F556B27AABA4141B758F5B3B73D5DC2872FFDCECE0E6C"
+  },
+  {
+    "path": "production\\sprites\\mortis_sprite_example.tscn",
+    "sha256": "AB11A7CB6B17854196AB636C40C5158852B6E39AB076ABAA5E017DB98C968817"
+  },
+  {
+    "path": "production\\sprites\\mortis_sprite_frames.tres",
+    "sha256": "010B7FBC91D6504376814B439978EEDDE37CA081C1A4B5FA2041CE25E55C8E8F"
+  },
+  {
+    "path": "production\\sprites\\mutsumi_cube_sheet.png",
+    "sha256": "403A9510F1984BB69D87CEFF66710C67B6EFAEB894A7A00CB1BED7FDB800B1BE"
+  },
+  {
+    "path": "production\\sprites\\mutsumi_cube_sheet.png.import",
+    "sha256": "8F2E9BA75FBF7089BA512BFF5376848D8819431B61481AB435463639F4FFFDEE"
+  },
+  {
+    "path": "production\\sprites\\mutsumi_sprite_example.tscn",
+    "sha256": "5DB0DF7E11960444667AE98D13333F17ADC76CE765C28012B5239BC3F55B1C04"
+  },
+  {
+    "path": "production\\sprites\\mutsumi_sprite_frames.tres",
+    "sha256": "9BEE5618822DFBBE6F523848576177D49BA4FB0B305B77110A64F41B330B520D"
+  },
+  {
+    "path": "production\\sprites\\runtime_issues.md",
+    "sha256": "A61D5E925CAC858EEFC568061DC60A071098C22B8802101D06E332F385B70138"
+  },
+  {
+    "path": "production\\sprites\\runtime_validation_report.md",
+    "sha256": "82CB2043F085A43DD242C3F07903A9F61FDDB56D41C1668FDBEAACF147694412"
+  },
+  {
+    "path": "production\\sprites\\runtime_validation.json",
+    "sha256": "4B03250D07799CC066BDA45C18B2E09C4416DC3A3C9BA0BAA1217E5C01F37B09"
+  },
+  {
+    "path": "production\\sprites\\validation_report.json",
+    "sha256": "870C9DF4084D737497EC581CAD5A56FC2588E4049739FA35759EFCD50F124D9E"
+  },
+  {
+    "path": "production\\tilesets\\inner_tileset.tres",
+    "sha256": "B9414B8ABD71173562602CEC74A705A6B8D1692CD5A6A8253B47EA225334D753"
+  },
+  {
+    "path": "production\\tilesets\\source_inventory.md",
+    "sha256": "D71F667652B062021C38F0765B15D822F33ED29D0C028FCF20BE46B96A0624D3"
+  },
+  {
+    "path": "production\\tilesets\\surface_tileset.tres",
+    "sha256": "C87983DD58119CCBC9317E10C49FAF524FEF40A8F63697827E61FAF680B13BD0"
+  },
+  {
+    "path": "production\\tilesets\\tileset_issues.md",
+    "sha256": "AC006FE6515AE12C72D17C96C3945DB0492E75B3D4C2122BB17909E1FBCF674D"
+  },
+  {
+    "path": "production\\tilesets\\tileset_manifest.json",
+    "sha256": "7DA79CFA726A4BF3F88CE8D1844EBDBC18B57C3249E2D892A59E71459731C535"
+  },
+  {
+    "path": "production\\tilesets\\tileset_manifest.md",
+    "sha256": "11B910916E8FE0F718856C93A3107F6DE64FE81E9F58108B9D37046387B04275"
+  },
+  {
+    "path": "production\\tilesets\\TILESET_PRODUCTION_REPORT.md",
+    "sha256": "7A6F55A633F7444736D330D1F0D5A320F77CCBC08D0B2374810599FDB7BA73F4"
+  },
+  {
+    "path": "production\\tilesets\\TILESET_SPEC.md",
+    "sha256": "812CEF531CD07276F7DC9927066E9D64A81E2988FCE59332A85D97EF19788D0E"
+  },
+  {
+    "path": "production\\tilesets\\inner\\inner_decorations.png",
+    "sha256": "50F580ECEB0BBF1B9C58D56C6F5398390167D06927B8C39EC5A776B72D13ABDA"
+  },
+  {
+    "path": "production\\tilesets\\inner\\inner_decorations.png.import",
+    "sha256": "86D1328F8889C3F76721E1F61DB69406C63CFF9C405779BCC0D63D877F54F618"
+  },
+  {
+    "path": "production\\tilesets\\inner\\inner_tileset.png",
+    "sha256": "E30AC604A4087644F2505174F9C4D8B5847B1882EB27A8C3A4549D2C5BAE72E3"
+  },
+  {
+    "path": "production\\tilesets\\inner\\inner_tileset.png.import",
+    "sha256": "9ED755AFC3C7142325F0F0162D30F665FD79EB5B205227209853CEF16D4A0EDA"
+  },
+  {
+    "path": "production\\tilesets\\surface\\surface_decorations.png",
+    "sha256": "C767BB5AFF871729ACFA8480CC713D8D9BB9FD1F090B66553F40AC55C0B588FF"
+  },
+  {
+    "path": "production\\tilesets\\surface\\surface_decorations.png.import",
+    "sha256": "4C7AA7A76260C905DB5FB0EB8B28E6840B4D6F800FFD7DC57928AC1051DE2CFA"
+  },
+  {
+    "path": "production\\tilesets\\surface\\surface_tileset.png",
+    "sha256": "D9E95CA510744D0A702FA99A57498C5ACF959DC77C0A952D43705D18EB2B754A"
+  },
+  {
+    "path": "production\\tilesets\\surface\\surface_tileset.png.import",
+    "sha256": "D05C2CA766CEE914C01281D8CA9C966176AEEE323ADB5DFB5E1038EE1A292824"
+  },
+  {
+    "path": "tests\\visual\\build_mechanism_resources.gd",
+    "sha256": "AA2A0D5C5AF222C9EE353FD1144042C8AFE522D196F15DFC210C9DF989A64065"
+  },
+  {
+    "path": "tests\\visual\\build_mechanism_resources.gd.uid",
+    "sha256": "C2BD38B576D243D7D40FE3B8C151520C98D705D3872D426979EF341B1A486A8F"
+  },
+  {
+    "path": "tests\\visual\\build_tileset_resources.gd",
+    "sha256": "408647DC78BC0D983C7AD7BF7DCF7CE22BFAC8E3C38990DCC707862659A874DA"
+  },
+  {
+    "path": "tests\\visual\\build_tileset_resources.gd.uid",
+    "sha256": "8342A691193B89B40872B64FB82530EB166D5EDBEE130CAFE769DF547977B755"
+  },
+  {
+    "path": "tests\\visual\\MECHANISM_README.md",
+    "sha256": "69014D30F4A905E0A778E668C3E8B76A04E79743E3065CBAD81DF63B2E025B9F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_runtime_test.gd",
+    "sha256": "6D27020F9EFD33F092A6DE2F4C55D78944D87842AEBC6E4D999F3E1FAE79144C"
+  },
+  {
+    "path": "tests\\visual\\mechanism_runtime_test.gd.uid",
+    "sha256": "E82F88011436BE02A9A048FA7D220102D0B667E5B5645E40DEA8C262F4302E2E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_runtime_test.tscn",
+    "sha256": "41835A5FAF4A4B5C274D2F1DF65533300A5E77B71CDB37F3AF32E969E19075B5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_runtime_validation.md",
+    "sha256": "662AF42D395FA00657F4E9ED096BAF088DD24FD3E22F764E05C71BB144D80263"
+  },
+  {
+    "path": "tests\\visual\\README.md",
+    "sha256": "56AD63D44D97C2694A0FCA02064B0E6C3BCEB31766E999E734D4F152E3807D4A"
+  },
+  {
+    "path": "tests\\visual\\run_mechanism_validation.ps1",
+    "sha256": "CA7EE6B17589E6F14B73C941C547F0544ACF29942BA203C2C0DE5DA80F3319C1"
+  },
+  {
+    "path": "tests\\visual\\run_sprite_validation.ps1",
+    "sha256": "10E10911B1401851900770B3F12157E829976D67B55DE22D1F1369652A1ED1A9"
+  },
+  {
+    "path": "tests\\visual\\run_tileset_validation.ps1",
+    "sha256": "D5C7532B06FA1A1B93DA19D51F62BC6DA3FCB14BEA6CC5E4E347D186AD02FE1C"
+  },
+  {
+    "path": "tests\\visual\\sprite_runtime_test.gd",
+    "sha256": "4C6B1A9E2B0C6FFC480711636BF86350028FC3A27B367D6877E6DE956D044A32"
+  },
+  {
+    "path": "tests\\visual\\sprite_runtime_test.gd.uid",
+    "sha256": "12187982FDDED115D5B78F2ADCD5777F7269DB3EC2C417DDADCDF7B2C50D6867"
+  },
+  {
+    "path": "tests\\visual\\sprite_runtime_test.tscn",
+    "sha256": "33EBAFD1203AEA48FA8F5C2A15F232385E6C10ED742D17B3DDE028674AFED61E"
+  },
+  {
+    "path": "tests\\visual\\sprite_runtime_validation.md",
+    "sha256": "82CB2043F085A43DD242C3F07903A9F61FDDB56D41C1668FDBEAACF147694412"
+  },
+  {
+    "path": "tests\\visual\\tileset_paired_sample.tscn",
+    "sha256": "AA4CCBBE859FEA4084CAB6DBD7A2987F5E702A448D00829A3048B3A244744BB1"
+  },
+  {
+    "path": "tests\\visual\\TILESET_README.md",
+    "sha256": "1AAB5295F95E2A8242940D4D4835947933DFB6B0C983ECF8EBFC102E8D25898A"
+  },
+  {
+    "path": "tests\\visual\\tileset_runtime_test.gd",
+    "sha256": "24693177A1BC0CB5268F40540ECF4A4C38EF6454DC384721C70EEC8158166C7D"
+  },
+  {
+    "path": "tests\\visual\\tileset_runtime_test.gd.uid",
+    "sha256": "45613543A3E8A61874967F4D6B098392889F01A03448E64EF361BF4291B5E47F"
+  },
+  {
+    "path": "tests\\visual\\tileset_runtime_test.tscn",
+    "sha256": "82267A521DAEFA8C3208936B679F86802010788F4A12399A3C7F7F11C1DA3328"
+  },
+  {
+    "path": "tests\\visual\\tileset_runtime_validation.md",
+    "sha256": "7A6F55A633F7444736D330D1F0D5A320F77CCBC08D0B2374810599FDB7BA73F4"
+  },
+  {
+    "path": "tests\\visual\\verify_saved_tileset_sample.gd",
+    "sha256": "CAC225DD80F2AA384EC6276F192FD64DEDB56F92649F6C5A8CD94F3F304CA0D1"
+  },
+  {
+    "path": "tests\\visual\\verify_saved_tileset_sample.gd.uid",
+    "sha256": "62D4FD8A15354762B8DEA762CAD9A9D2EC6B57E0300502470376A49BDB46BB4D"
+  },
+  {
+    "path": "tests\\visual\\evidence\\.gdignore",
+    "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\engine_runtime_report.json",
+    "sha256": "EC8E2D47FAB04E0CA09B698CC39A649F4FB4F96F521980D9FFC92C766C48A49C"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\idle_f0.png",
+    "sha256": "C8132377F41AD47828DB6C8FBD43BB08F2FFA322B5A770ACB0641D0278B83C6D"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\interaction_f0.png",
+    "sha256": "AD4A4178B7537A88FE7599A81A97711DD84F3054CFCE99B6020373EA891CFB61"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\interaction_f1.png",
+    "sha256": "AD4A4178B7537A88FE7599A81A97711DD84F3054CFCE99B6020373EA891CFB61"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\interaction_f2.png",
+    "sha256": "DBA235E524FDA0FBDBEC958A4824B9FE7E061CB28148B1C024A9E30A382533E6"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\interaction_f3.png",
+    "sha256": "8FF11FA9EF434CA50DE4D2EF13C36FC48B7CAAA93D77C21C92141120A5B0E2E9"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\interaction_f4.png",
+    "sha256": "C24742EE618F875E6E319568E2FA881B295C6FAA52A4A023AECDE408D40AE1FB"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\interaction_f5.png",
+    "sha256": "AD4A4178B7537A88FE7599A81A97711DD84F3054CFCE99B6020373EA891CFB61"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\pixel_runtime_analysis.json",
+    "sha256": "99F13EB12E5D02BD4D4CA007245A4462570518DA50CF7FDEACC4C5CE6315CB5C"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\puzzle_complete_f0.png",
+    "sha256": "3710B5315F3A8648FD5A1BD39696EC9EEAF94C5D40A554A01D977F5E9772BE9A"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\puzzle_complete_f1.png",
+    "sha256": "0C9F048C7CF2DEA244210DB071BBC4F260752B3B3E5281571358F805AD040C8F"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\puzzle_complete_f2.png",
+    "sha256": "8D4DB882571E25996777CF446C0D2BBE41EFD501875F4260636A63F036106504"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\puzzle_complete_f3.png",
+    "sha256": "0196CC42A4F367CB499D9C0FCE41291B89F7CF06C9250D64C91C5B1C95C03396"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\puzzle_complete_f4.png",
+    "sha256": "0C9F048C7CF2DEA244210DB071BBC4F260752B3B3E5281571358F805AD040C8F"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\puzzle_complete_f5.png",
+    "sha256": "3710B5315F3A8648FD5A1BD39696EC9EEAF94C5D40A554A01D977F5E9772BE9A"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_backward_f0.png",
+    "sha256": "8536D7A1FC2F6C025ED44F5BCF3E0463022303DB3A2039809EB2669AEE3A1DD4"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_backward_f1.png",
+    "sha256": "3AD884AA94020AFDF39F35ACCA7F270F40A8C6671E1F7B020830D6443E484747"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_backward_f2.png",
+    "sha256": "1BE39CACA7AB0ED85F37C4AF6A7FFA5DE48DE7406F3F5FAED09FCD4037109640"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_backward_f3.png",
+    "sha256": "AB7F6DBA00906927A5D11041C213A7FA974499D98F76030136F0CF8051F3CBCE"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_backward_f4.png",
+    "sha256": "F65D1EA3BF24C9B8496AB6215A0B6815A25AF9B4E2AC1BAB2C0653C5466C0589"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_backward_f5.png",
+    "sha256": "8536D7A1FC2F6C025ED44F5BCF3E0463022303DB3A2039809EB2669AEE3A1DD4"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_forward_f0.png",
+    "sha256": "40C65964926BCD8E17FCA43C6B308C76678CB70DAB8BDB1DDEA242D6D2271451"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_forward_f1.png",
+    "sha256": "32F252BACA748FA22E77FCE8D5B1536DC6EF8CF4DA787E3553B7C5A0A5304C04"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_forward_f2.png",
+    "sha256": "A3FF8E90D831C4F236EA1EE8CE60FE3918B4692A05BE546E2B921F782FB904A9"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_forward_f3.png",
+    "sha256": "68548E6034CDB34BEA0123C641EC49828DD80F6D8FAD003308F32BA23FD3AD21"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_forward_f4.png",
+    "sha256": "F7212F7807F518D98F4EED768BB7C2BB6B2971E5D38F7C8A81927DE2EF5039E6"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_forward_f5.png",
+    "sha256": "40C65964926BCD8E17FCA43C6B308C76678CB70DAB8BDB1DDEA242D6D2271451"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_left_f0.png",
+    "sha256": "B5305369209B78223C488100A6A796F1AC73B1AEA309908B8ED8429D4FF1D3A2"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_left_f1.png",
+    "sha256": "F46BD390209BD0BE416A303E5702E1C07E244C2812D025A5FB872AA8321CD2DE"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_left_f2.png",
+    "sha256": "CC3B2F07775D0D3F2952AFE92A773BEA0B9CB16D90DB73763AC4B25F1ABEEB88"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_left_f3.png",
+    "sha256": "E44B12AE27F1E0F962D8BB06A4EDA84FFD803C11EADEC318E50B82D280FF5DBD"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_left_f4.png",
+    "sha256": "851E652E7D7FBE54091F5422BC56D8B6B5E508D6F716D8A469266B447F70F4D6"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_left_f5.png",
+    "sha256": "B5305369209B78223C488100A6A796F1AC73B1AEA309908B8ED8429D4FF1D3A2"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_right_f0.png",
+    "sha256": "893FC80EFCD2DFD7339FED36A2D99160CEB697A133BEF7BFDE1DD721438BCBF0"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_right_f1.png",
+    "sha256": "E55CD30723AA18A79581BD8A1C8BCCF03429742C77E546586F25A688A06F6775"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_right_f2.png",
+    "sha256": "50259B34C5E3F9D253165A9170ABD767D28884E1FCC70DBF4ACF3152863D2ECB"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_right_f3.png",
+    "sha256": "5C5ACCAF6DF80B4DBC1190C09A3E7682C785D52E082FA60824F616055CC10E71"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_right_f4.png",
+    "sha256": "E6CED6FE544A8F28C149643840C45B64D013F9FFF3C57B39332B3A77DE5563B7"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\roll_right_f5.png",
+    "sha256": "893FC80EFCD2DFD7339FED36A2D99160CEB697A133BEF7BFDE1DD721438BCBF0"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\runtime_rolls_contact.png",
+    "sha256": "ED18EB4C6DF56733615D8DBF11D1448B66F0BD5A53A3D8D704FF552E8533C246"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\runtime_states_contact.png",
+    "sha256": "7AA4F5544E3ED25F76EE10EF632736D69F4F2E435DF5E37D237679F2E593C2EA"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\shadow_idle_a.png",
+    "sha256": "F76FEE598E889D491042835AA4A9601B12EB246E80CCB12B29C1B4A6FF045399"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\shadow_idle_b.png",
+    "sha256": "F76FEE598E889D491042835AA4A9601B12EB246E80CCB12B29C1B4A6FF045399"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\subtle_idle_f0.png",
+    "sha256": "13FD768C2F12B9B35C46A7D9FBBBF0CC0234F4545454B46CBFE010601846629E"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\subtle_idle_f1.png",
+    "sha256": "13FD768C2F12B9B35C46A7D9FBBBF0CC0234F4545454B46CBFE010601846629E"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\subtle_idle_f2.png",
+    "sha256": "592FC1CE026D358336D055FF8CDF584C635848DB4F7F1200FA867CF74908EA96"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\subtle_idle_f3.png",
+    "sha256": "F3217EB6DE8BB695B234A26B4FA9C689057FC716534A738502DD60BBA91BB5D3"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\subtle_idle_f4.png",
+    "sha256": "7818CFC42C4FE7405336E78E2969C04E41CB72F89A5A20F6D40F397114288C86"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\subtle_idle_f5.png",
+    "sha256": "13FD768C2F12B9B35C46A7D9FBBBF0CC0234F4545454B46CBFE010601846629E"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_f0.png",
+    "sha256": "F4B180FAC89C8B251871347DA7F38E30892EF7AE33A5A5E6C48EA1F46A9EA61C"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_f1.png",
+    "sha256": "3A9A9CBB1DF110F8719762AB2B599E8FD0B30723F3D62CD80B18B427A9968568"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_f2.png",
+    "sha256": "E6FB39472A6184A673F23C2125E6167829DCE526FD650DD05EDE18FB810F1536"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_f3.png",
+    "sha256": "57B9CA96087C711B525CA0F19B1FB2930FFBE05AEF5DD2A9293C5A7155F8DA12"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_f4.png",
+    "sha256": "4995F1D704C9F79FB8B46171294516ACCBAAC04EE28FA1551F7141CA48566BD3"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_f5.png",
+    "sha256": "73102657950266BCC6652F35C0730AEDE456B1F8F9BFA434081CF9932E6C25B9"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_handoff_after.png",
+    "sha256": "73102657950266BCC6652F35C0730AEDE456B1F8F9BFA434081CF9932E6C25B9"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_handoff_before.png",
+    "sha256": "73102657950266BCC6652F35C0730AEDE456B1F8F9BFA434081CF9932E6C25B9"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_midpoint_f0.png",
+    "sha256": "83862DA0125B8E85C3E27B1CA922BCC50DBE40E010CBE06FB1C46E4DDB025914"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_midpoint_f1.png",
+    "sha256": "4CFF526F4B64CE88952CC8F3AB24FF92A44F333B0B3190BDDF1E8D264321B7E0"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_midpoint_f2.png",
+    "sha256": "85987E82FDF9F3DB6C7A43FB9DC6E1CDEDB4350B55EC8B73F291B5A2EE47DC51"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_start_f0.png",
+    "sha256": "26A228629FFFB2B18C3D48B6DEE16D958A069895E0188D4848CB191FFE7DF52C"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_start_f1.png",
+    "sha256": "C70DE78C215332274487BA946A60983B4926817EC4075FD9411455A75FEA485B"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\world_switch_start_f2.png",
+    "sha256": "ABB24CBA91B067479E79AAE91E83A08FD52C09BA65998E3CF23C56A9802E7FFC"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\reference\\mortis_cube_sheet.png",
+    "sha256": "BEA21EC0E5D9CC712C1A86DCE0ADD18C303FEDECF7998BF1D2ADC175EAC110D4"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\reference\\mortis_sprite_frames.tres",
+    "sha256": "010B7FBC91D6504376814B439978EEDDE37CA081C1A4B5FA2041CE25E55C8E8F"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\reference\\mutsumi_cube_sheet.png",
+    "sha256": "C7B7FD84E1411A8BE8109DC8CAB26B50A597BDC7E4EC2F55DB6DB1809C5547E6"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_01\\reference\\mutsumi_sprite_frames.tres",
+    "sha256": "9BEE5618822DFBBE6F523848576177D49BA4FB0B305B77110A64F41B330B520D"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\engine_runtime_report.json",
+    "sha256": "46A1A77A7D88EF847D2D9395F9EA3BF3147D0335DA367AB34105D6353FAB6B15"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\idle_f0.png",
+    "sha256": "12573312B8B1E00F4BA308FAC7818DAA66771BDE8E0B7A3A43186E4A44D9D5A8"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\interaction_f0.png",
+    "sha256": "C323F7FBACFB20F60774ADF8CC54B25858616C96A568EBE9736550AC6C6176B1"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\interaction_f1.png",
+    "sha256": "C323F7FBACFB20F60774ADF8CC54B25858616C96A568EBE9736550AC6C6176B1"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\interaction_f2.png",
+    "sha256": "D4D937536A62C22BDFCDE167642C30CB8A808695F78A0D2E990F779E825AC3D7"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\interaction_f3.png",
+    "sha256": "3A7B428B3C9D70506142E82824EE7E324CC836218EED0882FA46AB611F70303C"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\interaction_f4.png",
+    "sha256": "BDFB01246ADB806DC13CBBFB4320367C352C529384743369CCB5A1AA904955C0"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\interaction_f5.png",
+    "sha256": "C323F7FBACFB20F60774ADF8CC54B25858616C96A568EBE9736550AC6C6176B1"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\pixel_runtime_analysis.json",
+    "sha256": "D01ADB9C708825CE090B0692CC52E60CC41DB1235A5672BB71384A4DFBB81066"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\puzzle_complete_f0.png",
+    "sha256": "C980590DD96DDE68886B00D83C199EEC280780C887F9FD4B3939E1AB4D926990"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\puzzle_complete_f1.png",
+    "sha256": "9F661E02C41CB31880DB00E94A0421A7525B3F357510EB030507B04FCFA22688"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\puzzle_complete_f2.png",
+    "sha256": "71BDDDC4F637A2D29D280D1EF166E82549080FBA825DA390351202202B9FE332"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\puzzle_complete_f3.png",
+    "sha256": "F7A7EC4C7876C5496DBEFCB93DC576C5C2138F895F502EDA2CA42D969A709916"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\puzzle_complete_f4.png",
+    "sha256": "9F661E02C41CB31880DB00E94A0421A7525B3F357510EB030507B04FCFA22688"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\puzzle_complete_f5.png",
+    "sha256": "C980590DD96DDE68886B00D83C199EEC280780C887F9FD4B3939E1AB4D926990"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_backward_f0.png",
+    "sha256": "168810A70443AE71D8EB5E5E7A848AC7454A9A8CD78E70F6246BD31CBE2478A0"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_backward_f1.png",
+    "sha256": "B006449C04CED06461AEC0F12FA28AC102AFB31DB232EAD7A1C55705DD01A012"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_backward_f2.png",
+    "sha256": "53E19FB7FBCBD1982C79A50F9DB20BDCA792054A953933A31D29274C0BE10ABC"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_backward_f3.png",
+    "sha256": "D36976373470A1E9CA85CE5AE592B5959650F046AD2EB5BB4DB3CD40975FF361"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_backward_f4.png",
+    "sha256": "D5B69F45F3C6E715E10371D4938A50059FE66465DF58746A1CAF2E7E0F1DB881"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_backward_f5.png",
+    "sha256": "168810A70443AE71D8EB5E5E7A848AC7454A9A8CD78E70F6246BD31CBE2478A0"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_forward_f0.png",
+    "sha256": "E96E8FA7AF07A99C8DDB2F5B15C55D9C82D256447915FA6019DC5A4A61359EE3"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_forward_f1.png",
+    "sha256": "4EF8C623C370AFE8E4D036E9BE8F565AF9AFC23DC1D1D7330CA7193E2D5CC8C5"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_forward_f2.png",
+    "sha256": "C4A25937796572F0677792128B1118EFEDA5CEB563BB12E2EFCE3D0F6DC90109"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_forward_f3.png",
+    "sha256": "F3BD631BE5D40116E57C1EF129C9ECD2EDFC66F1826D62BB221E050F60F0E718"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_forward_f4.png",
+    "sha256": "DB5FBBDA04BAA1E1443E9A0E9EA5ADE32CBA5733C06876D1D3E3A8902241D962"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_forward_f5.png",
+    "sha256": "E96E8FA7AF07A99C8DDB2F5B15C55D9C82D256447915FA6019DC5A4A61359EE3"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_left_f0.png",
+    "sha256": "4A6378C46953484E55FAFB67EDD71F69D24F2DE1FA1B80AD75A6DE1694A43D1E"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_left_f1.png",
+    "sha256": "2F19145A8047CFCDA72FFD78D8419C7F81D2CACE11CD88C236B4899F315094A7"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_left_f2.png",
+    "sha256": "477E77BF6C3DF488D03BACD0C8184B913A2CB675FB5EBE7CA57FEAB82FBD3F03"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_left_f3.png",
+    "sha256": "BC3B5B6A3DE4C33DC248B89D94BB141B97BB077E2602F1D610BD21600B522557"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_left_f4.png",
+    "sha256": "2991CC311F40B59791A6024EF56E29D79C8272D5A646467F29A7E48D388A7D79"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_left_f5.png",
+    "sha256": "4A6378C46953484E55FAFB67EDD71F69D24F2DE1FA1B80AD75A6DE1694A43D1E"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_right_f0.png",
+    "sha256": "0B0EBEF51192356DED0BC77AF1337A2ED42F3966B46BE0B151B6EDD7176D4753"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_right_f1.png",
+    "sha256": "EAC1A04B5FA7C26CD9C70B4B4166C7BABF45B2AE51A073F4ECBEA7CA4BE0773B"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_right_f2.png",
+    "sha256": "57B57618A2B29216E0049FC58B0DEB8A16B3E7FA4088124D7ABC6012C0CA2C31"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_right_f3.png",
+    "sha256": "D3866431C6866E56813F6001C5D06BA02EF98B3D2FA1C6E2B84975CB6DBE963E"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_right_f4.png",
+    "sha256": "F542A22954611F73321B9F97B594B026822BEC1EDF62BCE20F6938214CF2F77A"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\roll_right_f5.png",
+    "sha256": "0B0EBEF51192356DED0BC77AF1337A2ED42F3966B46BE0B151B6EDD7176D4753"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\runtime_rolls_contact.png",
+    "sha256": "7B77C8B434611B26DA2C3DF86CFC336A01110CDB12519ACAF9CC250F30BAA660"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\runtime_states_contact.png",
+    "sha256": "274E27E9E911979E5D4B17D2276B347A2BC762F22AF80FA527456BA9CB094D58"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\shadow_idle_a.png",
+    "sha256": "1C771D4BCAEFD503D21321D65A530E61AC603B9DD7D8F88769F65B084DC10427"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\shadow_idle_b.png",
+    "sha256": "1C771D4BCAEFD503D21321D65A530E61AC603B9DD7D8F88769F65B084DC10427"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\subtle_idle_f0.png",
+    "sha256": "E31DBB05B86FBB4EB962F66C0AA584FAF445B275C203D26991201752FFAFC588"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\subtle_idle_f1.png",
+    "sha256": "E31DBB05B86FBB4EB962F66C0AA584FAF445B275C203D26991201752FFAFC588"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\subtle_idle_f2.png",
+    "sha256": "36A008444D3923E57F142C8143F27011D6A587617AA49A1071841108D9EF9898"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\subtle_idle_f3.png",
+    "sha256": "75146E1A3530886F531B3578D751C7A9888064C921AC8FAAAD24CBE60FE117EC"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\subtle_idle_f4.png",
+    "sha256": "2A199FE410CFEC5BE2193FE762E33681D42FD84DACFB1BAFE99CD2F0521E433E"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\subtle_idle_f5.png",
+    "sha256": "E31DBB05B86FBB4EB962F66C0AA584FAF445B275C203D26991201752FFAFC588"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_f0.png",
+    "sha256": "071CAC377DA033C06C7BD90B75765595C736A5795291F506DE35C9B0544F29BB"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_f1.png",
+    "sha256": "43A3137956EF4DE51C736E8A10EDC20C4336831A04D0741D1D39AE1F248AA7A8"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_f2.png",
+    "sha256": "DA1A11504FAEF1CC93E17CB0CF49BA7D6DF2504607EE5249ACBF806431B62249"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_f3.png",
+    "sha256": "A7BCD3BDA5C0ED8987C1A2AE9F47C74167A94B010AA438E583502A7946EBB2D5"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_f4.png",
+    "sha256": "D8EA1723F5BE3177CD5EA027F202BDC13EF5BF4566E7831420ABAE83FEC8F5CB"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_f5.png",
+    "sha256": "3885D8E4BACA860F82EA364102B161AB35BF952CD977A7C79AD2E78211D087FB"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_handoff_after.png",
+    "sha256": "3885D8E4BACA860F82EA364102B161AB35BF952CD977A7C79AD2E78211D087FB"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_handoff_before.png",
+    "sha256": "3885D8E4BACA860F82EA364102B161AB35BF952CD977A7C79AD2E78211D087FB"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_midpoint_f0.png",
+    "sha256": "3C4CBF71F20614AF34DC87F95E539E23F29DC1939800FB9B45D1E1B738AD0853"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_midpoint_f1.png",
+    "sha256": "806CB6F0B8F4C42F5FAD7F6CB0B54488C6DF48AE9A1B87483F2775024028BDF3"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_midpoint_f2.png",
+    "sha256": "2C03D9E3F86DE5FB07E544C979274274236419E39C6EC844DFCA96672F4F816C"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_start_f0.png",
+    "sha256": "6D12511CA6C0EE0A6FF2317A5994304DB1FE68C4F099C37D0CEBDC11CD06842C"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_start_f1.png",
+    "sha256": "156DF09BDE52289076FBD0D1963B228A8002075B3B94E70415FC19A6E94CCB91"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\world_switch_start_f2.png",
+    "sha256": "1A8EA51DDD0DC612CF137D9767E0C2C3E70B019E5868FE612C4D7469B0D5E5B6"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\reference\\mortis_cube_sheet.png",
+    "sha256": "308AED6F83FB7D18C280A7647BCCB1891C33731A88E04F1DC6EA1833E258C420"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\reference\\mortis_sprite_frames.tres",
+    "sha256": "010B7FBC91D6504376814B439978EEDDE37CA081C1A4B5FA2041CE25E55C8E8F"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\reference\\mutsumi_cube_sheet.png",
+    "sha256": "403A9510F1984BB69D87CEFF66710C67B6EFAEB894A7A00CB1BED7FDB800B1BE"
+  },
+  {
+    "path": "tests\\visual\\evidence\\run_02\\reference\\mutsumi_sprite_frames.tres",
+    "sha256": "9BEE5618822DFBBE6F523848576177D49BA4FB0B305B77110A64F41B330B520D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\.gdignore",
+    "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_door_closed.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_door_closing.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_door_open.png",
+    "sha256": "AA0B6494D9968C2ECA7D093ACCA87624EA1F4D20EA8522BA5A8034E1CB00AC3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_door_opening.png",
+    "sha256": "AA0B6494D9968C2ECA7D093ACCA87624EA1F4D20EA8522BA5A8034E1CB00AC3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_exit_active.png",
+    "sha256": "CE52B4CC54C345BBBC146A69799CF02CDB39468613886E93FB4857BFF95128E0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_exit_complete.png",
+    "sha256": "E14EDB62AFC869639B348F96B42A66D7E87FFF25C23D785F7CF9B1004628BDAF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_exit_completed.png",
+    "sha256": "E14EDB62AFC869639B348F96B42A66D7E87FFF25C23D785F7CF9B1004628BDAF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_exit_locked.png",
+    "sha256": "B95DA2541683C2EA01E7B2926BF720D8551EFCCFC5511C485628312928C94CFE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_exit_ready.png",
+    "sha256": "B944982333322DA563FD392D873892A8827E30EAC71FE1900915C0BC45076A47"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_moving_platform_arrived.png",
+    "sha256": "1FC38DF5F79D76FF6C2B7A980EEE35EC7171BD2C0D713F4D086192431D198E33"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_moving_platform_idle.png",
+    "sha256": "B300A9583E68C4984E12C45B7CD8B19763530917B71310C804E08507EC6F129F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_moving_platform_moving.png",
+    "sha256": "32DCE868BB7B4D6B702145B4058ABC29BBDA9B4D311B2C9852AF5051B68E998B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_pressure_plate_active.png",
+    "sha256": "9B36F00AE8800390994C787BE98E22BD9A1987E685031733C3F4DE978BC029A8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_pressure_plate_idle.png",
+    "sha256": "0D3A06D702FB99EDCAE14F95D90A995728CD03F93EFB9DD2C4BF8549EC6AA2C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_pressure_plate_pressed.png",
+    "sha256": "0BDA4D53F4C05ED2474A24BF7C02D33909BC6BDE7C2BB20AA8A9CF4FA175134B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_rotator_orientation_a.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_rotator_orientation_b.png",
+    "sha256": "617412C79DDD9DF279B61713987319F1916D1EDDBD957F558D48FE586EC6C9A5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_rotator_rotating_back.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\animation_rotator_rotating.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_door_behind_actor_only.png",
+    "sha256": "5A93F5B86C50A1470DED5FB205E9686045601E2D2B2B51C3F7D8C7E4C5DB4659"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_door_behind_combined.png",
+    "sha256": "ECBC69D78C26259DC2684B99F20629641B45B9769D1371A5097C011A15CA4DF0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_door_behind_mechanism_only.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_door_front_actor_only.png",
+    "sha256": "38B6656B36CA90C903E6D5BD4A477C9D98AFC3D78B9741F958CE00639A290F48"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_door_front_combined.png",
+    "sha256": "B574A23CFF2D9D601D82F3A2254178E5F9FC74E9366FC5B431DCD4EE7BAD12C5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_door_front_mechanism_only.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_moving_top_actor_only.png",
+    "sha256": "F892FA88D18E395ECCA876263107F2524E5515E0CD2C47A2D4325617FF9C500A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_moving_top_combined.png",
+    "sha256": "B26FF09E57DC8046E141901B4E0C64286131A0017A840DA7EA784CBEAC797D6A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_moving_top_mechanism_only.png",
+    "sha256": "B300A9583E68C4984E12C45B7CD8B19763530917B71310C804E08507EC6F129F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_plate_top_actor_only.png",
+    "sha256": "29A36E133215343E623E699CDA5AF91A2AC0817E5A4ECE97F1162C59EF2AC33F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_plate_top_combined.png",
+    "sha256": "C561CA41EB6D790F5569924F033F3A8874D9121108F1D177AFA71EBA93C310FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\depth_plate_top_mechanism_only.png",
+    "sha256": "0BDA4D53F4C05ED2474A24BF7C02D33909BC6BDE7C2BB20AA8A9CF4FA175134B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\door_open_passage.png",
+    "sha256": "B41D92F631B7B09748D264EEA51150E3C3819207D6A06260C9C06D1C307909E8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\engine_runtime_report.json",
+    "sha256": "D6C1322C21E1F9745CF546C6591B95003235F2EA3BB62D3A0310D181C0521B55"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\exit_active_actor.png",
+    "sha256": "B4579976ABC0D210DB6C9A69CE00FABF29DD5692EDA806EF738341DD46E98F19"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\exit_completed.png",
+    "sha256": "4C49FDE56F4086A2DF4AF4F2EF154B25EC15E9F67247326958A879907AF07DE8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\exit_ready.png",
+    "sha256": "7CA1AF4DF2DA59BF925B30D5EA4BC3672512D0ED3AA317B2A81EE70A67977E9D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_1x_0.png",
+    "sha256": "27922F5AA76E7F9B2D9287739F18A19580FB6E10F6C98ADFA189F1ADD16216F2"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_1x_4.png",
+    "sha256": "4C22DFE22C4277A5C5CCF7F35702913F21DCF1B679DEBBE00C89DCCCBB5A0CAE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_2x_0.png",
+    "sha256": "E6BB1A7D69AA66CD24526A49AF1A02A122897815352EBA0566C29BDFD5214E22"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_2x_4.png",
+    "sha256": "34CEEC16D7C1F83F479BE67CA253A9F3692096C688F5D996D6CC5D2050BC357C"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_3x_0.png",
+    "sha256": "7F5C05FBF60DBF0D9C86A98F446AC53F5DD449B31BDD0AEBEE8828CD0B19E0C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_3x_4.png",
+    "sha256": "3FC3E9C569BB5B49BADFB735FF0141DF346482D7AF251FA46832DD59D3F93120"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_4x_0.png",
+    "sha256": "26A43B3B5C7906DD09B69F62B80625B983DC423BF29C252EE3E23EB39870C095"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_door_4x_4.png",
+    "sha256": "89DF4AAE3991A7FC336B427EEE8C5F9CEDF796CB78F2AD6412709AA2E14BEF73"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_1x_0.png",
+    "sha256": "9156B7DD2AA7CC547CD0D39959016ACFEDBCD6C01D871390046735FAF045D4EB"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_1x_4.png",
+    "sha256": "36259E9C2F426160202EC6634002DD45F293928447FD148FDD4B81076955864E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_2x_0.png",
+    "sha256": "9224543581F68E51FE7A3B9E8CCE1E001998FF92F3F20BD751132EFFF88F478D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_2x_4.png",
+    "sha256": "AFD098ACBC08E7D3193E5FF230817AF8EBB449A644C2759D51F032E38673446A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_3x_0.png",
+    "sha256": "1894F14718BA888FD8EE4AC3C886074D0C108F641E24EBD9E60DB83E190F02AB"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_3x_4.png",
+    "sha256": "8A505D880E60461093025C95860715C41983A48B47C3E5800D9D48DF2384A0D6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_4x_0.png",
+    "sha256": "A5C0B6DC2835B62B9331EDC0BC2E3C5C9F432CCB6D883671A6DFAC3718B03269"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_exit_4x_4.png",
+    "sha256": "ADB1F80976B7B4150B0ACDAE0C3B04D1BC65F8BD1AA4489F6A6FA0EEF0A5A18F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_moving_platform_1x_0.png",
+    "sha256": "3A66FD141C29BA06D2E555D86573AF0C527339D04F68C70BA50A4D097F1BBD09"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_moving_platform_2x_0.png",
+    "sha256": "496D50C56207ABF41068E7057C4ECBEB97260927130C133FCF487B29ECDA7855"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_moving_platform_3x_0.png",
+    "sha256": "4F9DCE73255D92E193A63F4AFCA967752F1A87240A03BA82DEAB2301FD99E332"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_moving_platform_4x_0.png",
+    "sha256": "73AE0BF94E34339F955A7C522FADA58DCEF3793CD6D5AF59F270B0F40C82DA07"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_pressure_plate_1x_0.png",
+    "sha256": "A02C6C03286119323F8EB2266C57F85AF9A309E15D719643C8474F960F8A0BB4"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_pressure_plate_2x_0.png",
+    "sha256": "C05904E6599299131A076FBDA0BFBBF3FA5A46E940CAA3B1BB1153B4E73C0AB6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_pressure_plate_3x_0.png",
+    "sha256": "3373F41DD20FA8792F8D6B779281D314056F025E7C556C0C4AF97AA4CFC300E9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_pressure_plate_4x_0.png",
+    "sha256": "E788218AB75301AACE7BF68D0FA25616324A3D71527395E1DEF6775AADE38D08"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_1x_0.png",
+    "sha256": "B818EA3DD3A26B6DC54AC555D9CD486CE029B750F41AC29B191F6F5542F3D5D3"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_1x_4.png",
+    "sha256": "7BFB79CC38214EB53785FACF46516133BDB3C2A8B216690BD57E0EBD3CDD5A36"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_2x_0.png",
+    "sha256": "F42BA5F2F1AE185D651FC2E71BD6AB8B921450C6D7C5014FF2B4E9CF505A724A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_2x_4.png",
+    "sha256": "253559D22E0669B52921F171762CF2A47DFA1EBF099FEAF90BDD8C6107B14E56"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_3x_0.png",
+    "sha256": "C5850418450AA3AE2273069F7F034454698BCFA001BB89C7E23D569C949956F4"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_3x_4.png",
+    "sha256": "F87E70FC78CC8BF4CA3E0AF9748CECCBFCFFCB4B0F64D357548D7D528794E941"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_4x_0.png",
+    "sha256": "370B37159C6DB2A2AC51367C392FD8E5F71A4C5F54F11720B640EF901107593A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\gallery_rotator_4x_4.png",
+    "sha256": "FF7A16D61679D4791E95998B970F58250384C9B2EBBE2B036257ABBBB68FBC7C"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\moving_-32.0_16.0_arrived.png",
+    "sha256": "C795030206AAE8D8F1492B3B151DA5769E7BCA6E11002903D3158CD2FE450193"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\moving_-32.0_16.0_mid.png",
+    "sha256": "E09382ECBAE1A6395087DE967F87417E5C94A5068E0F15EEDC04D3EBDDE34023"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\moving_32.0_0.0_arrived.png",
+    "sha256": "2B9C7A5EE956B47E68AA218D4710D557DF47C2E20ED7B28D7D7311258C76C557"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\moving_32.0_0.0_mid.png",
+    "sha256": "ED309D33D507EBA8E2190785699609E8448FDF6729975436D31BFA93238BA775"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\moving_32.0_16.0_arrived.png",
+    "sha256": "A63A5E4A853648076A68E92BE60590C5383CE66AA6A94BCD78866F6C3732A965"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\moving_32.0_16.0_mid.png",
+    "sha256": "515A566253BADFD505AAD535FAA8DC12A6E5E469AA103FECB22E4F1EA0829608"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\paired_mechanisms_final.png",
+    "sha256": "269BC33E3F6B20FE81435555B1A6462BD506354F31921ACFFE8D1FA185715BC7"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\paired_mechanisms.png",
+    "sha256": "269BC33E3F6B20FE81435555B1A6462BD506354F31921ACFFE8D1FA185715BC7"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\plate_active_actor.png",
+    "sha256": "62AD726BFAFE9CE1870041E24254BF40412910B38AD8C9F5888A570A5599EB25"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\plate_pressed_actor.png",
+    "sha256": "C561CA41EB6D790F5569924F033F3A8874D9121108F1D177AFA71EBA93C310FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_01\\rotator_B.png",
+    "sha256": "617412C79DDD9DF279B61713987319F1916D1EDDBD957F558D48FE586EC6C9A5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_door_closed.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_door_closing.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_door_open.png",
+    "sha256": "AA0B6494D9968C2ECA7D093ACCA87624EA1F4D20EA8522BA5A8034E1CB00AC3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_door_opening.png",
+    "sha256": "AA0B6494D9968C2ECA7D093ACCA87624EA1F4D20EA8522BA5A8034E1CB00AC3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_exit_active.png",
+    "sha256": "CE52B4CC54C345BBBC146A69799CF02CDB39468613886E93FB4857BFF95128E0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_exit_complete.png",
+    "sha256": "E14EDB62AFC869639B348F96B42A66D7E87FFF25C23D785F7CF9B1004628BDAF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_exit_completed.png",
+    "sha256": "E14EDB62AFC869639B348F96B42A66D7E87FFF25C23D785F7CF9B1004628BDAF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_exit_locked.png",
+    "sha256": "B95DA2541683C2EA01E7B2926BF720D8551EFCCFC5511C485628312928C94CFE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_exit_ready.png",
+    "sha256": "B944982333322DA563FD392D873892A8827E30EAC71FE1900915C0BC45076A47"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_moving_platform_arrived.png",
+    "sha256": "1FC38DF5F79D76FF6C2B7A980EEE35EC7171BD2C0D713F4D086192431D198E33"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_moving_platform_idle.png",
+    "sha256": "B300A9583E68C4984E12C45B7CD8B19763530917B71310C804E08507EC6F129F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_moving_platform_moving.png",
+    "sha256": "32DCE868BB7B4D6B702145B4058ABC29BBDA9B4D311B2C9852AF5051B68E998B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_pressure_plate_active.png",
+    "sha256": "9B36F00AE8800390994C787BE98E22BD9A1987E685031733C3F4DE978BC029A8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_pressure_plate_idle.png",
+    "sha256": "0D3A06D702FB99EDCAE14F95D90A995728CD03F93EFB9DD2C4BF8549EC6AA2C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_pressure_plate_pressed.png",
+    "sha256": "0BDA4D53F4C05ED2474A24BF7C02D33909BC6BDE7C2BB20AA8A9CF4FA175134B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_rotator_orientation_a.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_rotator_orientation_b.png",
+    "sha256": "617412C79DDD9DF279B61713987319F1916D1EDDBD957F558D48FE586EC6C9A5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_rotator_rotating_back.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\animation_rotator_rotating.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_door_behind_actor_only.png",
+    "sha256": "5A93F5B86C50A1470DED5FB205E9686045601E2D2B2B51C3F7D8C7E4C5DB4659"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_door_behind_combined.png",
+    "sha256": "ECBC69D78C26259DC2684B99F20629641B45B9769D1371A5097C011A15CA4DF0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_door_behind_mechanism_only.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_door_front_actor_only.png",
+    "sha256": "38B6656B36CA90C903E6D5BD4A477C9D98AFC3D78B9741F958CE00639A290F48"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_door_front_combined.png",
+    "sha256": "B574A23CFF2D9D601D82F3A2254178E5F9FC74E9366FC5B431DCD4EE7BAD12C5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_door_front_mechanism_only.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_moving_top_actor_only.png",
+    "sha256": "F892FA88D18E395ECCA876263107F2524E5515E0CD2C47A2D4325617FF9C500A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_moving_top_combined.png",
+    "sha256": "B26FF09E57DC8046E141901B4E0C64286131A0017A840DA7EA784CBEAC797D6A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_moving_top_mechanism_only.png",
+    "sha256": "B300A9583E68C4984E12C45B7CD8B19763530917B71310C804E08507EC6F129F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_plate_top_actor_only.png",
+    "sha256": "29A36E133215343E623E699CDA5AF91A2AC0817E5A4ECE97F1162C59EF2AC33F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_plate_top_combined.png",
+    "sha256": "C561CA41EB6D790F5569924F033F3A8874D9121108F1D177AFA71EBA93C310FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\depth_plate_top_mechanism_only.png",
+    "sha256": "0BDA4D53F4C05ED2474A24BF7C02D33909BC6BDE7C2BB20AA8A9CF4FA175134B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\door_open_passage.png",
+    "sha256": "B41D92F631B7B09748D264EEA51150E3C3819207D6A06260C9C06D1C307909E8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\engine_runtime_report.json",
+    "sha256": "3DB37369A4D0DCC66A95D18ECDD48D9A4DE8AAD88BB3BDD10B30D44E6FB1FF66"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\exit_active_actor.png",
+    "sha256": "B4579976ABC0D210DB6C9A69CE00FABF29DD5692EDA806EF738341DD46E98F19"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\exit_completed.png",
+    "sha256": "4C49FDE56F4086A2DF4AF4F2EF154B25EC15E9F67247326958A879907AF07DE8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\exit_ready.png",
+    "sha256": "7CA1AF4DF2DA59BF925B30D5EA4BC3672512D0ED3AA317B2A81EE70A67977E9D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_1x_0.png",
+    "sha256": "27922F5AA76E7F9B2D9287739F18A19580FB6E10F6C98ADFA189F1ADD16216F2"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_1x_4.png",
+    "sha256": "4C22DFE22C4277A5C5CCF7F35702913F21DCF1B679DEBBE00C89DCCCBB5A0CAE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_2x_0.png",
+    "sha256": "E6BB1A7D69AA66CD24526A49AF1A02A122897815352EBA0566C29BDFD5214E22"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_2x_4.png",
+    "sha256": "34CEEC16D7C1F83F479BE67CA253A9F3692096C688F5D996D6CC5D2050BC357C"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_3x_0.png",
+    "sha256": "7F5C05FBF60DBF0D9C86A98F446AC53F5DD449B31BDD0AEBEE8828CD0B19E0C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_3x_4.png",
+    "sha256": "3FC3E9C569BB5B49BADFB735FF0141DF346482D7AF251FA46832DD59D3F93120"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_4x_0.png",
+    "sha256": "26A43B3B5C7906DD09B69F62B80625B983DC423BF29C252EE3E23EB39870C095"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_door_4x_4.png",
+    "sha256": "89DF4AAE3991A7FC336B427EEE8C5F9CEDF796CB78F2AD6412709AA2E14BEF73"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_1x_0.png",
+    "sha256": "9156B7DD2AA7CC547CD0D39959016ACFEDBCD6C01D871390046735FAF045D4EB"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_1x_4.png",
+    "sha256": "36259E9C2F426160202EC6634002DD45F293928447FD148FDD4B81076955864E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_2x_0.png",
+    "sha256": "9224543581F68E51FE7A3B9E8CCE1E001998FF92F3F20BD751132EFFF88F478D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_2x_4.png",
+    "sha256": "AFD098ACBC08E7D3193E5FF230817AF8EBB449A644C2759D51F032E38673446A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_3x_0.png",
+    "sha256": "1894F14718BA888FD8EE4AC3C886074D0C108F641E24EBD9E60DB83E190F02AB"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_3x_4.png",
+    "sha256": "8A505D880E60461093025C95860715C41983A48B47C3E5800D9D48DF2384A0D6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_4x_0.png",
+    "sha256": "A5C0B6DC2835B62B9331EDC0BC2E3C5C9F432CCB6D883671A6DFAC3718B03269"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_exit_4x_4.png",
+    "sha256": "ADB1F80976B7B4150B0ACDAE0C3B04D1BC65F8BD1AA4489F6A6FA0EEF0A5A18F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_moving_platform_1x_0.png",
+    "sha256": "3A66FD141C29BA06D2E555D86573AF0C527339D04F68C70BA50A4D097F1BBD09"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_moving_platform_2x_0.png",
+    "sha256": "496D50C56207ABF41068E7057C4ECBEB97260927130C133FCF487B29ECDA7855"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_moving_platform_3x_0.png",
+    "sha256": "4F9DCE73255D92E193A63F4AFCA967752F1A87240A03BA82DEAB2301FD99E332"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_moving_platform_4x_0.png",
+    "sha256": "73AE0BF94E34339F955A7C522FADA58DCEF3793CD6D5AF59F270B0F40C82DA07"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_pressure_plate_1x_0.png",
+    "sha256": "A02C6C03286119323F8EB2266C57F85AF9A309E15D719643C8474F960F8A0BB4"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_pressure_plate_2x_0.png",
+    "sha256": "C05904E6599299131A076FBDA0BFBBF3FA5A46E940CAA3B1BB1153B4E73C0AB6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_pressure_plate_3x_0.png",
+    "sha256": "3373F41DD20FA8792F8D6B779281D314056F025E7C556C0C4AF97AA4CFC300E9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_pressure_plate_4x_0.png",
+    "sha256": "E788218AB75301AACE7BF68D0FA25616324A3D71527395E1DEF6775AADE38D08"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_1x_0.png",
+    "sha256": "B818EA3DD3A26B6DC54AC555D9CD486CE029B750F41AC29B191F6F5542F3D5D3"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_1x_4.png",
+    "sha256": "7BFB79CC38214EB53785FACF46516133BDB3C2A8B216690BD57E0EBD3CDD5A36"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_2x_0.png",
+    "sha256": "F42BA5F2F1AE185D651FC2E71BD6AB8B921450C6D7C5014FF2B4E9CF505A724A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_2x_4.png",
+    "sha256": "253559D22E0669B52921F171762CF2A47DFA1EBF099FEAF90BDD8C6107B14E56"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_3x_0.png",
+    "sha256": "C5850418450AA3AE2273069F7F034454698BCFA001BB89C7E23D569C949956F4"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_3x_4.png",
+    "sha256": "F87E70FC78CC8BF4CA3E0AF9748CECCBFCFFCB4B0F64D357548D7D528794E941"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_4x_0.png",
+    "sha256": "370B37159C6DB2A2AC51367C392FD8E5F71A4C5F54F11720B640EF901107593A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\gallery_rotator_4x_4.png",
+    "sha256": "FF7A16D61679D4791E95998B970F58250384C9B2EBBE2B036257ABBBB68FBC7C"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\moving_-32.0_16.0_arrived.png",
+    "sha256": "C795030206AAE8D8F1492B3B151DA5769E7BCA6E11002903D3158CD2FE450193"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\moving_-32.0_16.0_mid.png",
+    "sha256": "E09382ECBAE1A6395087DE967F87417E5C94A5068E0F15EEDC04D3EBDDE34023"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\moving_32.0_0.0_arrived.png",
+    "sha256": "2B9C7A5EE956B47E68AA218D4710D557DF47C2E20ED7B28D7D7311258C76C557"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\moving_32.0_0.0_mid.png",
+    "sha256": "ED309D33D507EBA8E2190785699609E8448FDF6729975436D31BFA93238BA775"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\moving_32.0_16.0_arrived.png",
+    "sha256": "A63A5E4A853648076A68E92BE60590C5383CE66AA6A94BCD78866F6C3732A965"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\moving_32.0_16.0_mid.png",
+    "sha256": "515A566253BADFD505AAD535FAA8DC12A6E5E469AA103FECB22E4F1EA0829608"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\paired_mechanisms_final.png",
+    "sha256": "269BC33E3F6B20FE81435555B1A6462BD506354F31921ACFFE8D1FA185715BC7"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\paired_mechanisms.png",
+    "sha256": "269BC33E3F6B20FE81435555B1A6462BD506354F31921ACFFE8D1FA185715BC7"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\pixel_runtime_analysis.json",
+    "sha256": "5C04CD59983475FC0A84B35420435851B0817C0B6E7A04A75007516CEC76ED49"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\plate_active_actor.png",
+    "sha256": "62AD726BFAFE9CE1870041E24254BF40412910B38AD8C9F5888A570A5599EB25"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\plate_pressed_actor.png",
+    "sha256": "C561CA41EB6D790F5569924F033F3A8874D9121108F1D177AFA71EBA93C310FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\rotator_B.png",
+    "sha256": "617412C79DDD9DF279B61713987319F1916D1EDDBD957F558D48FE586EC6C9A5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\runtime_contact.png",
+    "sha256": "EDEA238F7A87391D10F563BB95B2756DB82D04F32FF8EB958891B1F63946CCBA"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\mechanism_manifest.json",
+    "sha256": "F068C8DC7DDC00F3729108E4694E71B3C7EE255D0718E84924BA42466B11839B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\MECHANISM_SPEC.md",
+    "sha256": "5EAE935E55CCD84FE8502824DAFA213D3F2644D6FDBB7F7CFCA4CCFE56324956"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\mechanism_visual.gd",
+    "sha256": "DDE278E782EC4A46BCA835E182A171C79BA07D32B90EB1F4685F8073F25F5227"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\mechanism_visual.gd.uid",
+    "sha256": "3A6B1891FC691D362BFA6D4535280300517108DC145A725AE97B7FC6AA996194"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\source_inventory.md",
+    "sha256": "0F82A3CE3E3B7D3752AA011EA280065E82D5171B4D35BBD77984CD73F0F96751"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door_inner_frames.tres",
+    "sha256": "759DEBE3B7213473DCCF92B00750E850F2B31984F787085EB2582FA2017DADFE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door_inner.png",
+    "sha256": "3B7E4E3EBB05A35391A7CAC13A52D3ECDF2C1A5ABD0AF05332E16E4DC766839B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door_inner.png.import",
+    "sha256": "3ACB9F2F17D481A858602F8D8925BA365E0BB5D8A6A71B7F770D36C4EA80AD49"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door_surface_frames.tres",
+    "sha256": "0E4BB9EAA6445F7D8E0FE33F025BB1F34ACCB7689EC72CC1EBB0EF8709AE44B1"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door_surface.png",
+    "sha256": "71B4ABF9E3A8401049E576C5F386B59FB62BF0D8231D1D2444F51F31FCA89EFF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door_surface.png.import",
+    "sha256": "14B30F0C60ACA33ACE3E5A65A4B089BE5F5C2150D4203ADB9ED321442B246A2E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door.gd",
+    "sha256": "39403E8771EE744E82E08807B9ADB331E6913ECA99DCF5E5422083B54B8147B0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\door.gd.uid",
+    "sha256": "BF59626A8D8D5C9BEFA5D618C8D524C58B7E2542FBD940AEF2B52D0CE9D80525"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\Door.tscn",
+    "sha256": "CF4EDC70AF3C01550D6F9ED935D5A1ED769DE83C9FE6E099281274B8BDC35DF3"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\door\\DoorInner.tscn",
+    "sha256": "03F6F9E07917279B974117F4A3897F15CBE5A08CADE30D59B0ED47F708233D22"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit_inner_frames.tres",
+    "sha256": "E4B645747D7F3F955E02AE84B0498EA537EF3FDE6B7863C76C3DB47C61F78341"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit_inner.png",
+    "sha256": "1B19079A48289D56767D07602C798D38D9A4123BA7D3A6D4E764C73DA4858E07"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit_inner.png.import",
+    "sha256": "B0B58C92D97B3EA560DA716AC33E2367BF43AD9694B5C3D41DA2994AB256213E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit_surface_frames.tres",
+    "sha256": "DBA7FC5601DEB4911C69293610726BB42054E15E049C090E84BB3717A2AB64EF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit_surface.png",
+    "sha256": "C7C19A3F83ABEFA6FE4A44A597B258D31D19A76688BDCE7839D99342F089E99B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit_surface.png.import",
+    "sha256": "B98D7A5DA95DA1A2FD7097BD5050D90A06F86DCCB52675FF6A2E07625F0A3DD0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit.gd",
+    "sha256": "C70FA4220E03CACD347475D92C8BCA500D510B8459660D3E17C6BFBE81DD415D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\exit.gd.uid",
+    "sha256": "94CECFF5CF6E687C58A3D2C501EE1E26B96B956E405B194C3DE70FD64E7BFFDA"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\ExitGoal.tscn",
+    "sha256": "E62DEA65E6CE8BAFC945B7E14F31CFAB2035AF150F7AB874F51874836E979AE8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\exit\\ExitGoalInner.tscn",
+    "sha256": "895356FBEDDA3B108DEBDB4E843FCAB2F1BD0551B67AD3E6DAD9C20B8BB5EBBA"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform_inner_frames.tres",
+    "sha256": "C18CF0BCC25975F608B64C81177045CF9DD712F2C0D60F53609ADD6E84A06D7D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform_inner.png",
+    "sha256": "373122D599BFA19EA6C49480973D8560724E453D703FB233686D7E0837073438"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform_inner.png.import",
+    "sha256": "E6EAD3EDE11C8CC4C66A6DE9431B7FA065DCAB44A53F73868739AAB2C5CEA995"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform_surface_frames.tres",
+    "sha256": "FB856C7D4C097D4F9800AF8B143D25B08116F71D01906780E7B2D752ED4D55FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform_surface.png",
+    "sha256": "4A3A4E5CD62B2914E5F0738862DAE0AE6F31E4A22050220FCC3CF66DA1EA8A11"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform_surface.png.import",
+    "sha256": "67FA873E50FB2469AA51D9788FB9408E586784AEFAFF33AED2C7D463554BB597"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform.gd",
+    "sha256": "8F97305282CB301C91BC75CE08C4E14B7C94FCB98D11A53233F7A21D277743C6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\moving_platform.gd.uid",
+    "sha256": "73E6F657F5F425072DDEFA32BD019375E6A463BA61207115BE78627361C5D2F9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\MovingPlatform.tscn",
+    "sha256": "494958514751CA5B8DA6EA26F4BAF7ABBCBB7ED959DC27E99C79DF4E7B911B38"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\moving_platform\\MovingPlatformInner.tscn",
+    "sha256": "A7E8C8C9121FF748411167BBC40111ECB418253F0FCE4CC7A59393015E7B22C0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate_inner_frames.tres",
+    "sha256": "6B10B0F10F314816EA762CEB981DA5C5ABD833AB45AA28DB51A2A819D74849C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate_inner.png",
+    "sha256": "EFFDC1256C405E3C3A20F7063B7523EF0DB3E2A5762397D2D1153DC709122FD9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate_inner.png.import",
+    "sha256": "87C7CBD3581111AD3412BBAB1E1D646120763ACFDE7DB9A44F708ECE0420EDF5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate_surface_frames.tres",
+    "sha256": "3A47232D824369A047F12D85FE745225EFDC7EC728B0D1B14FB190A2582D222B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate_surface.png",
+    "sha256": "4FCCC0FF8D894A635C5AB39A01FD7787BB8EBEAC1FF458EC6B205F51F8CF4AD9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate_surface.png.import",
+    "sha256": "5C8516FDA83F23E1297B8DD66F2240D643E4415A66DBA77AD8265D99A71B3E4A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate.gd",
+    "sha256": "AF2D9CEB509809FFBBF3A22A4C26A621700121F9BE06F5D0C5CC153AE3CC8EF1"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\pressure_plate.gd.uid",
+    "sha256": "FEBA06DAF27A81C20D78C6BB5C0A3F74115748B523DE1663F86B14CE9FB17D12"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\PressurePlate.tscn",
+    "sha256": "B1CF2222304F6D7E547787CD17CD8A527B8AF6722AA1BFA4868E3EDD1017041D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\pressure_plate\\PressurePlateInner.tscn",
+    "sha256": "CDA22D5F0C17D3A8E964DCEC38F446F233044BC192571121FED7376DF383A560"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\RotatingPlatform.tscn",
+    "sha256": "4CFFDE0A4337BD6B0136018609733B3F10078AEED3B2BE766C86A11827954D4F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\RotatingPlatformInner.tscn",
+    "sha256": "EB81C9DFAC8F793C4DFBF2FD9B700734FAC458E99D265B7C05F46856F196D8A9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator_inner_frames.tres",
+    "sha256": "4F965169A8E6A1F790FBD48AC1A7DA7AC39529CA1852421172C1B49E530F59D1"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator_inner.png",
+    "sha256": "5D5BFC349F2E43435EB52D3B31052BA3CC5A315AA087DB389C13C18D95E465DD"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator_inner.png.import",
+    "sha256": "9560E410C418E8F8206E56318E8A436C9A6BEDE4F08BBB3D2819188E8F8D9D59"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator_surface_frames.tres",
+    "sha256": "0CBD8E72D2D05C6219DADED4C0E4CF7977012A7FA72F313F50888BF8D2991C3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator_surface.png",
+    "sha256": "2C2F3AF90E6B9855470417B535D040AAF2DC40C221ADFF18E3EAA96C741F037D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator_surface.png.import",
+    "sha256": "9EC2C632AB7F2E1F2278C5DE7B42EF4C2FBB9CF13CE94333AF1632DBB9B3F757"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator.gd",
+    "sha256": "75CA9FA0CE9978F4E214AE8E7010073AA5CFBBEF5240153320A99FD358728387"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_02\\reference\\mechanisms\\rotator\\rotator.gd.uid",
+    "sha256": "9CF0CA37113DFF62A756A6BE1653FBC0F4481AB7B2093588C4B6E2F306B860A2"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_door_closed.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_door_closing.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_door_open.png",
+    "sha256": "AA0B6494D9968C2ECA7D093ACCA87624EA1F4D20EA8522BA5A8034E1CB00AC3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_door_opening.png",
+    "sha256": "AA0B6494D9968C2ECA7D093ACCA87624EA1F4D20EA8522BA5A8034E1CB00AC3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_exit_active.png",
+    "sha256": "CE52B4CC54C345BBBC146A69799CF02CDB39468613886E93FB4857BFF95128E0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_exit_complete.png",
+    "sha256": "E14EDB62AFC869639B348F96B42A66D7E87FFF25C23D785F7CF9B1004628BDAF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_exit_completed.png",
+    "sha256": "E14EDB62AFC869639B348F96B42A66D7E87FFF25C23D785F7CF9B1004628BDAF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_exit_locked.png",
+    "sha256": "B95DA2541683C2EA01E7B2926BF720D8551EFCCFC5511C485628312928C94CFE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_exit_ready.png",
+    "sha256": "B944982333322DA563FD392D873892A8827E30EAC71FE1900915C0BC45076A47"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_moving_platform_arrived.png",
+    "sha256": "1FC38DF5F79D76FF6C2B7A980EEE35EC7171BD2C0D713F4D086192431D198E33"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_moving_platform_idle.png",
+    "sha256": "B300A9583E68C4984E12C45B7CD8B19763530917B71310C804E08507EC6F129F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_moving_platform_moving.png",
+    "sha256": "32DCE868BB7B4D6B702145B4058ABC29BBDA9B4D311B2C9852AF5051B68E998B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_pressure_plate_active.png",
+    "sha256": "9B36F00AE8800390994C787BE98E22BD9A1987E685031733C3F4DE978BC029A8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_pressure_plate_idle.png",
+    "sha256": "0D3A06D702FB99EDCAE14F95D90A995728CD03F93EFB9DD2C4BF8549EC6AA2C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_pressure_plate_pressed.png",
+    "sha256": "0BDA4D53F4C05ED2474A24BF7C02D33909BC6BDE7C2BB20AA8A9CF4FA175134B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_rotator_orientation_a.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_rotator_orientation_b.png",
+    "sha256": "617412C79DDD9DF279B61713987319F1916D1EDDBD957F558D48FE586EC6C9A5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_rotator_rotating_back.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\animation_rotator_rotating.png",
+    "sha256": "25D9347371E6221708B147B660BED3E675FA84A5A3DA0B260235BCC9E2C1122F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\delivery_verification.json",
+    "sha256": "E124183C6496A493E8312608F9559E2CAAD916721364DD98447B1C33E763F608"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_door_behind_actor_only.png",
+    "sha256": "5A93F5B86C50A1470DED5FB205E9686045601E2D2B2B51C3F7D8C7E4C5DB4659"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_door_behind_combined.png",
+    "sha256": "ECBC69D78C26259DC2684B99F20629641B45B9769D1371A5097C011A15CA4DF0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_door_behind_mechanism_only.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_door_front_actor_only.png",
+    "sha256": "38B6656B36CA90C903E6D5BD4A477C9D98AFC3D78B9741F958CE00639A290F48"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_door_front_combined.png",
+    "sha256": "B574A23CFF2D9D601D82F3A2254178E5F9FC74E9366FC5B431DCD4EE7BAD12C5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_door_front_mechanism_only.png",
+    "sha256": "80C39F9DC44ADFB3BC9078EF1AC51CB146905BA59C4BCCBEDDB738F864052304"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_moving_top_actor_only.png",
+    "sha256": "F892FA88D18E395ECCA876263107F2524E5515E0CD2C47A2D4325617FF9C500A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_moving_top_combined.png",
+    "sha256": "B26FF09E57DC8046E141901B4E0C64286131A0017A840DA7EA784CBEAC797D6A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_moving_top_mechanism_only.png",
+    "sha256": "B300A9583E68C4984E12C45B7CD8B19763530917B71310C804E08507EC6F129F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_plate_top_actor_only.png",
+    "sha256": "29A36E133215343E623E699CDA5AF91A2AC0817E5A4ECE97F1162C59EF2AC33F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_plate_top_combined.png",
+    "sha256": "C561CA41EB6D790F5569924F033F3A8874D9121108F1D177AFA71EBA93C310FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\depth_plate_top_mechanism_only.png",
+    "sha256": "0BDA4D53F4C05ED2474A24BF7C02D33909BC6BDE7C2BB20AA8A9CF4FA175134B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\door_open_passage.png",
+    "sha256": "B41D92F631B7B09748D264EEA51150E3C3819207D6A06260C9C06D1C307909E8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\engine_runtime_report.json",
+    "sha256": "3DB37369A4D0DCC66A95D18ECDD48D9A4DE8AAD88BB3BDD10B30D44E6FB1FF66"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\exit_active_actor.png",
+    "sha256": "B4579976ABC0D210DB6C9A69CE00FABF29DD5692EDA806EF738341DD46E98F19"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\exit_completed.png",
+    "sha256": "4C49FDE56F4086A2DF4AF4F2EF154B25EC15E9F67247326958A879907AF07DE8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\exit_ready.png",
+    "sha256": "7CA1AF4DF2DA59BF925B30D5EA4BC3672512D0ED3AA317B2A81EE70A67977E9D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_1x_0.png",
+    "sha256": "27922F5AA76E7F9B2D9287739F18A19580FB6E10F6C98ADFA189F1ADD16216F2"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_1x_4.png",
+    "sha256": "4C22DFE22C4277A5C5CCF7F35702913F21DCF1B679DEBBE00C89DCCCBB5A0CAE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_2x_0.png",
+    "sha256": "E6BB1A7D69AA66CD24526A49AF1A02A122897815352EBA0566C29BDFD5214E22"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_2x_4.png",
+    "sha256": "34CEEC16D7C1F83F479BE67CA253A9F3692096C688F5D996D6CC5D2050BC357C"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_3x_0.png",
+    "sha256": "7F5C05FBF60DBF0D9C86A98F446AC53F5DD449B31BDD0AEBEE8828CD0B19E0C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_3x_4.png",
+    "sha256": "3FC3E9C569BB5B49BADFB735FF0141DF346482D7AF251FA46832DD59D3F93120"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_4x_0.png",
+    "sha256": "26A43B3B5C7906DD09B69F62B80625B983DC423BF29C252EE3E23EB39870C095"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_door_4x_4.png",
+    "sha256": "89DF4AAE3991A7FC336B427EEE8C5F9CEDF796CB78F2AD6412709AA2E14BEF73"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_1x_0.png",
+    "sha256": "9D3462C4C4F16DB050F5BBBA409303FCBDF84D1FC130458298EE36EBF04A543A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_1x_4.png",
+    "sha256": "36259E9C2F426160202EC6634002DD45F293928447FD148FDD4B81076955864E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_2x_0.png",
+    "sha256": "0C02174D71CC7D91859069233FA8A5F7961CFD372D74F4DFB9302E4998D794DA"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_2x_4.png",
+    "sha256": "AFD098ACBC08E7D3193E5FF230817AF8EBB449A644C2759D51F032E38673446A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_3x_0.png",
+    "sha256": "920557BB108706802E4EFBC32B7435C46F54BA46457A83494525CD82A75344ED"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_3x_4.png",
+    "sha256": "8A505D880E60461093025C95860715C41983A48B47C3E5800D9D48DF2384A0D6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_4x_0.png",
+    "sha256": "F62DB787B77E9576B0FD6FEED5CA05A7F6BD048E2F302F98CA82076093DB9FDF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_exit_4x_4.png",
+    "sha256": "ADB1F80976B7B4150B0ACDAE0C3B04D1BC65F8BD1AA4489F6A6FA0EEF0A5A18F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_moving_platform_1x_0.png",
+    "sha256": "3A66FD141C29BA06D2E555D86573AF0C527339D04F68C70BA50A4D097F1BBD09"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_moving_platform_2x_0.png",
+    "sha256": "496D50C56207ABF41068E7057C4ECBEB97260927130C133FCF487B29ECDA7855"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_moving_platform_3x_0.png",
+    "sha256": "4F9DCE73255D92E193A63F4AFCA967752F1A87240A03BA82DEAB2301FD99E332"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_moving_platform_4x_0.png",
+    "sha256": "73AE0BF94E34339F955A7C522FADA58DCEF3793CD6D5AF59F270B0F40C82DA07"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_pressure_plate_1x_0.png",
+    "sha256": "A02C6C03286119323F8EB2266C57F85AF9A309E15D719643C8474F960F8A0BB4"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_pressure_plate_2x_0.png",
+    "sha256": "C05904E6599299131A076FBDA0BFBBF3FA5A46E940CAA3B1BB1153B4E73C0AB6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_pressure_plate_3x_0.png",
+    "sha256": "3373F41DD20FA8792F8D6B779281D314056F025E7C556C0C4AF97AA4CFC300E9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_pressure_plate_4x_0.png",
+    "sha256": "E788218AB75301AACE7BF68D0FA25616324A3D71527395E1DEF6775AADE38D08"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_1x_0.png",
+    "sha256": "B818EA3DD3A26B6DC54AC555D9CD486CE029B750F41AC29B191F6F5542F3D5D3"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_1x_4.png",
+    "sha256": "7BFB79CC38214EB53785FACF46516133BDB3C2A8B216690BD57E0EBD3CDD5A36"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_2x_0.png",
+    "sha256": "F42BA5F2F1AE185D651FC2E71BD6AB8B921450C6D7C5014FF2B4E9CF505A724A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_2x_4.png",
+    "sha256": "253559D22E0669B52921F171762CF2A47DFA1EBF099FEAF90BDD8C6107B14E56"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_3x_0.png",
+    "sha256": "C5850418450AA3AE2273069F7F034454698BCFA001BB89C7E23D569C949956F4"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_3x_4.png",
+    "sha256": "F87E70FC78CC8BF4CA3E0AF9748CECCBFCFFCB4B0F64D357548D7D528794E941"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_4x_0.png",
+    "sha256": "370B37159C6DB2A2AC51367C392FD8E5F71A4C5F54F11720B640EF901107593A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\gallery_rotator_4x_4.png",
+    "sha256": "FF7A16D61679D4791E95998B970F58250384C9B2EBBE2B036257ABBBB68FBC7C"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\moving_-32.0_16.0_arrived.png",
+    "sha256": "C795030206AAE8D8F1492B3B151DA5769E7BCA6E11002903D3158CD2FE450193"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\moving_-32.0_16.0_mid.png",
+    "sha256": "E09382ECBAE1A6395087DE967F87417E5C94A5068E0F15EEDC04D3EBDDE34023"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\moving_32.0_0.0_arrived.png",
+    "sha256": "2B9C7A5EE956B47E68AA218D4710D557DF47C2E20ED7B28D7D7311258C76C557"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\moving_32.0_0.0_mid.png",
+    "sha256": "ED309D33D507EBA8E2190785699609E8448FDF6729975436D31BFA93238BA775"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\moving_32.0_16.0_arrived.png",
+    "sha256": "A63A5E4A853648076A68E92BE60590C5383CE66AA6A94BCD78866F6C3732A965"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\moving_32.0_16.0_mid.png",
+    "sha256": "515A566253BADFD505AAD535FAA8DC12A6E5E469AA103FECB22E4F1EA0829608"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\paired_mechanisms_final.png",
+    "sha256": "269BC33E3F6B20FE81435555B1A6462BD506354F31921ACFFE8D1FA185715BC7"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\paired_mechanisms.png",
+    "sha256": "269BC33E3F6B20FE81435555B1A6462BD506354F31921ACFFE8D1FA185715BC7"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\pixel_runtime_analysis.json",
+    "sha256": "47944A0920E84F5A6F42679B41C0001168B851A9D5BB55ACA15557818FF0DE33"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\plate_active_actor.png",
+    "sha256": "62AD726BFAFE9CE1870041E24254BF40412910B38AD8C9F5888A570A5599EB25"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\plate_pressed_actor.png",
+    "sha256": "C561CA41EB6D790F5569924F033F3A8874D9121108F1D177AFA71EBA93C310FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\rotator_B.png",
+    "sha256": "617412C79DDD9DF279B61713987319F1916D1EDDBD957F558D48FE586EC6C9A5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\runtime_contact.png",
+    "sha256": "EDEA238F7A87391D10F563BB95B2756DB82D04F32FF8EB958891B1F63946CCBA"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\mechanism_issues.md",
+    "sha256": "894E1B77333F5F8F2AF3C88D9DE28D3A04CFD6B4EA4CD3BF3367319B11C8B670"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\mechanism_manifest.json",
+    "sha256": "1A4F1E00D63634CEE8858AC017D3A1BA2FCF60DE121513A30E4CD88D8502C42A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\mechanism_manifest.md",
+    "sha256": "2E0D709040A1F87BAC6D89391085AE8F17AC3306F06CF0E05AED5BCE5D2319BE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\MECHANISM_SPEC.md",
+    "sha256": "5EAE935E55CCD84FE8502824DAFA213D3F2644D6FDBB7F7CFCA4CCFE56324956"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\mechanism_visual.gd",
+    "sha256": "DDE278E782EC4A46BCA835E182A171C79BA07D32B90EB1F4685F8073F25F5227"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\mechanism_visual.gd.uid",
+    "sha256": "3A6B1891FC691D362BFA6D4535280300517108DC145A725AE97B7FC6AA996194"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\PUZZLE_MECHANISM_PRODUCTION_REPORT.md",
+    "sha256": "662AF42D395FA00657F4E9ED096BAF088DD24FD3E22F764E05C71BB144D80263"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\source_inventory.md",
+    "sha256": "0F82A3CE3E3B7D3752AA011EA280065E82D5171B4D35BBD77984CD73F0F96751"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door_inner_frames.tres",
+    "sha256": "759DEBE3B7213473DCCF92B00750E850F2B31984F787085EB2582FA2017DADFE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door_inner.png",
+    "sha256": "3B7E4E3EBB05A35391A7CAC13A52D3ECDF2C1A5ABD0AF05332E16E4DC766839B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door_inner.png.import",
+    "sha256": "3ACB9F2F17D481A858602F8D8925BA365E0BB5D8A6A71B7F770D36C4EA80AD49"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door_surface_frames.tres",
+    "sha256": "0E4BB9EAA6445F7D8E0FE33F025BB1F34ACCB7689EC72CC1EBB0EF8709AE44B1"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door_surface.png",
+    "sha256": "71B4ABF9E3A8401049E576C5F386B59FB62BF0D8231D1D2444F51F31FCA89EFF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door_surface.png.import",
+    "sha256": "14B30F0C60ACA33ACE3E5A65A4B089BE5F5C2150D4203ADB9ED321442B246A2E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door.gd",
+    "sha256": "39403E8771EE744E82E08807B9ADB331E6913ECA99DCF5E5422083B54B8147B0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\door.gd.uid",
+    "sha256": "BF59626A8D8D5C9BEFA5D618C8D524C58B7E2542FBD940AEF2B52D0CE9D80525"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\Door.tscn",
+    "sha256": "BF7FAB71D21EE89539AFD92D080C2D70E136C2D57BC9DE792D2B306F1E4ABB24"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\door\\DoorInner.tscn",
+    "sha256": "A331E033AC91722572464F11840577180DE9E6D2CD89DEFA4F2048401297B773"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit_inner_frames.tres",
+    "sha256": "E4B645747D7F3F955E02AE84B0498EA537EF3FDE6B7863C76C3DB47C61F78341"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit_inner.png",
+    "sha256": "AF6755336274F6E82489B39E82ADC7FE510541205553226AA4C87929AA487E07"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit_inner.png.import",
+    "sha256": "B0B58C92D97B3EA560DA716AC33E2367BF43AD9694B5C3D41DA2994AB256213E"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit_surface_frames.tres",
+    "sha256": "DBA7FC5601DEB4911C69293610726BB42054E15E049C090E84BB3717A2AB64EF"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit_surface.png",
+    "sha256": "648831B05C62FA8D5C7D01BD38D7D4D9DCEA1A23CBA95264B09507F9A0517B35"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit_surface.png.import",
+    "sha256": "B98D7A5DA95DA1A2FD7097BD5050D90A06F86DCCB52675FF6A2E07625F0A3DD0"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit.gd",
+    "sha256": "C70FA4220E03CACD347475D92C8BCA500D510B8459660D3E17C6BFBE81DD415D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\exit.gd.uid",
+    "sha256": "94CECFF5CF6E687C58A3D2C501EE1E26B96B956E405B194C3DE70FD64E7BFFDA"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\ExitGoal.tscn",
+    "sha256": "C84353767705E8DC0DDC83BDA3B5E1155ED12985F85C50CDAB137ADA1CEB994A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\exit\\ExitGoalInner.tscn",
+    "sha256": "7C98F78A57020AB50B028B384F38F5B8D3CF631D37CC904BB84D809A037DC0C1"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform_inner_frames.tres",
+    "sha256": "C18CF0BCC25975F608B64C81177045CF9DD712F2C0D60F53609ADD6E84A06D7D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform_inner.png",
+    "sha256": "373122D599BFA19EA6C49480973D8560724E453D703FB233686D7E0837073438"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform_inner.png.import",
+    "sha256": "E6EAD3EDE11C8CC4C66A6DE9431B7FA065DCAB44A53F73868739AAB2C5CEA995"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform_surface_frames.tres",
+    "sha256": "FB856C7D4C097D4F9800AF8B143D25B08116F71D01906780E7B2D752ED4D55FE"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform_surface.png",
+    "sha256": "4A3A4E5CD62B2914E5F0738862DAE0AE6F31E4A22050220FCC3CF66DA1EA8A11"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform_surface.png.import",
+    "sha256": "67FA873E50FB2469AA51D9788FB9408E586784AEFAFF33AED2C7D463554BB597"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform.gd",
+    "sha256": "8F97305282CB301C91BC75CE08C4E14B7C94FCB98D11A53233F7A21D277743C6"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\moving_platform.gd.uid",
+    "sha256": "73E6F657F5F425072DDEFA32BD019375E6A463BA61207115BE78627361C5D2F9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\MovingPlatform.tscn",
+    "sha256": "A4737249C21B61D76F669FB20E3154C84CC6FD758236F372853C3A097367A5DB"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\moving_platform\\MovingPlatformInner.tscn",
+    "sha256": "2C2981AC1E10107AF4D52F76397134BA6D02507112E99C9B45E1C4454EF14435"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate_inner_frames.tres",
+    "sha256": "6B10B0F10F314816EA762CEB981DA5C5ABD833AB45AA28DB51A2A819D74849C8"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate_inner.png",
+    "sha256": "EFFDC1256C405E3C3A20F7063B7523EF0DB3E2A5762397D2D1153DC709122FD9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate_inner.png.import",
+    "sha256": "87C7CBD3581111AD3412BBAB1E1D646120763ACFDE7DB9A44F708ECE0420EDF5"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate_surface_frames.tres",
+    "sha256": "3A47232D824369A047F12D85FE745225EFDC7EC728B0D1B14FB190A2582D222B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate_surface.png",
+    "sha256": "4FCCC0FF8D894A635C5AB39A01FD7787BB8EBEAC1FF458EC6B205F51F8CF4AD9"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate_surface.png.import",
+    "sha256": "5C8516FDA83F23E1297B8DD66F2240D643E4415A66DBA77AD8265D99A71B3E4A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate.gd",
+    "sha256": "AF2D9CEB509809FFBBF3A22A4C26A621700121F9BE06F5D0C5CC153AE3CC8EF1"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\pressure_plate.gd.uid",
+    "sha256": "FEBA06DAF27A81C20D78C6BB5C0A3F74115748B523DE1663F86B14CE9FB17D12"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\PressurePlate.tscn",
+    "sha256": "0A4DF0D5933F229541D2FA2FC12F2F38CBA8A87279A9ED4D81A011F11D429D1F"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\pressure_plate\\PressurePlateInner.tscn",
+    "sha256": "61A8980EB34D173122D7B15F6257BB73C74E0C982F45B7EA7F91108028C38A31"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\RotatingPlatform.tscn",
+    "sha256": "23ED03D3D99BB776DF9C9B35D8A490D10BC58257816027CB6643A2E630D15F4A"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\RotatingPlatformInner.tscn",
+    "sha256": "3E181C666134C09D2D687E8A6164405CA903F538B335CCE7E35283753148FC28"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator_inner_frames.tres",
+    "sha256": "4F965169A8E6A1F790FBD48AC1A7DA7AC39529CA1852421172C1B49E530F59D1"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator_inner.png",
+    "sha256": "5D5BFC349F2E43435EB52D3B31052BA3CC5A315AA087DB389C13C18D95E465DD"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator_inner.png.import",
+    "sha256": "9560E410C418E8F8206E56318E8A436C9A6BEDE4F08BBB3D2819188E8F8D9D59"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator_surface_frames.tres",
+    "sha256": "0CBD8E72D2D05C6219DADED4C0E4CF7977012A7FA72F313F50888BF8D2991C3B"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator_surface.png",
+    "sha256": "2C2F3AF90E6B9855470417B535D040AAF2DC40C221ADFF18E3EAA96C741F037D"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator_surface.png.import",
+    "sha256": "9EC2C632AB7F2E1F2278C5DE7B42EF4C2FBB9CF13CE94333AF1632DBB9B3F757"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator.gd",
+    "sha256": "75CA9FA0CE9978F4E214AE8E7010073AA5CFBBEF5240153320A99FD358728387"
+  },
+  {
+    "path": "tests\\visual\\mechanism_evidence\\run_03\\reference\\mechanisms\\rotator\\rotator.gd.uid",
+    "sha256": "9CF0CA37113DFF62A756A6BE1653FBC0F4481AB7B2093588C4B6E2F306B860A2"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\.gdignore",
+    "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\saved_sample_validation.json",
+    "sha256": "43917AE41A8366144DD80398AF028304896F39000FC87412602DC8EFB3A42C03"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_bridge_character_only.png",
+    "sha256": "C2FF9D053A4A424031EA889E819A58DB31C3E7CC7DB71D5BE882037DC3FEC55B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_bridge_combined.png",
+    "sha256": "87A6FA976565C4437162F92F76FB2F511FC7973C1949F5E971A4E8C5C8C5B457"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_bridge_tile_only.png",
+    "sha256": "6912FDEB47881FC742422CCD69535EFE647AB80A86AB5187A22741532BDDC486"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_behind_character_only.png",
+    "sha256": "A219BF5CEA8784070F495975026ACB9B98B0223431B971FDB925DF73746F154D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_behind_combined.png",
+    "sha256": "8499915CEB7BDFF3DDB2B983C61AA5DEE7ED1CDBF44439D2642A5F7B978C0868"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_behind_tile_only.png",
+    "sha256": "15CDC056481742E454EC7BD45594702EEF33CCD26BFE057F7A366A51DA47D812"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_front_character_only.png",
+    "sha256": "0DDF7B60077DBA0BAAFE206ED051EF56E0E68790D4DDC4B8D8FC111D6BF36348"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_front_combined.png",
+    "sha256": "F6C4EEB61176D393F54F315BF9F4C5082C88DFF253135F3CB890031EE04F1C34"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_front_tile_only.png",
+    "sha256": "AD259587A4291C749798B2C9D84173664227560836E97A129E5C34E23EC7B7B7"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_top_character_only.png",
+    "sha256": "4D8553B939A59D6F372F08908538809B1B8C2F6730478AE21EBCD6F473480E1C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_top_combined.png",
+    "sha256": "6413A891E729790851CA1614E3E3110072E75BA78FCCB349F01837B1C73869B8"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_platform_top_tile_only.png",
+    "sha256": "15E2CB29A50D3454C23DEBA99B608F1EC26FD654FAC001B8101994545C624E88"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_stair_character_only.png",
+    "sha256": "FF45E6679455DEC3F85EA9CC3A52942FEAC2353B0B3B587C72DC1C42EAC53A6F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_stair_combined.png",
+    "sha256": "C0E954BEA17168874FEF7B4F4A2178AD437D23F2A34D3FD2C6B3C57BB31E6B8A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_stair_tile_only.png",
+    "sha256": "899BA5E339007AAE66FBDD2C03CDE95A8E6882C19055F2B6BDD64699720643A9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_wall_behind_character_only.png",
+    "sha256": "C23E6A708D1DD9E88CDC47C75C3A715DE48768B33EA4686FAE12F7004EC5484E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_wall_behind_combined.png",
+    "sha256": "F3D8AC36182BF31798C0A8A9A1E519DA8889A1E7EC513A6265675364864C6F76"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_wall_behind_tile_only.png",
+    "sha256": "923E1FAD805FE522E8537EFD64B6C4F106B014F6B1880B4946A248FB19268458"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_wall_front_character_only.png",
+    "sha256": "CAB3B14C698E0E29FFA409E408F080D03ABC0F3B2C1A19127E84BA1984462D06"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_wall_front_combined.png",
+    "sha256": "50FE554F46F5467F476A385FA5EA81631DDA79A0C0BA045682F290ABC2485CE2"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\depth_wall_front_tile_only.png",
+    "sha256": "E23F30C8C50056B29304D1E93AA235FA21F9439D116FF474CA788B5FA7F14497"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\engine_runtime_report.json",
+    "sha256": "DF7A980D1F82903C2690E1902B8AC525EA749F86D273267FF3C7CDC3297C53DB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_0.png",
+    "sha256": "66C18FCED9FAB079B833BBC01168E194E014B6715B0A18EA4E6BA22D07757369"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_12.png",
+    "sha256": "9C230D9BC8760D2FD8D5C430BFA65D24D5F6DEDEDBF2952642FC2CA8C16EDB52"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_16.png",
+    "sha256": "CAFD0F6C0CED1D4CEF817D169561EDA2DDB9AFC14F9EEDAAD9098A2BD3C6DC0F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_20.png",
+    "sha256": "6BD7B384585AA4C88CD14D04227B9AAAF9B0106E0B636F383119869C1483FD45"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_24.png",
+    "sha256": "D72B5E8A84A390C50FD49C699ACC6F261A57F34CF28D7778DDC9859B3407BD02"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_28.png",
+    "sha256": "6E859F7A80E265A0390F15AB27B889FF95AE66E1E4C442050609BA1B330C5D16"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_32.png",
+    "sha256": "5CD8C0496928F68BF2754CA408F953A4E0A471ABC1031610C98D04F59B27928E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_36.png",
+    "sha256": "A56AD18D8E4CC9877404A74266481E4E52485500F0004A9E3FC25270332684DD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_4.png",
+    "sha256": "C04A39C20C06226089DD54294C4BCCB713316CD7EBF9B8FE1F0BD08B2AD2962E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_40.png",
+    "sha256": "0B228688392EA28001E67E84FFC26AC36784FC5C2681287AC888611BF8F37BA5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_44.png",
+    "sha256": "247341C327D36C54CC5CD9D80108DFBDE09CEA7F2FB15D045E83F5E0B65750E5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_48.png",
+    "sha256": "3EA6D7CB57C6477C5315A064B72D05EBCFAD522481A4270CD92AD1B2005DBB8F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_52.png",
+    "sha256": "B0751D03B10A2E55416DEF7DDEFEFE2A2A981A49F1B1CC4C15C4F3C3F4932364"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_56.png",
+    "sha256": "7986FFA75E43FDC2D2599D3972FAFB3AD40A80CC9F9583E944B8FFBA09B8E204"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_60.png",
+    "sha256": "46A76F3FC69956B20379E4DB11CBFB05A10C6EB09D5D0FCB854A60B7545490BA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_64.png",
+    "sha256": "DAA339E4CD107C1B57C270D093DE0C4491EBEA02F3F439E2D19655E62F3E4F69"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_68.png",
+    "sha256": "17C22FA4F939C528BA76EAA97A1C39B43757B03792D74334D633C361785EDE0E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_1x_8.png",
+    "sha256": "14B588BF6026B6E3CB8E3D3FC1604B35CA8E16460C61840D64EF43B5A544FF29"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_0.png",
+    "sha256": "260C5E23A4D517663C343070100EF43DE97E0D82E0DC9A5D2F575DC82CFC0074"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_12.png",
+    "sha256": "F7FEAECA68A0E25BD1214D79AF5B3C1DB8732C1A615ABCB335F53D1C340E7D4D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_16.png",
+    "sha256": "56E2258DAE751C10F984A2D98920CA127ED07630FC17F30AD027A433B08BC89E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_20.png",
+    "sha256": "5D89687417C4D98733D1E54B072CA7ECCAF31B983E5BBC3C073B9CD4C58E9349"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_24.png",
+    "sha256": "150AD7B43DA48A70889950C347883BA6DE747D9D92A95053E2B42DB03A1F5B4C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_28.png",
+    "sha256": "25D393970A72B2CB889988C22CA5CC4155D1585AFBC4FEBE115752D81F45D029"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_32.png",
+    "sha256": "E7C69305619C44B041CCF59FCD9B6F8BD1222B255B36685DEA13CC1EFBE5EE13"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_36.png",
+    "sha256": "30346F7429B1FA63726DDED7FA614894AC7F2E1456F56862C1F882D716878049"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_4.png",
+    "sha256": "34450905239DFD411D20F189685E1F16AC33D90473873F554BB692D480AE6335"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_40.png",
+    "sha256": "AB0E46A5535482541AACA945BDDF708C1AFD83A09E3C21D40276503F265B433D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_44.png",
+    "sha256": "71B2593F7AC3956ED5B753E8447F43AED599B60C06AA64AB8A43FE72D7BE2FE9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_48.png",
+    "sha256": "46888D8C030790A950F9E75AB3EB1AF44D6EAEF473A579D814AC5A574CE0B695"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_52.png",
+    "sha256": "7791C1D3CEAFCE56E4E7F4706AF8659E17D8BCB87F1AD4E74141A8A532090CA5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_56.png",
+    "sha256": "C56604D6E9ECB827077D0E2655110D02E4F06472B1BA53918E216C4D15D48C6E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_60.png",
+    "sha256": "3B98C93B50C1FF833CAA56EDAC1676D196BA036617CE95FC84ED59C252E2E064"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_64.png",
+    "sha256": "0629A46515CFC297B181DB1FABA032AA8D59215323C10571174CF90236A4AB8E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_68.png",
+    "sha256": "91AD912FB00CE287DD1074B91C4810BCE7C5F3284416395BC41452BC1D2751AA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_2x_8.png",
+    "sha256": "564F561421DF1447969386271CB9320AF15CA06DF67555BAB6369149FD1B60BC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_0.png",
+    "sha256": "7783680B7DB0668C28D4AF622BE452D975761FDA93BD14AD6A4D974B34CC9BA7"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_12.png",
+    "sha256": "C34A781EAE725D9CFE604B044F150C10E35CDA3C02C965B24DEF2FDA56A443B1"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_16.png",
+    "sha256": "4BEDACA5EF17ACA68BE32748384FED260C02E1D7B55F38928AC34AE33333D272"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_20.png",
+    "sha256": "977F9718496BE6C3C53DE021F28E17CF20D655D65055C5BFF4DD0018E58B81EB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_24.png",
+    "sha256": "9BB7D9505E79ADEF85BA6CFD6D7B00CD64351B3E86C43CF3D60EAB780AB10427"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_28.png",
+    "sha256": "5B4E1EAB1BE4D01ECA6A0705BBF5A883D854017868923F8C3F657DF3981A2437"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_32.png",
+    "sha256": "50286E45AFC72FFE173E491BD3B11F99743E4EE8DF3D1A5EE7515071E7DC432B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_36.png",
+    "sha256": "7C9DD691ABEDF745F3611369CCA5FE81C2E30EF4F0537511A077245547410529"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_4.png",
+    "sha256": "9B08C459AD69BD303268924D11D403859F0D63CA06BE651956781F841AA6A417"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_40.png",
+    "sha256": "CAAB2BBB945DDEB319AB863F31897E8A29A3628C09BB3D38DDB08A39CA8F4DFE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_44.png",
+    "sha256": "400161B7C87016E4118FB7A0607E3C55A1DA95DA3DF883B9989FA8162882126E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_48.png",
+    "sha256": "F29F22DF401142356311A8CF07D1CF7F6E872DEC94EEC26FAE17171F3A06B1E4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_52.png",
+    "sha256": "63AC378DE4C96335FAFD68F194009290AA71675D18A6B0C59E9C6F93CCB467EB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_56.png",
+    "sha256": "BBBD2E7FA3321621E962AEE0AB8407ADF9E578422CEFF1B9C879102DAD3C9076"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_60.png",
+    "sha256": "A7F5E9D86466B147AD23E348307231B49C53C5350067427BC327B216BD3ACA1D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_64.png",
+    "sha256": "82CA719F618F6F1B37AA1616247EACA3C0110187E8A806BBF3A867CA614F422A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_68.png",
+    "sha256": "E138AE587ABF4AF3A061B1544074916D6A06D74CF1295B15998688557BA7F334"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_3x_8.png",
+    "sha256": "5F655CD5601BF03BE389C89A2E00450816E133DDB96728C5FD0CE0894DFFCEE9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_0.png",
+    "sha256": "2C5D58EEC249E85CAF5B289FD7F8436F44F3D755F1D463FB10A507B35E62ABAE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_12.png",
+    "sha256": "D3B05A5DC187BF3891665BE5E1400389C7F0FC99D0CDC747902A409982A193BF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_16.png",
+    "sha256": "B40DFB111C7F65E3A3B63409129728A9F25E82E14F083C8E071B38D465BC4C9F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_20.png",
+    "sha256": "0AC8DF35984E97280DCB48FC7B24103BC7DB5C10C52FA9A47330AB4E9706E485"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_24.png",
+    "sha256": "D081696BD5A57B7EA06E61AA3FE53FB6CD564E9B6595E5F7F0FD01F9FCAFBAD2"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_28.png",
+    "sha256": "8028605BDF46752BE04151C69A1CC2CC18C1926CD6DBC89CA4B8116DFDEFCE4F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_32.png",
+    "sha256": "0EECE0738C28107703FA8AA10D00AE23FC12EC715E8670953D9C541A98B699CD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_36.png",
+    "sha256": "3711EC7239F70B74A26390418FF7DA74F0841A03BCC1040FD02B6B4617292968"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_4.png",
+    "sha256": "4B46CEC765A1D19ECF1E74F013299EFF53AF149C22F2FCDA5CC78A7901D585F7"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_40.png",
+    "sha256": "0D88D508BF71BA25A005927DD3096C33D931E77A1912460C585EC3BB01467A7D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_44.png",
+    "sha256": "CD3262158AEF99E06607CD6EB59525C0C3FB02975173C1FA327A8640CEC94851"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_48.png",
+    "sha256": "8E6C9924FF02A8C1CCFA8A23488607D17A855B5A8A7831A855CC936ADB842FC0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_52.png",
+    "sha256": "A65972AAA57AECF5CC42A76ABB3FAEC6C0968A3E9ED402957D1D1356C6F63777"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_56.png",
+    "sha256": "2F34DFE434A65D3860B6725F568B5A50058C22A6456B868F30CC75EF008CF8C3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_60.png",
+    "sha256": "F67B916070C4AD7DE8CCEC58B41381F47165D522FC471E87FC43C6D3F0DBCBAE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_64.png",
+    "sha256": "A3036D9D170EC8834315E85ED516BC5ADAA1F19E81C964F6B64ED60C889DE030"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_68.png",
+    "sha256": "A1951DE03E04A38A4C71D3A4787A0F147425AD1B95A5E9DCF3630F3138C47B97"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\gallery_4x_8.png",
+    "sha256": "65108F4737ED24631432672CECA791EF58824E79D3AB0717723D2B8F48B62633"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\paired_environment_final.png",
+    "sha256": "E9CE954481D60B3B0C2EAAAF94FCC9610FC6C15156380386520519766AE95551"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\paired_environment.png",
+    "sha256": "E9CE954481D60B3B0C2EAAAF94FCC9610FC6C15156380386520519766AE95551"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_floor_1x.png",
+    "sha256": "A40D7C9108FD7E5006EB220406140315EF6EAF9A462C02EF77C09943987E10F6"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_floor_2x.png",
+    "sha256": "C5B49A5FF7AA8B36CBCE81D8F28988B2764A7BF80DA4B50F562DFA714718A3A4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_floor_3x.png",
+    "sha256": "FD7A7E4E811F04D9FAACD828EE7DC1C1916D0AF46A604267D1E77C52FA1A07E5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_floor_4x.png",
+    "sha256": "7BC4E4A2247C9F4B639EB3B8D9A63AD81A4085A81685866BBE97BB5C176AE541"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_stair_1x.png",
+    "sha256": "E4BA79D6E3E09B44FC993666FAE93D16DD39FA6C7E11213A069D7DD65E963F6E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_stair_2x.png",
+    "sha256": "0664ECA4EAD5E37C728A1362FD6B4DCE3C0AA3B7920C52B9C3C4932215BD756B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_stair_3x.png",
+    "sha256": "F50ABD35AF3F7E7D18FE624DD42218D241DC66F7B938F05D6096D9F5B6494348"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_stair_4x.png",
+    "sha256": "8F50B47C25263435BD296A52CABEA83E4233DD885E5CBF9469CDE8CC586D0A91"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_wall_1x.png",
+    "sha256": "6F3B00C29DDEEB10944C9035E5A7706F33E16B554D7754C272ACBAEB7C07D231"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_wall_2x.png",
+    "sha256": "2DA2F9D609FDBABD1E7F6C17EC213FC034273B46A7F4A9DDACAE2EC5F52D28FA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_wall_3x.png",
+    "sha256": "DC5BFADE1783D8B6D961774DB9C61F644D214FB6292EBF5B80F208CDA2C00E4C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_01\\seam_wall_4x.png",
+    "sha256": "AF20D757AF26A44B3B8FAB8B8BB4B24ED32A6536CC01F0D4CD73583839659E8B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_bridge_character_only.png",
+    "sha256": "C2FF9D053A4A424031EA889E819A58DB31C3E7CC7DB71D5BE882037DC3FEC55B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_bridge_combined.png",
+    "sha256": "5BD187F8954625DB3A286002D1E0537A5FC9CF6A575FFA6E364619C416268CCA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_bridge_tile_only.png",
+    "sha256": "00DAA0B80A61BCAB1577F8996672062D686A5A00F043BC55543E827B0D8936AC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_behind_character_only.png",
+    "sha256": "A219BF5CEA8784070F495975026ACB9B98B0223431B971FDB925DF73746F154D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_behind_combined.png",
+    "sha256": "581669E9D85AB5EA0EE9D42E57001F30C51AFD6318DAD9E2DEEB5DAD76447604"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_behind_tile_only.png",
+    "sha256": "B13E3CB12883B252FA768E04F486EA27B30175AD9B6E53DEA8648C34144F755F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_front_character_only.png",
+    "sha256": "0DDF7B60077DBA0BAAFE206ED051EF56E0E68790D4DDC4B8D8FC111D6BF36348"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_front_combined.png",
+    "sha256": "78D1B8AB6DF2EA2A9D9EF961EA7F1832F47987566EAF0514F124BB80BC56DA33"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_front_tile_only.png",
+    "sha256": "558A096F0AA94B2084A2B5FCC0471B9638236516A1837B9C1DC01118ED1D8916"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_top_character_only.png",
+    "sha256": "4D8553B939A59D6F372F08908538809B1B8C2F6730478AE21EBCD6F473480E1C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_top_combined.png",
+    "sha256": "821FFE30D1069A8EA594183C561640C1C90E0F6BE11E25F9F2F50689960D6785"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_platform_top_tile_only.png",
+    "sha256": "742D63539F6CE14FF2B0689D38C2B12648426A422ACFBEDDB838FE4C9DAEE55B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_stair_character_only.png",
+    "sha256": "FF45E6679455DEC3F85EA9CC3A52942FEAC2353B0B3B587C72DC1C42EAC53A6F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_stair_combined.png",
+    "sha256": "DC2EC9F4E373D213F067B177FCA4C6C70879F68B30FA6419C3F6DCA6FC408C76"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_stair_tile_only.png",
+    "sha256": "D15FDEB32C8E94CBFECB6EB3D904411A0DCADEC0B836BB26E8F5F64F54527245"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_wall_behind_character_only.png",
+    "sha256": "C23E6A708D1DD9E88CDC47C75C3A715DE48768B33EA4686FAE12F7004EC5484E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_wall_behind_combined.png",
+    "sha256": "575986745E1411D72BD3E0C4321AA3CDCB3972418A6BE387F68FE01D79EFA00A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_wall_behind_tile_only.png",
+    "sha256": "14E2E7E53523173D2A617D154DCA4549797A8775A279A6B365217B6DA48247BE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_wall_front_character_only.png",
+    "sha256": "CAB3B14C698E0E29FFA409E408F080D03ABC0F3B2C1A19127E84BA1984462D06"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_wall_front_combined.png",
+    "sha256": "2DC7C6A246D70CFB958143091CE3F81AC1286C317F32D715254A83B1A68802A5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\depth_wall_front_tile_only.png",
+    "sha256": "B2651E0750285B9A6A1DFF6BAE5A09F62EAB413101D2DE9ACBDF83DF4E0BA44F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\engine_runtime_report.json",
+    "sha256": "DF7A980D1F82903C2690E1902B8AC525EA749F86D273267FF3C7CDC3297C53DB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_0.png",
+    "sha256": "9BE8B450FE3E20906B7471E06F3D5F6FE066037B4DE4D74849C319BAC9A291D4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_12.png",
+    "sha256": "0FF6EC51A32E21D7F2C27B25321150DF3BE1F8E9F403A2E3470813634F465126"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_16.png",
+    "sha256": "055D741FCE1CBDBF545429D237C0E614DFC1E9E69FD40286F13508E1971D5743"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_20.png",
+    "sha256": "F51F584D985C70D0ACF368BEE7A3EF2BAA400CE1A91AA2C1F92E2EF3323F4606"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_24.png",
+    "sha256": "FA3642E9DD29B730F4DB5E81F3487AF35C099AC2065697DB13CDF655EE0928FF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_28.png",
+    "sha256": "5813BB03068A977D098E856F71A50A0DD1EDCB63B7308A40B42154ADBA88C9A5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_32.png",
+    "sha256": "CE6EDF040DD1D753F67CEB4E307C243F422BDB21C5B0A59C0C7E3A3EDB32A4F7"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_36.png",
+    "sha256": "04C43D6D4640339FDE9C966A7F657A24E5D2878EFBF6AEF4361D74D96F2558FB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_4.png",
+    "sha256": "1BFFF869FCD8ED675218566C10AC61B2CA74C28B5204A69BDE0ABD8136F99171"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_40.png",
+    "sha256": "7FA7CB2F98E2DC5314AC48C7CFD0458CB2FF0D6F3FF918A0B1A8B11AEF70E976"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_44.png",
+    "sha256": "DDB9E18B67E97C124E44A0A00D30ABDE9F4D8DACCE81EA819FFBB891240AFB26"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_48.png",
+    "sha256": "6AC6B32AADF2E56424B9F818E47C9E2F474C5780F265662430629E41A917D902"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_52.png",
+    "sha256": "788DDA5833F1E07CF886C1BAE8FC306AA93FCD84D2A3699090768FA978D1E530"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_56.png",
+    "sha256": "772657E66FC48FEAD281D723AE4B348C7D9D2BCAD36627AB3271FC18A28A88F9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_60.png",
+    "sha256": "E094A2D38B1E98970351FC4D121BAB4439A969FE92E7474026397E2479113DA0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_64.png",
+    "sha256": "2962A943A521B57D50F7EB9671B5EECDC72263E54E99B664D0014953363B2797"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_68.png",
+    "sha256": "B30B2AD7CF4646303739F545FC6F374D5452D4F20AA3CEBBB558E77871473E95"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_1x_8.png",
+    "sha256": "2E13C73263440C3BEC905159B747A955A8004DFE654C2EFDE2C24EBC95A5BE8E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_0.png",
+    "sha256": "21F5FB736D1FA5B2764E697EB1FCEEAA2926438DC73DB2770CC7C918347741E1"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_12.png",
+    "sha256": "61788414767E4F4CBB679B77854423489CC1D3ECCAC0A6F9E6DD21803B98FE6E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_16.png",
+    "sha256": "0275FF5B1ABD05B2D218BD8410D2A5AF2DE26089C473C47ED0DA592A1AD6BE85"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_20.png",
+    "sha256": "A2D75E6759CDE9C9D552E8391F3B0C5CC48CFCE792FDFE800F33F06AB2FF0423"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_24.png",
+    "sha256": "BF4C58D8BD60F9C3ABC398779F810186C322C10530BD691A1DA79C3D4263797E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_28.png",
+    "sha256": "37ECC76D4B38E475AD6BAE77784E0615282866143C3BB34C89FC1F2B138EDBD5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_32.png",
+    "sha256": "053B9C31AE862FE8CAEE12B4438FC22AB4EB65E4F1DEE90B5E2F69A9882780AF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_36.png",
+    "sha256": "52C5530D8CB294686B4A2B696FA5BCCAAAD9413E550A129A00EB824A9791730D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_4.png",
+    "sha256": "DCA5BBF3AA035B286B99BF12CEBB7D5B06046CDDA9D2AA12307B06E6F39FDC6A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_40.png",
+    "sha256": "BD9C72E76322FE00F16094EFF33ED72462AEC405224C75392D6461547AEFA69D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_44.png",
+    "sha256": "213E092D4AC7D5503A300340B6854E8E4858EB7FDB69FCFA9DE5540501FC3088"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_48.png",
+    "sha256": "D9528207FB043CF2ED3F7A55867B896053FB011600C119FE7668EBC79FA33289"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_52.png",
+    "sha256": "139BB8A7BF2E66927AFFD55844536D0FD59A3DDFF6104FF6EE9776D1E8785DD0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_56.png",
+    "sha256": "4B012197647C56E1492A10C317DFB957CFD1A421C76385BE17171EE758CF328D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_60.png",
+    "sha256": "CDB1B752DF11AE29F4BD2D13C810DDABDE5AB4949308685AC349FCB092D2C9E3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_64.png",
+    "sha256": "2EC437245B4E6E776BE154E61BB91C0646CB0740E0DB30C7AECB2F10D59B2815"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_68.png",
+    "sha256": "4E02067D4D026F5C80BB42A7BF7E0CAF2E51BD3A7601DCA2A8B4700AC0FDB482"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_2x_8.png",
+    "sha256": "7360FDADE8C92B10DCEB1E549EEC37B82DC1B4643B8AB8E9DD0525928E1037E1"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_0.png",
+    "sha256": "0E12D0212221EF6B70C351C2E7F4674D0890D00C03EE1D0779A0E9AE29E700CE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_12.png",
+    "sha256": "4E1AA355E842BD69E21C239B1E3B6B380A1150EE2D500D2C2228805BD7D60967"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_16.png",
+    "sha256": "BE7C0ECF38D8A095C643208EA168E1B50DEB3B29A474F3C900D5CFDFDE8108A3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_20.png",
+    "sha256": "43C07B356A413C49FB2275F4EEEFB3CFC990AA97651A29BA2AE223FBBAE88FFC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_24.png",
+    "sha256": "C69D18D8FA8953EC36177B27F1DBA51D03EC3644BCA92A41542C48A3C9817967"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_28.png",
+    "sha256": "AD5714442C3A1BC5D7282B8973D4A7DC7789F2652293CDFC68707CC270E1D151"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_32.png",
+    "sha256": "C75D8EBE586676431F68AE3AC6F1F499699104B1AD535B0C65D415F4A62EA9D4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_36.png",
+    "sha256": "CD5E99C0E1650C44C21FD7B52DC2B066358269DD77E393EDA5E94840CC78B38F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_4.png",
+    "sha256": "140A5EA91A7A1B898C1F88E615CAF40C3825898DE1090A3BD8CAD07D7B714A3D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_40.png",
+    "sha256": "8A853B33F5B7F5277E38AF583C7E51507C364956BFCEE4D03CE2F12B47D8C417"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_44.png",
+    "sha256": "88B59F75C81762B03A074089B5E73BAE4506503740CD99FDAEB0798FEE54CF9E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_48.png",
+    "sha256": "C0469B72F1D9D67CD881924CB57EA9D218D3F02A9F6BE13FF822F860D82DDFDB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_52.png",
+    "sha256": "DCAE8AF7C3817D655BE9D9A3CDECA1284550EE364388B8E2088E3B579205F174"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_56.png",
+    "sha256": "A9E7B0C74A0FD7046516B22C480E7A19250684D4AB3BAFC28A7EEDFD197035AD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_60.png",
+    "sha256": "52241CD5D6ECCFE3FBF59799144C43096E072ECDB34C40F2D1D348CD250CCD5C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_64.png",
+    "sha256": "DD583616EA956DFCD80F79F62B9241B6E4C7AEB207F3B18DE7ED8879794217AC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_68.png",
+    "sha256": "9907B82EACFD4CD003A089983D1619C98FCA365577F1F41DF22D9A93E4E4F1BD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_3x_8.png",
+    "sha256": "976DA2B03857CB008DA32C936235EAA0BBB3E1B5DF7C1E988DB4E73010B44DDE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_0.png",
+    "sha256": "33E79524E1A939B27C8028E6F9A80F1906EE772BB6690ABAA9A5E0AF3B297ABD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_12.png",
+    "sha256": "41F44DD8C1D1B56CBCA2BE2ACC3AD6E0CE9CF30EA7337195D4A2A2823D8D2EA4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_16.png",
+    "sha256": "76C02CEE2DC08E43F4680E5D1F7168EE47B364C56B3A59A4FEC57BC54B359043"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_20.png",
+    "sha256": "80DE198CB794FE967B2FF34DF4F80FB0B39C3E292C6E8E6BDD180DDA9287B01B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_24.png",
+    "sha256": "6D0248356EF5138C1B69F6ECD9C74AD17EBE59A5A24FBBC5F78E1B014F7A16F4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_28.png",
+    "sha256": "2DF93F4D6E03C7710B0D52F292AF3660252A509E93C38A788547F3BF5C22C07B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_32.png",
+    "sha256": "7A37263BC9552925C3D1809C7E651C1846B6168B6941F91B21A3062C27046005"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_36.png",
+    "sha256": "EE35FE45CAEEE24AD13698792A7DFAB3F12ED162BF894E5CC15DBFBD23118675"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_4.png",
+    "sha256": "BEE1EDCB62F96DC869BC1932317A25C086077888294B8C7DF4854C16B2361C62"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_40.png",
+    "sha256": "90743A59C51B3E132B6A50546318A302C1B0AA5EA15C3736ECDA0BDEEF54D375"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_44.png",
+    "sha256": "EB68DB017CF66390362D60433844EB718EE2DE4C953E286D84281D6ED785DCE9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_48.png",
+    "sha256": "C57A06C841C98210C84466F3FB56588C7A3AD33C2AB1C889C46596CBC5607CDD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_52.png",
+    "sha256": "57C6031E6E639FC74423082923BE233F6A5F1DE0AAF61D8567462FB8122B5172"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_56.png",
+    "sha256": "FE51FE3C016B4CAD2F60AEB1AFED7096EB9FA8BD25A8DFAA18FDEE13B18B84B3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_60.png",
+    "sha256": "A6C8B99DEE2730C2DD9D0AA5AE10FB39BB178C3AC45B0826A140681B7C48D1C3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_64.png",
+    "sha256": "20F8851C0A45EDC60FA2B8DD87A2257879DF8EAB516B083B7FA7D1B8321D25F0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_68.png",
+    "sha256": "46E8CC8D52AD74DA9AA02F47CD6B2816249E0B71A68FBD09CE64C5B57F4EBB82"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\gallery_4x_8.png",
+    "sha256": "9BD5580DD126C2EDDEBF627C48F4648B9BEBFCD684896A37A1FAA34F88B932BF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\paired_environment_final.png",
+    "sha256": "3603CDB13C3872CF2E937E8B8108FBA9A2E111C6D72D73B3A7A029C925E06024"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\paired_environment.png",
+    "sha256": "3603CDB13C3872CF2E937E8B8108FBA9A2E111C6D72D73B3A7A029C925E06024"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\pixel_runtime_analysis.json",
+    "sha256": "3A180AF88C9308EC661972CE9E89BC472B9F3309AA5CB022D4D1E6A088B792D9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\runtime_contact.png",
+    "sha256": "1434ABB72C483FB4730420B6D0F178AA464C481F8F4B5AED279AC14CC0C9AE13"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_floor_1x.png",
+    "sha256": "C6A3EE4A000AA5E08D8836525A60A99350F7A347A9D7E565BEDB029642810DF8"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_floor_2x.png",
+    "sha256": "8F98C5142338689A7EB5706DCCC9542F8014B7297B6D6609AC58C6FC42DA2158"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_floor_3x.png",
+    "sha256": "827929DBB9CF8D298B45901DE84E0516DA5CD23C54C440A4112254D90281F6B7"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_floor_4x.png",
+    "sha256": "76F12504D880945117F8C018505CDF4663CBDF8A9D284C8AB37B033E2E7362AC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_stair_1x.png",
+    "sha256": "05818C6F2455CE80950449FD98B1B9FB9AD7B40035A56B261CA54B0D777410BF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_stair_2x.png",
+    "sha256": "768705ADE0481CB7E0D243F7BF7C302EF435180FDAECFA116B6966AA041D5D2B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_stair_3x.png",
+    "sha256": "12B505190D92F3DA5F3798188EA9D996E6A1E742C519262B14CEF92C0922991A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_stair_4x.png",
+    "sha256": "EF87F10F9AC881206AE2523A7F0E4F9B84C84A29E41B9FE46AF553334E225700"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_wall_1x.png",
+    "sha256": "E7C29099A67EC3F3A6812DB1C95B92CE3C7107C69803BC199D6B38E7AB367615"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_wall_2x.png",
+    "sha256": "F11B6A5720B21D610EBBA8002242C82AA32851E7A3C71632F0A1A5A28FE528B6"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_wall_3x.png",
+    "sha256": "E6D8B21A2297E347CB63272FF5C4D455F9A3FF4F39D05D4E3DF777212380CE9C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\seam_wall_4x.png",
+    "sha256": "6E986A1DE9C7F555604DADDB9F6A9B2BF708724B6CD873DD1B2CDEC7249615F6"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\inner_tileset.tres",
+    "sha256": "B9414B8ABD71173562602CEC74A705A6B8D1692CD5A6A8253B47EA225334D753"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\source_inventory.md",
+    "sha256": "D71F667652B062021C38F0765B15D822F33ED29D0C028FCF20BE46B96A0624D3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\surface_tileset.tres",
+    "sha256": "C87983DD58119CCBC9317E10C49FAF524FEF40A8F63697827E61FAF680B13BD0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\tileset_manifest.json",
+    "sha256": "3B2E9D3593E2A4147E56A391EB470467A281F300ACB249B3B92B7ADC0CDB8FB2"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\tileset_manifest.md",
+    "sha256": "5AF39FE8E32708FFB1576A9E5EDDDDC6A48A9893994851898F4C5C1F530E3077"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\TILESET_SPEC.md",
+    "sha256": "A14C5879DD667FEB1672854E621EA8FA49E3DF15B17130C28F67A06A2E0963AF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\inner\\inner_decorations.png",
+    "sha256": "C9E1739FBDF2FA47392FCBF8AF4A9B18B245475A19289C82AA37A0880A71E54F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\inner\\inner_decorations.png.import",
+    "sha256": "86D1328F8889C3F76721E1F61DB69406C63CFF9C405779BCC0D63D877F54F618"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\inner\\inner_tileset.png",
+    "sha256": "E30AC604A4087644F2505174F9C4D8B5847B1882EB27A8C3A4549D2C5BAE72E3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\inner\\inner_tileset.png.import",
+    "sha256": "9ED755AFC3C7142325F0F0162D30F665FD79EB5B205227209853CEF16D4A0EDA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\surface\\surface_decorations.png",
+    "sha256": "D1B6195D1E3F4D0D1B1FB92C27E0FCBCAD9EB4C9E6B9B659F2A894EEA5E75215"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\surface\\surface_decorations.png.import",
+    "sha256": "4C7AA7A76260C905DB5FB0EB8B28E6840B4D6F800FFD7DC57928AC1051DE2CFA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\surface\\surface_tileset.png",
+    "sha256": "D9E95CA510744D0A702FA99A57498C5ACF959DC77C0A952D43705D18EB2B754A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_02\\reference\\tilesets\\surface\\surface_tileset.png.import",
+    "sha256": "D05C2CA766CEE914C01281D8CA9C966176AEEE323ADB5DFB5E1038EE1A292824"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\delivery_verification.json",
+    "sha256": "57490CBE01231CFA7E934EF9D3B45EF5CAB5242B4806CCC99E8FAA7C57FE283B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_bridge_character_only.png",
+    "sha256": "C2FF9D053A4A424031EA889E819A58DB31C3E7CC7DB71D5BE882037DC3FEC55B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_bridge_combined.png",
+    "sha256": "5BD187F8954625DB3A286002D1E0537A5FC9CF6A575FFA6E364619C416268CCA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_bridge_tile_only.png",
+    "sha256": "00DAA0B80A61BCAB1577F8996672062D686A5A00F043BC55543E827B0D8936AC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_behind_character_only.png",
+    "sha256": "A219BF5CEA8784070F495975026ACB9B98B0223431B971FDB925DF73746F154D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_behind_combined.png",
+    "sha256": "581669E9D85AB5EA0EE9D42E57001F30C51AFD6318DAD9E2DEEB5DAD76447604"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_behind_tile_only.png",
+    "sha256": "B13E3CB12883B252FA768E04F486EA27B30175AD9B6E53DEA8648C34144F755F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_front_character_only.png",
+    "sha256": "0DDF7B60077DBA0BAAFE206ED051EF56E0E68790D4DDC4B8D8FC111D6BF36348"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_front_combined.png",
+    "sha256": "78D1B8AB6DF2EA2A9D9EF961EA7F1832F47987566EAF0514F124BB80BC56DA33"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_front_tile_only.png",
+    "sha256": "558A096F0AA94B2084A2B5FCC0471B9638236516A1837B9C1DC01118ED1D8916"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_top_character_only.png",
+    "sha256": "4D8553B939A59D6F372F08908538809B1B8C2F6730478AE21EBCD6F473480E1C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_top_combined.png",
+    "sha256": "821FFE30D1069A8EA594183C561640C1C90E0F6BE11E25F9F2F50689960D6785"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_platform_top_tile_only.png",
+    "sha256": "742D63539F6CE14FF2B0689D38C2B12648426A422ACFBEDDB838FE4C9DAEE55B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_stair_character_only.png",
+    "sha256": "FF45E6679455DEC3F85EA9CC3A52942FEAC2353B0B3B587C72DC1C42EAC53A6F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_stair_combined.png",
+    "sha256": "DC2EC9F4E373D213F067B177FCA4C6C70879F68B30FA6419C3F6DCA6FC408C76"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_stair_tile_only.png",
+    "sha256": "D15FDEB32C8E94CBFECB6EB3D904411A0DCADEC0B836BB26E8F5F64F54527245"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_wall_behind_character_only.png",
+    "sha256": "C23E6A708D1DD9E88CDC47C75C3A715DE48768B33EA4686FAE12F7004EC5484E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_wall_behind_combined.png",
+    "sha256": "575986745E1411D72BD3E0C4321AA3CDCB3972418A6BE387F68FE01D79EFA00A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_wall_behind_tile_only.png",
+    "sha256": "14E2E7E53523173D2A617D154DCA4549797A8775A279A6B365217B6DA48247BE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_wall_front_character_only.png",
+    "sha256": "CAB3B14C698E0E29FFA409E408F080D03ABC0F3B2C1A19127E84BA1984462D06"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_wall_front_combined.png",
+    "sha256": "2DC7C6A246D70CFB958143091CE3F81AC1286C317F32D715254A83B1A68802A5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\depth_wall_front_tile_only.png",
+    "sha256": "B2651E0750285B9A6A1DFF6BAE5A09F62EAB413101D2DE9ACBDF83DF4E0BA44F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\engine_runtime_report.json",
+    "sha256": "752281995A9C4B363BF5E7CF0C94B60A7B23765E6FC5A38B7E4069C2322D58AB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_0.png",
+    "sha256": "9BE8B450FE3E20906B7471E06F3D5F6FE066037B4DE4D74849C319BAC9A291D4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_12.png",
+    "sha256": "0FF6EC51A32E21D7F2C27B25321150DF3BE1F8E9F403A2E3470813634F465126"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_16.png",
+    "sha256": "055D741FCE1CBDBF545429D237C0E614DFC1E9E69FD40286F13508E1971D5743"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_20.png",
+    "sha256": "F51F584D985C70D0ACF368BEE7A3EF2BAA400CE1A91AA2C1F92E2EF3323F4606"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_24.png",
+    "sha256": "FA3642E9DD29B730F4DB5E81F3487AF35C099AC2065697DB13CDF655EE0928FF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_28.png",
+    "sha256": "5813BB03068A977D098E856F71A50A0DD1EDCB63B7308A40B42154ADBA88C9A5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_32.png",
+    "sha256": "CE6EDF040DD1D753F67CEB4E307C243F422BDB21C5B0A59C0C7E3A3EDB32A4F7"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_36.png",
+    "sha256": "04C43D6D4640339FDE9C966A7F657A24E5D2878EFBF6AEF4361D74D96F2558FB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_4.png",
+    "sha256": "1BFFF869FCD8ED675218566C10AC61B2CA74C28B5204A69BDE0ABD8136F99171"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_40.png",
+    "sha256": "7FA7CB2F98E2DC5314AC48C7CFD0458CB2FF0D6F3FF918A0B1A8B11AEF70E976"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_44.png",
+    "sha256": "DDB9E18B67E97C124E44A0A00D30ABDE9F4D8DACCE81EA819FFBB891240AFB26"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_48.png",
+    "sha256": "6AC6B32AADF2E56424B9F818E47C9E2F474C5780F265662430629E41A917D902"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_52.png",
+    "sha256": "788DDA5833F1E07CF886C1BAE8FC306AA93FCD84D2A3699090768FA978D1E530"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_56.png",
+    "sha256": "772657E66FC48FEAD281D723AE4B348C7D9D2BCAD36627AB3271FC18A28A88F9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_60.png",
+    "sha256": "E094A2D38B1E98970351FC4D121BAB4439A969FE92E7474026397E2479113DA0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_64.png",
+    "sha256": "85445B3535B0B92ADDA99201DA4DBF94010D51D24FD259E10815400D02E55842"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_68.png",
+    "sha256": "F81DA7DEDAEE6449F505FB9F4E934A1F693009D91D16299C92C8016FD7F94AB8"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_1x_8.png",
+    "sha256": "2E13C73263440C3BEC905159B747A955A8004DFE654C2EFDE2C24EBC95A5BE8E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_0.png",
+    "sha256": "21F5FB736D1FA5B2764E697EB1FCEEAA2926438DC73DB2770CC7C918347741E1"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_12.png",
+    "sha256": "61788414767E4F4CBB679B77854423489CC1D3ECCAC0A6F9E6DD21803B98FE6E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_16.png",
+    "sha256": "0275FF5B1ABD05B2D218BD8410D2A5AF2DE26089C473C47ED0DA592A1AD6BE85"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_20.png",
+    "sha256": "A2D75E6759CDE9C9D552E8391F3B0C5CC48CFCE792FDFE800F33F06AB2FF0423"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_24.png",
+    "sha256": "BF4C58D8BD60F9C3ABC398779F810186C322C10530BD691A1DA79C3D4263797E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_28.png",
+    "sha256": "37ECC76D4B38E475AD6BAE77784E0615282866143C3BB34C89FC1F2B138EDBD5"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_32.png",
+    "sha256": "053B9C31AE862FE8CAEE12B4438FC22AB4EB65E4F1DEE90B5E2F69A9882780AF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_36.png",
+    "sha256": "52C5530D8CB294686B4A2B696FA5BCCAAAD9413E550A129A00EB824A9791730D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_4.png",
+    "sha256": "DCA5BBF3AA035B286B99BF12CEBB7D5B06046CDDA9D2AA12307B06E6F39FDC6A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_40.png",
+    "sha256": "BD9C72E76322FE00F16094EFF33ED72462AEC405224C75392D6461547AEFA69D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_44.png",
+    "sha256": "213E092D4AC7D5503A300340B6854E8E4858EB7FDB69FCFA9DE5540501FC3088"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_48.png",
+    "sha256": "D9528207FB043CF2ED3F7A55867B896053FB011600C119FE7668EBC79FA33289"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_52.png",
+    "sha256": "139BB8A7BF2E66927AFFD55844536D0FD59A3DDFF6104FF6EE9776D1E8785DD0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_56.png",
+    "sha256": "4B012197647C56E1492A10C317DFB957CFD1A421C76385BE17171EE758CF328D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_60.png",
+    "sha256": "CDB1B752DF11AE29F4BD2D13C810DDABDE5AB4949308685AC349FCB092D2C9E3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_64.png",
+    "sha256": "6C630F75CEB66A417ADC10A62543011CFAD58A00B22712DDFA3989C6DFC77640"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_68.png",
+    "sha256": "AE1453D549B40E5EA6868C7D7BF3BB3E99D2C0C26EC32DC90ACD644F550FCE02"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_2x_8.png",
+    "sha256": "7360FDADE8C92B10DCEB1E549EEC37B82DC1B4643B8AB8E9DD0525928E1037E1"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_0.png",
+    "sha256": "0E12D0212221EF6B70C351C2E7F4674D0890D00C03EE1D0779A0E9AE29E700CE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_12.png",
+    "sha256": "4E1AA355E842BD69E21C239B1E3B6B380A1150EE2D500D2C2228805BD7D60967"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_16.png",
+    "sha256": "BE7C0ECF38D8A095C643208EA168E1B50DEB3B29A474F3C900D5CFDFDE8108A3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_20.png",
+    "sha256": "43C07B356A413C49FB2275F4EEEFB3CFC990AA97651A29BA2AE223FBBAE88FFC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_24.png",
+    "sha256": "C69D18D8FA8953EC36177B27F1DBA51D03EC3644BCA92A41542C48A3C9817967"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_28.png",
+    "sha256": "AD5714442C3A1BC5D7282B8973D4A7DC7789F2652293CDFC68707CC270E1D151"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_32.png",
+    "sha256": "C75D8EBE586676431F68AE3AC6F1F499699104B1AD535B0C65D415F4A62EA9D4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_36.png",
+    "sha256": "CD5E99C0E1650C44C21FD7B52DC2B066358269DD77E393EDA5E94840CC78B38F"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_4.png",
+    "sha256": "140A5EA91A7A1B898C1F88E615CAF40C3825898DE1090A3BD8CAD07D7B714A3D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_40.png",
+    "sha256": "8A853B33F5B7F5277E38AF583C7E51507C364956BFCEE4D03CE2F12B47D8C417"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_44.png",
+    "sha256": "88B59F75C81762B03A074089B5E73BAE4506503740CD99FDAEB0798FEE54CF9E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_48.png",
+    "sha256": "C0469B72F1D9D67CD881924CB57EA9D218D3F02A9F6BE13FF822F860D82DDFDB"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_52.png",
+    "sha256": "DCAE8AF7C3817D655BE9D9A3CDECA1284550EE364388B8E2088E3B579205F174"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_56.png",
+    "sha256": "A9E7B0C74A0FD7046516B22C480E7A19250684D4AB3BAFC28A7EEDFD197035AD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_60.png",
+    "sha256": "52241CD5D6ECCFE3FBF59799144C43096E072ECDB34C40F2D1D348CD250CCD5C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_64.png",
+    "sha256": "A0F03BD82AE0BDB143722E84D9218F0CDA3E1C931A021CC1766680F6EE6CF290"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_68.png",
+    "sha256": "6EC45870E3047FAD0A0EAC743D167E8E626AADEC1297B3A3EF5BA40A58737587"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_3x_8.png",
+    "sha256": "976DA2B03857CB008DA32C936235EAA0BBB3E1B5DF7C1E988DB4E73010B44DDE"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_0.png",
+    "sha256": "33E79524E1A939B27C8028E6F9A80F1906EE772BB6690ABAA9A5E0AF3B297ABD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_12.png",
+    "sha256": "41F44DD8C1D1B56CBCA2BE2ACC3AD6E0CE9CF30EA7337195D4A2A2823D8D2EA4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_16.png",
+    "sha256": "76C02CEE2DC08E43F4680E5D1F7168EE47B364C56B3A59A4FEC57BC54B359043"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_20.png",
+    "sha256": "80DE198CB794FE967B2FF34DF4F80FB0B39C3E292C6E8E6BDD180DDA9287B01B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_24.png",
+    "sha256": "6D0248356EF5138C1B69F6ECD9C74AD17EBE59A5A24FBBC5F78E1B014F7A16F4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_28.png",
+    "sha256": "2DF93F4D6E03C7710B0D52F292AF3660252A509E93C38A788547F3BF5C22C07B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_32.png",
+    "sha256": "7A37263BC9552925C3D1809C7E651C1846B6168B6941F91B21A3062C27046005"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_36.png",
+    "sha256": "EE35FE45CAEEE24AD13698792A7DFAB3F12ED162BF894E5CC15DBFBD23118675"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_4.png",
+    "sha256": "BEE1EDCB62F96DC869BC1932317A25C086077888294B8C7DF4854C16B2361C62"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_40.png",
+    "sha256": "90743A59C51B3E132B6A50546318A302C1B0AA5EA15C3736ECDA0BDEEF54D375"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_44.png",
+    "sha256": "EB68DB017CF66390362D60433844EB718EE2DE4C953E286D84281D6ED785DCE9"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_48.png",
+    "sha256": "C57A06C841C98210C84466F3FB56588C7A3AD33C2AB1C889C46596CBC5607CDD"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_52.png",
+    "sha256": "57C6031E6E639FC74423082923BE233F6A5F1DE0AAF61D8567462FB8122B5172"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_56.png",
+    "sha256": "FE51FE3C016B4CAD2F60AEB1AFED7096EB9FA8BD25A8DFAA18FDEE13B18B84B3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_60.png",
+    "sha256": "A6C8B99DEE2730C2DD9D0AA5AE10FB39BB178C3AC45B0826A140681B7C48D1C3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_64.png",
+    "sha256": "914A136F84F01F5712417805F29AC4EAAC9FE4C204B9BD6294661BBCEC6A27FF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_68.png",
+    "sha256": "2C68D6BF5446DD5BDD89BD119C015E4FB67817B3032504466C8B65F2876C5196"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\gallery_4x_8.png",
+    "sha256": "9BD5580DD126C2EDDEBF627C48F4648B9BEBFCD684896A37A1FAA34F88B932BF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\paired_environment_final.png",
+    "sha256": "3603CDB13C3872CF2E937E8B8108FBA9A2E111C6D72D73B3A7A029C925E06024"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\paired_environment.png",
+    "sha256": "3603CDB13C3872CF2E937E8B8108FBA9A2E111C6D72D73B3A7A029C925E06024"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\pixel_runtime_analysis.json",
+    "sha256": "BE698A578B81F8500658274BF35BC866D7F5A275E3925DAF9524859DAFEDED46"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\runtime_contact.png",
+    "sha256": "1434ABB72C483FB4730420B6D0F178AA464C481F8F4B5AED279AC14CC0C9AE13"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_floor_1x.png",
+    "sha256": "C6A3EE4A000AA5E08D8836525A60A99350F7A347A9D7E565BEDB029642810DF8"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_floor_2x.png",
+    "sha256": "8F98C5142338689A7EB5706DCCC9542F8014B7297B6D6609AC58C6FC42DA2158"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_floor_3x.png",
+    "sha256": "827929DBB9CF8D298B45901DE84E0516DA5CD23C54C440A4112254D90281F6B7"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_floor_4x.png",
+    "sha256": "76F12504D880945117F8C018505CDF4663CBDF8A9D284C8AB37B033E2E7362AC"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_stair_1x.png",
+    "sha256": "05818C6F2455CE80950449FD98B1B9FB9AD7B40035A56B261CA54B0D777410BF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_stair_2x.png",
+    "sha256": "768705ADE0481CB7E0D243F7BF7C302EF435180FDAECFA116B6966AA041D5D2B"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_stair_3x.png",
+    "sha256": "12B505190D92F3DA5F3798188EA9D996E6A1E742C519262B14CEF92C0922991A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_stair_4x.png",
+    "sha256": "EF87F10F9AC881206AE2523A7F0E4F9B84C84A29E41B9FE46AF553334E225700"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_wall_1x.png",
+    "sha256": "E7C29099A67EC3F3A6812DB1C95B92CE3C7107C69803BC199D6B38E7AB367615"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_wall_2x.png",
+    "sha256": "F11B6A5720B21D610EBBA8002242C82AA32851E7A3C71632F0A1A5A28FE528B6"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_wall_3x.png",
+    "sha256": "E6D8B21A2297E347CB63272FF5C4D455F9A3FF4F39D05D4E3DF777212380CE9C"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\seam_wall_4x.png",
+    "sha256": "6E986A1DE9C7F555604DADDB9F6A9B2BF708724B6CD873DD1B2CDEC7249615F6"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\inner_tileset.tres",
+    "sha256": "B9414B8ABD71173562602CEC74A705A6B8D1692CD5A6A8253B47EA225334D753"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\source_inventory.md",
+    "sha256": "D71F667652B062021C38F0765B15D822F33ED29D0C028FCF20BE46B96A0624D3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\surface_tileset.tres",
+    "sha256": "C87983DD58119CCBC9317E10C49FAF524FEF40A8F63697827E61FAF680B13BD0"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\tileset_issues.md",
+    "sha256": "AC006FE6515AE12C72D17C96C3945DB0492E75B3D4C2122BB17909E1FBCF674D"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\tileset_manifest.json",
+    "sha256": "7DA79CFA726A4BF3F88CE8D1844EBDBC18B57C3249E2D892A59E71459731C535"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\tileset_manifest.md",
+    "sha256": "11B910916E8FE0F718856C93A3107F6DE64FE81E9F58108B9D37046387B04275"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\TILESET_PRODUCTION_REPORT.md",
+    "sha256": "7A6F55A633F7444736D330D1F0D5A320F77CCBC08D0B2374810599FDB7BA73F4"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\TILESET_SPEC.md",
+    "sha256": "812CEF531CD07276F7DC9927066E9D64A81E2988FCE59332A85D97EF19788D0E"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\inner\\inner_decorations.png",
+    "sha256": "50F580ECEB0BBF1B9C58D56C6F5398390167D06927B8C39EC5A776B72D13ABDA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\inner\\inner_decorations.png.import",
+    "sha256": "86D1328F8889C3F76721E1F61DB69406C63CFF9C405779BCC0D63D877F54F618"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\inner\\inner_tileset.png",
+    "sha256": "E30AC604A4087644F2505174F9C4D8B5847B1882EB27A8C3A4549D2C5BAE72E3"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\inner\\inner_tileset.png.import",
+    "sha256": "9ED755AFC3C7142325F0F0162D30F665FD79EB5B205227209853CEF16D4A0EDA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\surface\\surface_decorations.png",
+    "sha256": "C767BB5AFF871729ACFA8480CC713D8D9BB9FD1F090B66553F40AC55C0B588FF"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\surface\\surface_decorations.png.import",
+    "sha256": "4C7AA7A76260C905DB5FB0EB8B28E6840B4D6F800FFD7DC57928AC1051DE2CFA"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\surface\\surface_tileset.png",
+    "sha256": "D9E95CA510744D0A702FA99A57498C5ACF959DC77C0A952D43705D18EB2B754A"
+  },
+  {
+    "path": "tests\\visual\\tileset_evidence\\run_03\\reference\\tilesets\\surface\\surface_tileset.png.import",
+    "sha256": "D05C2CA766CEE914C01281D8CA9C966176AEEE323ADB5DFB5E1038EE1A292824"
+  }
+]

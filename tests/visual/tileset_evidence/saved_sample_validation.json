@@ -1,0 +1,27 @@
+{
+	"counts": [
+		{
+			"cells_per_world": 6,
+			"layer": "Ground"
+		},
+		{
+			"cells_per_world": 7,
+			"layer": "Structures"
+		},
+		{
+			"cells_per_world": 2,
+			"layer": "ElevatedBridge"
+		},
+		{
+			"cells_per_world": 1,
+			"layer": "ElevatedWall"
+		},
+		{
+			"cells_per_world": 2,
+			"layer": "Decorations"
+		}
+	],
+	"failures": [],
+	"status": "PASS",
+	"tile_map_layers": 10
+}

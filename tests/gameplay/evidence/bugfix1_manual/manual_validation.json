@@ -1,0 +1,14 @@
+{
+  "method": "System keyboard/mouse via computer-use; each state observed in Godot window",
+  "A": "E: NORTH,EAST,SOUTH,WEST,NORTH; PASS",
+  "B": "Q: NORTH,WEST,SOUTH,EAST,NORTH; PASS",
+  "C": "Right drag x4: NORTH,EAST,SOUTH,WEST,NORTH; PASS",
+  "D": "Left drag x4: NORTH,WEST,SOUTH,EAST,NORTH; PASS",
+  "E": "INNER/EAST A(4,2): ACTIVE,PRESENT,YES; W rolls to B(10,2); PASS",
+  "F": "At B, Q to NORTH: INACTIVE,ABSENT; A key does not move; PASS",
+  "G": "At B/NORTH Space x2: cell=(10,2), pose X=(0,-1,0),Y=(-1,0,0),Z=(0,0,-1), view=NORTH preserved; PASS",
+  "final": "E then S return to Inner/EAST/A(4,2), ready for user W",
+  "screenshots": 10,
+  "pid": 6248,
+  "user_playtest_confirmation": "Pending user; not claimed"
+}

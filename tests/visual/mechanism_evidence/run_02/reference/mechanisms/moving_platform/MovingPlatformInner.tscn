@@ -1,0 +1,80 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://production/mechanisms/moving_platform/moving_platform.gd" id="1_il0yn"]
+[ext_resource type="Texture2D" path="res://production/mechanisms/moving_platform/moving_platform_inner.png" id="2_l3gdg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ev3ug"]
+atlas = ExtResource("2_l3gdg")
+region = Rect2(192, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmbuc"]
+atlas = ExtResource("2_l3gdg")
+region = Rect2(0, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jtkus"]
+atlas = ExtResource("2_l3gdg")
+region = Rect2(64, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1nruf"]
+atlas = ExtResource("2_l3gdg")
+region = Rect2(128, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_347e0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ev3ug")
+}],
+"loop": 1,
+"name": &"arrived",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmbuc")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jtkus")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1nruf")
+}],
+"loop": 1,
+"name": &"moving",
+"speed": 8.0
+}]
+
+[node name="MOVING_PLATFORM_01" type="Node2D" unique_id=2007195580]
+texture_filter = 1
+script = ExtResource("1_il0yn")
+world = 1
+kind = "moving_platform"
+
+[node name="Visual" type="AnimatedSprite2D" parent="." unique_id=818958823]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_347e0")
+animation = &"idle"
+
+[node name="Trigger" type="Area2D" parent="." unique_id=1922153874]
+collision_layer = 0
+collision_mask = 4
+
+[node name="Shape" type="CollisionPolygon2D" parent="Trigger" unique_id=1782590214]
+polygon = PackedVector2Array(0, -8, 16, 0, 0, 8, -16, 0)
+
+[node name="Support" type="AnimatableBody2D" parent="." unique_id=1849517297]
+collision_layer = 2
+collision_mask = 0
+sync_to_physics = false
+
+[node name="Shape" type="CollisionPolygon2D" parent="Support" unique_id=696218492]
+polygon = PackedVector2Array(0, -8, 16, 0, 0, 8, -16, 0)

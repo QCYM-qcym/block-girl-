@@ -1,0 +1,8400 @@
+{
+  "schema": 1,
+  "tile_size": [
+    32,
+    16
+  ],
+  "region_size": [
+    64,
+    96
+  ],
+  "pivot": [
+    32,
+    48
+  ],
+  "elevation_increment": 8,
+  "tiles": [
+    {
+      "logical_id": "FLOOR_01",
+      "family": "FLOOR_01",
+      "id": "S-FLOOR-01",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        0
+      ],
+      "texture_region": [
+        0,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_01",
+      "paired_tile": "I-FLOOR-01",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        47,
+        56
+      ],
+      "visual_dimensions": [
+        30,
+        16
+      ],
+      "opaque_pixels": 256
+    },
+    {
+      "logical_id": "FLOOR_EDGE_NE",
+      "family": "FLOOR_EDGE",
+      "id": "S-FLOOR-EDGE-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        0
+      ],
+      "texture_region": [
+        64,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "I-FLOOR-EDGE-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        57
+      ],
+      "visual_dimensions": [
+        31,
+        17
+      ],
+      "opaque_pixels": 304
+    },
+    {
+      "logical_id": "FLOOR_EDGE_SE",
+      "family": "FLOOR_EDGE",
+      "id": "S-FLOOR-EDGE-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        0
+      ],
+      "texture_region": [
+        128,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "I-FLOOR-EDGE-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "FLOOR_EDGE_SW",
+      "family": "FLOOR_EDGE",
+      "id": "S-FLOOR-EDGE-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        0
+      ],
+      "texture_region": [
+        192,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "I-FLOOR-EDGE-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "FLOOR_EDGE_NW",
+      "family": "FLOOR_EDGE",
+      "id": "S-FLOOR-EDGE-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        0
+      ],
+      "texture_region": [
+        256,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "I-FLOOR-EDGE-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        57
+      ],
+      "visual_dimensions": [
+        31,
+        17
+      ],
+      "opaque_pixels": 304
+    },
+    {
+      "logical_id": "CORNER_OUT_NE",
+      "family": "CORNER_OUT",
+      "id": "S-CORNER-OUT-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        0
+      ],
+      "texture_region": [
+        320,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "I-CORNER-OUT-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        57
+      ],
+      "visual_dimensions": [
+        32,
+        17
+      ],
+      "opaque_pixels": 352
+    },
+    {
+      "logical_id": "CORNER_OUT_SE",
+      "family": "CORNER_OUT",
+      "id": "S-CORNER-OUT-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        0
+      ],
+      "texture_region": [
+        384,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "I-CORNER-OUT-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "CORNER_OUT_SW",
+      "family": "CORNER_OUT",
+      "id": "S-CORNER-OUT-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        0
+      ],
+      "texture_region": [
+        448,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "I-CORNER-OUT-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 512
+    },
+    {
+      "logical_id": "CORNER_OUT_NW",
+      "family": "CORNER_OUT",
+      "id": "S-CORNER-OUT-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        1
+      ],
+      "texture_region": [
+        0,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "I-CORNER-OUT-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "CORNER_IN_NE",
+      "family": "CORNER_IN",
+      "id": "S-CORNER-IN-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        1
+      ],
+      "texture_region": [
+        64,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "I-CORNER-IN-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        47,
+        56
+      ],
+      "visual_dimensions": [
+        30,
+        16
+      ],
+      "opaque_pixels": 256
+    },
+    {
+      "logical_id": "CORNER_IN_SE",
+      "family": "CORNER_IN",
+      "id": "S-CORNER-IN-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        1
+      ],
+      "texture_region": [
+        128,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "I-CORNER-IN-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        60
+      ],
+      "visual_dimensions": [
+        31,
+        20
+      ],
+      "opaque_pixels": 334
+    },
+    {
+      "logical_id": "CORNER_IN_SW",
+      "family": "CORNER_IN",
+      "id": "S-CORNER-IN-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        1
+      ],
+      "texture_region": [
+        192,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "I-CORNER-IN-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        47,
+        64
+      ],
+      "visual_dimensions": [
+        30,
+        24
+      ],
+      "opaque_pixels": 384
+    },
+    {
+      "logical_id": "CORNER_IN_NW",
+      "family": "CORNER_IN",
+      "id": "S-CORNER-IN-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        1
+      ],
+      "texture_region": [
+        256,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "I-CORNER-IN-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        60
+      ],
+      "visual_dimensions": [
+        31,
+        20
+      ],
+      "opaque_pixels": 334
+    },
+    {
+      "logical_id": "PLATFORM_RAISED",
+      "family": "PLATFORM_RAISED",
+      "id": "S-PLATFORM-RAISED",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        1
+      ],
+      "texture_region": [
+        320,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NONE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_raised",
+      "paired_tile": "I-PLATFORM-RAISED",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 512
+    },
+    {
+      "logical_id": "WALL_LOW_NE",
+      "family": "WALL_LOW",
+      "id": "S-WALL-LOW-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        1
+      ],
+      "texture_region": [
+        384,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -8
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            -4,
+            -6
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "I-WALL-LOW-NE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        32,
+        48,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_LOW_SE",
+      "family": "WALL_LOW",
+      "id": "S-WALL-LOW-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        1
+      ],
+      "texture_region": [
+        448,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            -4,
+            6
+          ],
+          [
+            12,
+            -2
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "I-WALL-LOW-SE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_LOW_SW",
+      "family": "WALL_LOW",
+      "id": "S-WALL-LOW-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        2
+      ],
+      "texture_region": [
+        0,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            8
+          ],
+          [
+            -16,
+            0
+          ],
+          [
+            -12,
+            -2
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "I-WALL-LOW-SW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        38,
+        36,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_LOW_NW",
+      "family": "WALL_LOW",
+      "id": "S-WALL-LOW-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        2
+      ],
+      "texture_region": [
+        64,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -16,
+            0
+          ],
+          [
+            0,
+            -8
+          ],
+          [
+            4,
+            -6
+          ],
+          [
+            -12,
+            2
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "I-WALL-LOW-NW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        32,
+        36,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_TALL_NE",
+      "family": "WALL_TALL",
+      "id": "S-WALL-TALL-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        2
+      ],
+      "texture_region": [
+        128,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -8
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            -4,
+            -6
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "I-WALL-TALL-NE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        16,
+        48,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 544
+    },
+    {
+      "logical_id": "WALL_TALL_SE",
+      "family": "WALL_TALL",
+      "id": "S-WALL-TALL-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        2
+      ],
+      "texture_region": [
+        192,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            -4,
+            6
+          ],
+          [
+            12,
+            -2
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "I-WALL-TALL-SE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        22,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 544
+    },
+    {
+      "logical_id": "WALL_TALL_SW",
+      "family": "WALL_TALL",
+      "id": "S-WALL-TALL-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        2
+      ],
+      "texture_region": [
+        256,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            8
+          ],
+          [
+            -16,
+            0
+          ],
+          [
+            -12,
+            -2
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "I-WALL-TALL-SW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        22,
+        36,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 544
+    },
+    {
+      "logical_id": "WALL_TALL_NW",
+      "family": "WALL_TALL",
+      "id": "S-WALL-TALL-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        2
+      ],
+      "texture_region": [
+        320,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -16,
+            0
+          ],
+          [
+            0,
+            -8
+          ],
+          [
+            4,
+            -6
+          ],
+          [
+            -12,
+            2
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "I-WALL-TALL-NW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        16,
+        36,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 544
+    },
+    {
+      "logical_id": "CLIFF_NE",
+      "family": "CLIFF",
+      "id": "S-CLIFF-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        2
+      ],
+      "texture_region": [
+        384,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "I-CLIFF-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        73
+      ],
+      "visual_dimensions": [
+        31,
+        33
+      ],
+      "opaque_pixels": 562
+    },
+    {
+      "logical_id": "CLIFF_SE",
+      "family": "CLIFF",
+      "id": "S-CLIFF-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        2
+      ],
+      "texture_region": [
+        448,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "I-CLIFF-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        80
+      ],
+      "visual_dimensions": [
+        31,
+        40
+      ],
+      "opaque_pixels": 688
+    },
+    {
+      "logical_id": "CLIFF_SW",
+      "family": "CLIFF",
+      "id": "S-CLIFF-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        3
+      ],
+      "texture_region": [
+        0,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "I-CLIFF-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        80
+      ],
+      "visual_dimensions": [
+        31,
+        40
+      ],
+      "opaque_pixels": 688
+    },
+    {
+      "logical_id": "CLIFF_NW",
+      "family": "CLIFF",
+      "id": "S-CLIFF-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        3
+      ],
+      "texture_region": [
+        64,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "I-CLIFF-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        73
+      ],
+      "visual_dimensions": [
+        31,
+        33
+      ],
+      "opaque_pixels": 562
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_NE",
+      "family": "PLATFORM_SIDE",
+      "id": "S-PLATFORM-SIDE-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        3
+      ],
+      "texture_region": [
+        128,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "I-PLATFORM-SIDE-NE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        30,
+        40,
+        48,
+        57
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_SE",
+      "family": "PLATFORM_SIDE",
+      "id": "S-PLATFORM-SIDE-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        3
+      ],
+      "texture_region": [
+        192,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "I-PLATFORM-SIDE-SE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        30,
+        47,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_SW",
+      "family": "PLATFORM_SIDE",
+      "id": "S-PLATFORM-SIDE-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        3
+      ],
+      "texture_region": [
+        256,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "I-PLATFORM-SIDE-SW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        47,
+        34,
+        64
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_NW",
+      "family": "PLATFORM_SIDE",
+      "id": "S-PLATFORM-SIDE-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        3
+      ],
+      "texture_region": [
+        320,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "I-PLATFORM-SIDE-NW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        40,
+        34,
+        57
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "STAIR_SINGLE_NE",
+      "family": "STAIR_SINGLE",
+      "id": "S-STAIR-SINGLE-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        3
+      ],
+      "texture_region": [
+        384,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "I-STAIR-SINGLE-NE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 480
+    },
+    {
+      "logical_id": "STAIR_SINGLE_SE",
+      "family": "STAIR_SINGLE",
+      "id": "S-STAIR-SINGLE-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        3
+      ],
+      "texture_region": [
+        448,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "I-STAIR-SINGLE-SE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        36,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        20
+      ],
+      "opaque_pixels": 424
+    },
+    {
+      "logical_id": "STAIR_SINGLE_SW",
+      "family": "STAIR_SINGLE",
+      "id": "S-STAIR-SINGLE-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        4
+      ],
+      "texture_region": [
+        0,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "I-STAIR-SINGLE-SW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        36,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        20
+      ],
+      "opaque_pixels": 424
+    },
+    {
+      "logical_id": "STAIR_SINGLE_NW",
+      "family": "STAIR_SINGLE",
+      "id": "S-STAIR-SINGLE-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        4
+      ],
+      "texture_region": [
+        64,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "I-STAIR-SINGLE-NW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 480
+    },
+    {
+      "logical_id": "STAIR_MULTI_NE",
+      "family": "STAIR_MULTI",
+      "id": "S-STAIR-MULTI-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        4
+      ],
+      "texture_region": [
+        128,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "I-STAIR-MULTI-NE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "STAIR_MULTI_SE",
+      "family": "STAIR_MULTI",
+      "id": "S-STAIR-MULTI-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        4
+      ],
+      "texture_region": [
+        192,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "I-STAIR-MULTI-SE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "STAIR_MULTI_SW",
+      "family": "STAIR_MULTI",
+      "id": "S-STAIR-MULTI-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        4
+      ],
+      "texture_region": [
+        256,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "I-STAIR-MULTI-SW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "STAIR_MULTI_NW",
+      "family": "STAIR_MULTI",
+      "id": "S-STAIR-MULTI-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        4
+      ],
+      "texture_region": [
+        320,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "I-STAIR-MULTI-NW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "BRIDGE_NE",
+      "family": "BRIDGE",
+      "id": "S-BRIDGE-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        4
+      ],
+      "texture_region": [
+        384,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "I-BRIDGE-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_SE",
+      "family": "BRIDGE",
+      "id": "S-BRIDGE-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        4
+      ],
+      "texture_region": [
+        448,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "I-BRIDGE-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_SW",
+      "family": "BRIDGE",
+      "id": "S-BRIDGE-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        5
+      ],
+      "texture_region": [
+        0,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "I-BRIDGE-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_NW",
+      "family": "BRIDGE",
+      "id": "S-BRIDGE-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        5
+      ],
+      "texture_region": [
+        64,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "I-BRIDGE-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_NE",
+      "family": "BRIDGE_BROKEN",
+      "id": "S-BRIDGE-BROKEN-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        5
+      ],
+      "texture_region": [
+        128,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "I-BRIDGE-BROKEN-NE",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_SE",
+      "family": "BRIDGE_BROKEN",
+      "id": "S-BRIDGE-BROKEN-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        5
+      ],
+      "texture_region": [
+        192,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "I-BRIDGE-BROKEN-SE",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_SW",
+      "family": "BRIDGE_BROKEN",
+      "id": "S-BRIDGE-BROKEN-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        5
+      ],
+      "texture_region": [
+        256,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "I-BRIDGE-BROKEN-SW",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_NW",
+      "family": "BRIDGE_BROKEN",
+      "id": "S-BRIDGE-BROKEN-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        5
+      ],
+      "texture_region": [
+        320,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "I-BRIDGE-BROKEN-NW",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_NE",
+      "family": "WALKWAY_NARROW",
+      "id": "S-WALKWAY-NARROW-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        5
+      ],
+      "texture_region": [
+        384,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "I-WALKWAY-NARROW-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_SE",
+      "family": "WALKWAY_NARROW",
+      "id": "S-WALKWAY-NARROW-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        5
+      ],
+      "texture_region": [
+        448,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "I-WALKWAY-NARROW-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_SW",
+      "family": "WALKWAY_NARROW",
+      "id": "S-WALKWAY-NARROW-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        6
+      ],
+      "texture_region": [
+        0,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "I-WALKWAY-NARROW-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_NW",
+      "family": "WALKWAY_NARROW",
+      "id": "S-WALKWAY-NARROW-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        6
+      ],
+      "texture_region": [
+        64,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "I-WALKWAY-NARROW-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "PLATFORM_FLOATING",
+      "family": "PLATFORM_FLOATING",
+      "id": "S-PLATFORM-FLOATING",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        6
+      ],
+      "texture_region": [
+        128,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NONE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_floating",
+      "paired_tile": "I-PLATFORM-FLOATING",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        32,
+        48,
+        51
+      ],
+      "visual_dimensions": [
+        32,
+        19
+      ],
+      "opaque_pixels": 352
+    },
+    {
+      "logical_id": "PILLAR",
+      "family": "PILLAR",
+      "id": "S-PILLAR",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        6
+      ],
+      "texture_region": [
+        192,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -5
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            -10,
+            0
+          ]
+        ]
+      ],
+      "category": "pillar",
+      "paired_tile": "I-PILLAR",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        22,
+        11,
+        42,
+        53
+      ],
+      "visual_dimensions": [
+        20,
+        42
+      ],
+      "opaque_pixels": 548
+    },
+    {
+      "logical_id": "SUPPORT",
+      "family": "SUPPORT",
+      "id": "S-SUPPORT",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        6
+      ],
+      "texture_region": [
+        256,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -6
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            -12,
+            0
+          ]
+        ]
+      ],
+      "category": "support",
+      "paired_tile": "I-SUPPORT",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        18,
+        41,
+        46,
+        78
+      ],
+      "visual_dimensions": [
+        28,
+        37
+      ],
+      "opaque_pixels": 592
+    },
+    {
+      "logical_id": "ARCH_NE",
+      "family": "ARCH",
+      "id": "S-ARCH-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        6
+      ],
+      "texture_region": [
+        320,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -5,
+            -5.5
+          ],
+          [
+            -1,
+            -3.5
+          ],
+          [
+            -7,
+            -0.5
+          ],
+          [
+            -11,
+            -2.5
+          ]
+        ],
+        [
+          [
+            7,
+            0.5
+          ],
+          [
+            11,
+            2.5
+          ],
+          [
+            5,
+            5.5
+          ],
+          [
+            1,
+            3.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "I-ARCH-NE",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "ARCH_SE",
+      "family": "ARCH",
+      "id": "S-ARCH-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        6
+      ],
+      "texture_region": [
+        384,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            11,
+            -2.5
+          ],
+          [
+            7,
+            -0.5
+          ],
+          [
+            1,
+            -3.5
+          ],
+          [
+            5,
+            -5.5
+          ]
+        ],
+        [
+          [
+            -1,
+            3.5
+          ],
+          [
+            -5,
+            5.5
+          ],
+          [
+            -11,
+            2.5
+          ],
+          [
+            -7,
+            0.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "I-ARCH-SE",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "ARCH_SW",
+      "family": "ARCH",
+      "id": "S-ARCH-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        6
+      ],
+      "texture_region": [
+        448,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            5,
+            5.5
+          ],
+          [
+            1,
+            3.5
+          ],
+          [
+            7,
+            0.5
+          ],
+          [
+            11,
+            2.5
+          ]
+        ],
+        [
+          [
+            -7,
+            -0.5
+          ],
+          [
+            -11,
+            -2.5
+          ],
+          [
+            -5,
+            -5.5
+          ],
+          [
+            -1,
+            -3.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "I-ARCH-SW",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "ARCH_NW",
+      "family": "ARCH",
+      "id": "S-ARCH-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        7
+      ],
+      "texture_region": [
+        0,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -11,
+            2.5
+          ],
+          [
+            -7,
+            0.5
+          ],
+          [
+            -1,
+            3.5
+          ],
+          [
+            -5,
+            5.5
+          ]
+        ],
+        [
+          [
+            1,
+            -3.5
+          ],
+          [
+            5,
+            -5.5
+          ],
+          [
+            11,
+            -2.5
+          ],
+          [
+            7,
+            -0.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "I-ARCH-NW",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "DEAD_END_NE",
+      "family": "DEAD_END",
+      "id": "S-DEAD-END-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        7
+      ],
+      "texture_region": [
+        64,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "I-DEAD-END-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        37,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        22
+      ],
+      "opaque_pixels": 406
+    },
+    {
+      "logical_id": "DEAD_END_SE",
+      "family": "DEAD_END",
+      "id": "S-DEAD-END-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        7
+      ],
+      "texture_region": [
+        128,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "I-DEAD-END-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        19
+      ],
+      "opaque_pixels": 363
+    },
+    {
+      "logical_id": "DEAD_END_SW",
+      "family": "DEAD_END",
+      "id": "S-DEAD-END-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        7
+      ],
+      "texture_region": [
+        192,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "I-DEAD-END-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        19
+      ],
+      "opaque_pixels": 363
+    },
+    {
+      "logical_id": "DEAD_END_NW",
+      "family": "DEAD_END",
+      "id": "S-DEAD-END-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        7
+      ],
+      "texture_region": [
+        256,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "I-DEAD-END-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        37,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        22
+      ],
+      "opaque_pixels": 406
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_NE",
+      "family": "ELEVATION_TRANSITION",
+      "id": "S-ELEVATION-TRANSITION-NE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        7
+      ],
+      "texture_region": [
+        320,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "I-ELEVATION-TRANSITION-NE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_SE",
+      "family": "ELEVATION_TRANSITION",
+      "id": "S-ELEVATION-TRANSITION-SE",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        7
+      ],
+      "texture_region": [
+        384,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "I-ELEVATION-TRANSITION-SE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_SW",
+      "family": "ELEVATION_TRANSITION",
+      "id": "S-ELEVATION-TRANSITION-SW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        7
+      ],
+      "texture_region": [
+        448,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "I-ELEVATION-TRANSITION-SW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_NW",
+      "family": "ELEVATION_TRANSITION",
+      "id": "S-ELEVATION-TRANSITION-NW",
+      "world": "surface",
+      "source_texture": "surface/surface_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        8
+      ],
+      "texture_region": [
+        0,
+        768,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "I-ELEVATION-TRANSITION-NW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "TINY_PLANT",
+      "family": "TINY_PLANT",
+      "id": "S-TINY-PLANT",
+      "world": "surface",
+      "source_texture": "surface/surface_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        0,
+        0
+      ],
+      "texture_region": [
+        0,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "I-TINY-PLANT",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        40,
+        36,
+        49
+      ],
+      "visual_dimensions": [
+        7,
+        9
+      ],
+      "opaque_pixels": 21
+    },
+    {
+      "logical_id": "GRASS_TUFT",
+      "family": "GRASS_TUFT",
+      "id": "S-GRASS-TUFT",
+      "world": "surface",
+      "source_texture": "surface/surface_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        1,
+        0
+      ],
+      "texture_region": [
+        64,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "I-GRASS-TUFT",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        28,
+        42,
+        37,
+        49
+      ],
+      "visual_dimensions": [
+        9,
+        7
+      ],
+      "opaque_pixels": 23
+    },
+    {
+      "logical_id": "SMALL_VINE",
+      "family": "SMALL_VINE",
+      "id": "S-SMALL-VINE",
+      "world": "surface",
+      "source_texture": "surface/surface_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        2,
+        0
+      ],
+      "texture_region": [
+        128,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "I-SMALL-VINE",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        48,
+        36,
+        57
+      ],
+      "visual_dimensions": [
+        7,
+        9
+      ],
+      "opaque_pixels": 21
+    },
+    {
+      "logical_id": "WHITE_FLOWER",
+      "family": "WHITE_FLOWER",
+      "id": "S-WHITE-FLOWER",
+      "world": "surface",
+      "source_texture": "surface/surface_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        3,
+        0
+      ],
+      "texture_region": [
+        192,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "I-WHITE-FLOWER",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        38,
+        36,
+        49
+      ],
+      "visual_dimensions": [
+        7,
+        11
+      ],
+      "opaque_pixels": 25
+    },
+    {
+      "logical_id": "WALL_VINE",
+      "family": "WALL_VINE",
+      "id": "S-WALL-VINE",
+      "world": "surface",
+      "source_texture": "surface/surface_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        4,
+        0
+      ],
+      "texture_region": [
+        256,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -8
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            -4,
+            -6
+          ]
+        ]
+      ],
+      "category": "decoration",
+      "paired_tile": "I-WALL-VINE",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        48,
+        39,
+        71
+      ],
+      "visual_dimensions": [
+        10,
+        23
+      ],
+      "opaque_pixels": 77
+    },
+    {
+      "logical_id": "PLATFORM_EDGE_PLANT",
+      "family": "PLATFORM_EDGE_PLANT",
+      "id": "S-PLATFORM-EDGE-PLANT",
+      "world": "surface",
+      "source_texture": "surface/surface_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        5,
+        0
+      ],
+      "texture_region": [
+        320,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "I-PLATFORM-EDGE-PLANT",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        44,
+        36,
+        61
+      ],
+      "visual_dimensions": [
+        7,
+        17
+      ],
+      "opaque_pixels": 55
+    },
+    {
+      "logical_id": "FLOOR_01",
+      "family": "FLOOR_01",
+      "id": "I-FLOOR-01",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        0
+      ],
+      "texture_region": [
+        0,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_01",
+      "paired_tile": "S-FLOOR-01",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        47,
+        56
+      ],
+      "visual_dimensions": [
+        30,
+        16
+      ],
+      "opaque_pixels": 256
+    },
+    {
+      "logical_id": "FLOOR_EDGE_NE",
+      "family": "FLOOR_EDGE",
+      "id": "I-FLOOR-EDGE-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        0
+      ],
+      "texture_region": [
+        64,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "S-FLOOR-EDGE-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        57
+      ],
+      "visual_dimensions": [
+        31,
+        17
+      ],
+      "opaque_pixels": 304
+    },
+    {
+      "logical_id": "FLOOR_EDGE_SE",
+      "family": "FLOOR_EDGE",
+      "id": "I-FLOOR-EDGE-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        0
+      ],
+      "texture_region": [
+        128,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "S-FLOOR-EDGE-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "FLOOR_EDGE_SW",
+      "family": "FLOOR_EDGE",
+      "id": "I-FLOOR-EDGE-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        0
+      ],
+      "texture_region": [
+        192,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "S-FLOOR-EDGE-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "FLOOR_EDGE_NW",
+      "family": "FLOOR_EDGE",
+      "id": "I-FLOOR-EDGE-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        0
+      ],
+      "texture_region": [
+        256,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "floor_edge",
+      "paired_tile": "S-FLOOR-EDGE-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        57
+      ],
+      "visual_dimensions": [
+        31,
+        17
+      ],
+      "opaque_pixels": 304
+    },
+    {
+      "logical_id": "CORNER_OUT_NE",
+      "family": "CORNER_OUT",
+      "id": "I-CORNER-OUT-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        0
+      ],
+      "texture_region": [
+        320,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "S-CORNER-OUT-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        57
+      ],
+      "visual_dimensions": [
+        32,
+        17
+      ],
+      "opaque_pixels": 352
+    },
+    {
+      "logical_id": "CORNER_OUT_SE",
+      "family": "CORNER_OUT",
+      "id": "I-CORNER-OUT-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        0
+      ],
+      "texture_region": [
+        384,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "S-CORNER-OUT-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "CORNER_OUT_SW",
+      "family": "CORNER_OUT",
+      "id": "I-CORNER-OUT-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        0
+      ],
+      "texture_region": [
+        448,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "S-CORNER-OUT-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 512
+    },
+    {
+      "logical_id": "CORNER_OUT_NW",
+      "family": "CORNER_OUT",
+      "id": "I-CORNER-OUT-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        1
+      ],
+      "texture_region": [
+        0,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_out",
+      "paired_tile": "S-CORNER-OUT-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        64
+      ],
+      "visual_dimensions": [
+        31,
+        24
+      ],
+      "opaque_pixels": 400
+    },
+    {
+      "logical_id": "CORNER_IN_NE",
+      "family": "CORNER_IN",
+      "id": "I-CORNER-IN-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        1
+      ],
+      "texture_region": [
+        64,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "S-CORNER-IN-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        47,
+        56
+      ],
+      "visual_dimensions": [
+        30,
+        16
+      ],
+      "opaque_pixels": 256
+    },
+    {
+      "logical_id": "CORNER_IN_SE",
+      "family": "CORNER_IN",
+      "id": "I-CORNER-IN-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        1
+      ],
+      "texture_region": [
+        128,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "S-CORNER-IN-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        60
+      ],
+      "visual_dimensions": [
+        31,
+        20
+      ],
+      "opaque_pixels": 334
+    },
+    {
+      "logical_id": "CORNER_IN_SW",
+      "family": "CORNER_IN",
+      "id": "I-CORNER-IN-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        1
+      ],
+      "texture_region": [
+        192,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "S-CORNER-IN-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        47,
+        64
+      ],
+      "visual_dimensions": [
+        30,
+        24
+      ],
+      "opaque_pixels": 384
+    },
+    {
+      "logical_id": "CORNER_IN_NW",
+      "family": "CORNER_IN",
+      "id": "I-CORNER-IN-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        1
+      ],
+      "texture_region": [
+        256,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "corner_in",
+      "paired_tile": "S-CORNER-IN-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        60
+      ],
+      "visual_dimensions": [
+        31,
+        20
+      ],
+      "opaque_pixels": 334
+    },
+    {
+      "logical_id": "PLATFORM_RAISED",
+      "family": "PLATFORM_RAISED",
+      "id": "I-PLATFORM-RAISED",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        1
+      ],
+      "texture_region": [
+        320,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NONE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_raised",
+      "paired_tile": "S-PLATFORM-RAISED",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 512
+    },
+    {
+      "logical_id": "WALL_LOW_NE",
+      "family": "WALL_LOW",
+      "id": "I-WALL-LOW-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        1
+      ],
+      "texture_region": [
+        384,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -8
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            -4,
+            -6
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "S-WALL-LOW-NE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        32,
+        48,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_LOW_SE",
+      "family": "WALL_LOW",
+      "id": "I-WALL-LOW-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        1
+      ],
+      "texture_region": [
+        448,
+        96,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            -4,
+            6
+          ],
+          [
+            12,
+            -2
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "S-WALL-LOW-SE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_LOW_SW",
+      "family": "WALL_LOW",
+      "id": "I-WALL-LOW-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        2
+      ],
+      "texture_region": [
+        0,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            8
+          ],
+          [
+            -16,
+            0
+          ],
+          [
+            -12,
+            -2
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "S-WALL-LOW-SW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        38,
+        36,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_LOW_NW",
+      "family": "WALL_LOW",
+      "id": "I-WALL-LOW-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        2
+      ],
+      "texture_region": [
+        64,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -16,
+            0
+          ],
+          [
+            0,
+            -8
+          ],
+          [
+            4,
+            -6
+          ],
+          [
+            -12,
+            2
+          ]
+        ]
+      ],
+      "category": "wall_low",
+      "paired_tile": "S-WALL-LOW-NW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        32,
+        36,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        18
+      ],
+      "opaque_pixels": 224
+    },
+    {
+      "logical_id": "WALL_TALL_NE",
+      "family": "WALL_TALL",
+      "id": "I-WALL-TALL-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        2
+      ],
+      "texture_region": [
+        128,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -8
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            -4,
+            -6
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "S-WALL-TALL-NE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        16,
+        48,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 542
+    },
+    {
+      "logical_id": "WALL_TALL_SE",
+      "family": "WALL_TALL",
+      "id": "I-WALL-TALL-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        2
+      ],
+      "texture_region": [
+        192,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            16,
+            0
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            -4,
+            6
+          ],
+          [
+            12,
+            -2
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "S-WALL-TALL-SE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        28,
+        22,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 542
+    },
+    {
+      "logical_id": "WALL_TALL_SW",
+      "family": "WALL_TALL",
+      "id": "I-WALL-TALL-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        2
+      ],
+      "texture_region": [
+        256,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            8
+          ],
+          [
+            -16,
+            0
+          ],
+          [
+            -12,
+            -2
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "S-WALL-TALL-SW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        22,
+        36,
+        56
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 542
+    },
+    {
+      "logical_id": "WALL_TALL_NW",
+      "family": "WALL_TALL",
+      "id": "I-WALL-TALL-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        2
+      ],
+      "texture_region": [
+        320,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -16,
+            0
+          ],
+          [
+            0,
+            -8
+          ],
+          [
+            4,
+            -6
+          ],
+          [
+            -12,
+            2
+          ]
+        ]
+      ],
+      "category": "wall_tall",
+      "paired_tile": "S-WALL-TALL-NW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        16,
+        36,
+        50
+      ],
+      "visual_dimensions": [
+        20,
+        34
+      ],
+      "opaque_pixels": 542
+    },
+    {
+      "logical_id": "CLIFF_NE",
+      "family": "CLIFF",
+      "id": "I-CLIFF-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        2
+      ],
+      "texture_region": [
+        384,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "S-CLIFF-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        73
+      ],
+      "visual_dimensions": [
+        31,
+        33
+      ],
+      "opaque_pixels": 562
+    },
+    {
+      "logical_id": "CLIFF_SE",
+      "family": "CLIFF",
+      "id": "I-CLIFF-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        2
+      ],
+      "texture_region": [
+        448,
+        192,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "S-CLIFF-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        17,
+        40,
+        48,
+        80
+      ],
+      "visual_dimensions": [
+        31,
+        40
+      ],
+      "opaque_pixels": 688
+    },
+    {
+      "logical_id": "CLIFF_SW",
+      "family": "CLIFF",
+      "id": "I-CLIFF-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        3
+      ],
+      "texture_region": [
+        0,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "S-CLIFF-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        80
+      ],
+      "visual_dimensions": [
+        31,
+        40
+      ],
+      "opaque_pixels": 688
+    },
+    {
+      "logical_id": "CLIFF_NW",
+      "family": "CLIFF",
+      "id": "I-CLIFF-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        3
+      ],
+      "texture_region": [
+        64,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "cliff",
+      "paired_tile": "S-CLIFF-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        47,
+        73
+      ],
+      "visual_dimensions": [
+        31,
+        33
+      ],
+      "opaque_pixels": 562
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_NE",
+      "family": "PLATFORM_SIDE",
+      "id": "I-PLATFORM-SIDE-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        3
+      ],
+      "texture_region": [
+        128,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "S-PLATFORM-SIDE-NE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        30,
+        40,
+        48,
+        57
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_SE",
+      "family": "PLATFORM_SIDE",
+      "id": "I-PLATFORM-SIDE-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        3
+      ],
+      "texture_region": [
+        192,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "S-PLATFORM-SIDE-SE",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        30,
+        47,
+        48,
+        64
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_SW",
+      "family": "PLATFORM_SIDE",
+      "id": "I-PLATFORM-SIDE-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        3
+      ],
+      "texture_region": [
+        256,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "S-PLATFORM-SIDE-SW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        47,
+        34,
+        64
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "PLATFORM_SIDE_NW",
+      "family": "PLATFORM_SIDE",
+      "id": "I-PLATFORM-SIDE-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        3
+      ],
+      "texture_region": [
+        320,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_side",
+      "paired_tile": "S-PLATFORM-SIDE-NW",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        16,
+        40,
+        34,
+        57
+      ],
+      "visual_dimensions": [
+        18,
+        17
+      ],
+      "opaque_pixels": 176
+    },
+    {
+      "logical_id": "STAIR_SINGLE_NE",
+      "family": "STAIR_SINGLE",
+      "id": "I-STAIR-SINGLE-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        3
+      ],
+      "texture_region": [
+        384,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "S-STAIR-SINGLE-NE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 480
+    },
+    {
+      "logical_id": "STAIR_SINGLE_SE",
+      "family": "STAIR_SINGLE",
+      "id": "I-STAIR-SINGLE-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        3
+      ],
+      "texture_region": [
+        448,
+        288,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "S-STAIR-SINGLE-SE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        36,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        20
+      ],
+      "opaque_pixels": 424
+    },
+    {
+      "logical_id": "STAIR_SINGLE_SW",
+      "family": "STAIR_SINGLE",
+      "id": "I-STAIR-SINGLE-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        4
+      ],
+      "texture_region": [
+        0,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "S-STAIR-SINGLE-SW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        36,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        20
+      ],
+      "opaque_pixels": 424
+    },
+    {
+      "logical_id": "STAIR_SINGLE_NW",
+      "family": "STAIR_SINGLE",
+      "id": "I-STAIR-SINGLE-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        4
+      ],
+      "texture_region": [
+        64,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_single",
+      "paired_tile": "S-STAIR-SINGLE-NW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 480
+    },
+    {
+      "logical_id": "STAIR_MULTI_NE",
+      "family": "STAIR_MULTI",
+      "id": "I-STAIR-MULTI-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        4
+      ],
+      "texture_region": [
+        128,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "S-STAIR-MULTI-NE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "STAIR_MULTI_SE",
+      "family": "STAIR_MULTI",
+      "id": "I-STAIR-MULTI-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        4
+      ],
+      "texture_region": [
+        192,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "S-STAIR-MULTI-SE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "STAIR_MULTI_SW",
+      "family": "STAIR_MULTI",
+      "id": "I-STAIR-MULTI-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        4
+      ],
+      "texture_region": [
+        256,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "S-STAIR-MULTI-SW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "STAIR_MULTI_NW",
+      "family": "STAIR_MULTI",
+      "id": "I-STAIR-MULTI-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        4
+      ],
+      "texture_region": [
+        320,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "stair_multi",
+      "paired_tile": "S-STAIR-MULTI-NW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "BRIDGE_NE",
+      "family": "BRIDGE",
+      "id": "I-BRIDGE-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        4
+      ],
+      "texture_region": [
+        384,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "S-BRIDGE-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_SE",
+      "family": "BRIDGE",
+      "id": "I-BRIDGE-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        4
+      ],
+      "texture_region": [
+        448,
+        384,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "S-BRIDGE-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_SW",
+      "family": "BRIDGE",
+      "id": "I-BRIDGE-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        5
+      ],
+      "texture_region": [
+        0,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "S-BRIDGE-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_NW",
+      "family": "BRIDGE",
+      "id": "I-BRIDGE-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        5
+      ],
+      "texture_region": [
+        64,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge",
+      "paired_tile": "S-BRIDGE-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 276
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_NE",
+      "family": "BRIDGE_BROKEN",
+      "id": "I-BRIDGE-BROKEN-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        5
+      ],
+      "texture_region": [
+        128,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "S-BRIDGE-BROKEN-NE",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_SE",
+      "family": "BRIDGE_BROKEN",
+      "id": "I-BRIDGE-BROKEN-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        5
+      ],
+      "texture_region": [
+        192,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "S-BRIDGE-BROKEN-SE",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_SW",
+      "family": "BRIDGE_BROKEN",
+      "id": "I-BRIDGE-BROKEN-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        5
+      ],
+      "texture_region": [
+        256,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "S-BRIDGE-BROKEN-SW",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "BRIDGE_BROKEN_NW",
+      "family": "BRIDGE_BROKEN",
+      "id": "I-BRIDGE-BROKEN-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        5
+      ],
+      "texture_region": [
+        320,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "bridge_broken",
+      "paired_tile": "S-BRIDGE-BROKEN-NW",
+      "status": "GODOT_READY",
+      "traversal": "GAP",
+      "bounds": [
+        18,
+        41,
+        46,
+        58
+      ],
+      "visual_dimensions": [
+        28,
+        17
+      ],
+      "opaque_pixels": 222
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_NE",
+      "family": "WALKWAY_NARROW",
+      "id": "I-WALKWAY-NARROW-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        5
+      ],
+      "texture_region": [
+        384,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "S-WALKWAY-NARROW-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_SE",
+      "family": "WALKWAY_NARROW",
+      "id": "I-WALKWAY-NARROW-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        5
+      ],
+      "texture_region": [
+        448,
+        480,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "S-WALKWAY-NARROW-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_SW",
+      "family": "WALKWAY_NARROW",
+      "id": "I-WALKWAY-NARROW-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        6
+      ],
+      "texture_region": [
+        0,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "S-WALKWAY-NARROW-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "WALKWAY_NARROW_NW",
+      "family": "WALKWAY_NARROW",
+      "id": "I-WALKWAY-NARROW-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        6
+      ],
+      "texture_region": [
+        64,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "walkway_narrow",
+      "paired_tile": "S-WALKWAY-NARROW-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        20,
+        42,
+        44,
+        57
+      ],
+      "visual_dimensions": [
+        24,
+        15
+      ],
+      "opaque_pixels": 200
+    },
+    {
+      "logical_id": "PLATFORM_FLOATING",
+      "family": "PLATFORM_FLOATING",
+      "id": "I-PLATFORM-FLOATING",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        6
+      ],
+      "texture_region": [
+        128,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NONE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "platform_floating",
+      "paired_tile": "S-PLATFORM-FLOATING",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        32,
+        48,
+        51
+      ],
+      "visual_dimensions": [
+        32,
+        19
+      ],
+      "opaque_pixels": 352
+    },
+    {
+      "logical_id": "PILLAR",
+      "family": "PILLAR",
+      "id": "I-PILLAR",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        6
+      ],
+      "texture_region": [
+        192,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -5
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            -10,
+            0
+          ]
+        ]
+      ],
+      "category": "pillar",
+      "paired_tile": "S-PILLAR",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        22,
+        11,
+        42,
+        53
+      ],
+      "visual_dimensions": [
+        20,
+        42
+      ],
+      "opaque_pixels": 546
+    },
+    {
+      "logical_id": "SUPPORT",
+      "family": "SUPPORT",
+      "id": "I-SUPPORT",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        6
+      ],
+      "texture_region": [
+        256,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -6
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            -12,
+            0
+          ]
+        ]
+      ],
+      "category": "support",
+      "paired_tile": "S-SUPPORT",
+      "status": "GODOT_READY",
+      "traversal": "OBSTACLE",
+      "bounds": [
+        18,
+        41,
+        46,
+        78
+      ],
+      "visual_dimensions": [
+        28,
+        37
+      ],
+      "opaque_pixels": 592
+    },
+    {
+      "logical_id": "ARCH_NE",
+      "family": "ARCH",
+      "id": "I-ARCH-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        6
+      ],
+      "texture_region": [
+        320,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -5,
+            -5.5
+          ],
+          [
+            -1,
+            -3.5
+          ],
+          [
+            -7,
+            -0.5
+          ],
+          [
+            -11,
+            -2.5
+          ]
+        ],
+        [
+          [
+            7,
+            0.5
+          ],
+          [
+            11,
+            2.5
+          ],
+          [
+            5,
+            5.5
+          ],
+          [
+            1,
+            3.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "S-ARCH-NE",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "ARCH_SE",
+      "family": "ARCH",
+      "id": "I-ARCH-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        6
+      ],
+      "texture_region": [
+        384,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            11,
+            -2.5
+          ],
+          [
+            7,
+            -0.5
+          ],
+          [
+            1,
+            -3.5
+          ],
+          [
+            5,
+            -5.5
+          ]
+        ],
+        [
+          [
+            -1,
+            3.5
+          ],
+          [
+            -5,
+            5.5
+          ],
+          [
+            -11,
+            2.5
+          ],
+          [
+            -7,
+            0.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "S-ARCH-SE",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "ARCH_SW",
+      "family": "ARCH",
+      "id": "I-ARCH-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        6
+      ],
+      "texture_region": [
+        448,
+        576,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            5,
+            5.5
+          ],
+          [
+            1,
+            3.5
+          ],
+          [
+            7,
+            0.5
+          ],
+          [
+            11,
+            2.5
+          ]
+        ],
+        [
+          [
+            -7,
+            -0.5
+          ],
+          [
+            -11,
+            -2.5
+          ],
+          [
+            -5,
+            -5.5
+          ],
+          [
+            -1,
+            -3.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "S-ARCH-SW",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "ARCH_NW",
+      "family": "ARCH",
+      "id": "I-ARCH-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        7
+      ],
+      "texture_region": [
+        0,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            -11,
+            2.5
+          ],
+          [
+            -7,
+            0.5
+          ],
+          [
+            -1,
+            3.5
+          ],
+          [
+            -5,
+            5.5
+          ]
+        ],
+        [
+          [
+            1,
+            -3.5
+          ],
+          [
+            5,
+            -5.5
+          ],
+          [
+            11,
+            -2.5
+          ],
+          [
+            7,
+            -0.5
+          ]
+        ]
+      ],
+      "category": "arch",
+      "paired_tile": "S-ARCH-NW",
+      "status": "GODOT_READY",
+      "traversal": "PASS_BETWEEN_PIERS",
+      "bounds": [
+        21,
+        11,
+        43,
+        53
+      ],
+      "visual_dimensions": [
+        22,
+        42
+      ],
+      "opaque_pixels": 738
+    },
+    {
+      "logical_id": "DEAD_END_NE",
+      "family": "DEAD_END",
+      "id": "I-DEAD-END-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        1,
+        7
+      ],
+      "texture_region": [
+        64,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "S-DEAD-END-NE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        37,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        22
+      ],
+      "opaque_pixels": 406
+    },
+    {
+      "logical_id": "DEAD_END_SE",
+      "family": "DEAD_END",
+      "id": "I-DEAD-END-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        2,
+        7
+      ],
+      "texture_region": [
+        128,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "S-DEAD-END-SE",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        19
+      ],
+      "opaque_pixels": 363
+    },
+    {
+      "logical_id": "DEAD_END_SW",
+      "family": "DEAD_END",
+      "id": "I-DEAD-END-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        3,
+        7
+      ],
+      "texture_region": [
+        192,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "S-DEAD-END-SW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        40,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        19
+      ],
+      "opaque_pixels": 363
+    },
+    {
+      "logical_id": "DEAD_END_NW",
+      "family": "DEAD_END",
+      "id": "I-DEAD-END-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        4,
+        7
+      ],
+      "texture_region": [
+        256,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "dead_end",
+      "paired_tile": "S-DEAD-END-NW",
+      "status": "GODOT_READY",
+      "traversal": "SURFACE",
+      "bounds": [
+        16,
+        37,
+        48,
+        59
+      ],
+      "visual_dimensions": [
+        32,
+        22
+      ],
+      "opaque_pixels": 406
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_NE",
+      "family": "ELEVATION_TRANSITION",
+      "id": "I-ELEVATION-TRANSITION-NE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        5,
+        7
+      ],
+      "texture_region": [
+        320,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "S-ELEVATION-TRANSITION-NE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_SE",
+      "family": "ELEVATION_TRANSITION",
+      "id": "I-ELEVATION-TRANSITION-SE",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        6,
+        7
+      ],
+      "texture_region": [
+        384,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SE",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "S-ELEVATION-TRANSITION-SE",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_SW",
+      "family": "ELEVATION_TRANSITION",
+      "id": "I-ELEVATION-TRANSITION-SW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        7,
+        7
+      ],
+      "texture_region": [
+        448,
+        672,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "SW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "S-ELEVATION-TRANSITION-SW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        38,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        18
+      ],
+      "opaque_pixels": 374
+    },
+    {
+      "logical_id": "ELEVATION_TRANSITION_NW",
+      "family": "ELEVATION_TRANSITION",
+      "id": "I-ELEVATION-TRANSITION-NW",
+      "world": "inner",
+      "source_texture": "inner/inner_tileset.png",
+      "source_id": 0,
+      "atlas_coords": [
+        0,
+        8
+      ],
+      "texture_region": [
+        0,
+        768,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 8,
+      "direction": "NW",
+      "walkable": true,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "elevation_transition",
+      "paired_tile": "S-ELEVATION-TRANSITION-NW",
+      "status": "GODOT_READY",
+      "traversal": "ASCEND_0_TO_8",
+      "bounds": [
+        16,
+        32,
+        48,
+        56
+      ],
+      "visual_dimensions": [
+        32,
+        24
+      ],
+      "opaque_pixels": 464
+    },
+    {
+      "logical_id": "TINY_PLANT",
+      "family": "TINY_PLANT",
+      "id": "I-TINY-PLANT",
+      "world": "inner",
+      "source_texture": "inner/inner_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        0,
+        0
+      ],
+      "texture_region": [
+        0,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "S-TINY-PLANT",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        40,
+        36,
+        49
+      ],
+      "visual_dimensions": [
+        7,
+        9
+      ],
+      "opaque_pixels": 19
+    },
+    {
+      "logical_id": "GRASS_TUFT",
+      "family": "GRASS_TUFT",
+      "id": "I-GRASS-TUFT",
+      "world": "inner",
+      "source_texture": "inner/inner_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        1,
+        0
+      ],
+      "texture_region": [
+        64,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "S-GRASS-TUFT",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        28,
+        42,
+        37,
+        49
+      ],
+      "visual_dimensions": [
+        9,
+        7
+      ],
+      "opaque_pixels": 23
+    },
+    {
+      "logical_id": "SMALL_VINE",
+      "family": "SMALL_VINE",
+      "id": "I-SMALL-VINE",
+      "world": "inner",
+      "source_texture": "inner/inner_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        2,
+        0
+      ],
+      "texture_region": [
+        128,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "S-SMALL-VINE",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        48,
+        36,
+        57
+      ],
+      "visual_dimensions": [
+        7,
+        9
+      ],
+      "opaque_pixels": 19
+    },
+    {
+      "logical_id": "WHITE_FLOWER",
+      "family": "WHITE_FLOWER",
+      "id": "I-WHITE-FLOWER",
+      "world": "inner",
+      "source_texture": "inner/inner_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        3,
+        0
+      ],
+      "texture_region": [
+        192,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "S-WHITE-FLOWER",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        38,
+        36,
+        49
+      ],
+      "visual_dimensions": [
+        7,
+        11
+      ],
+      "opaque_pixels": 24
+    },
+    {
+      "logical_id": "WALL_VINE",
+      "family": "WALL_VINE",
+      "id": "I-WALL-VINE",
+      "world": "inner",
+      "source_texture": "inner/inner_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        4,
+        0
+      ],
+      "texture_region": [
+        256,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": true,
+      "collision_polygons": [
+        [
+          [
+            0,
+            -8
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            -4,
+            -6
+          ]
+        ]
+      ],
+      "category": "decoration",
+      "paired_tile": "S-WALL-VINE",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        48,
+        39,
+        71
+      ],
+      "visual_dimensions": [
+        10,
+        23
+      ],
+      "opaque_pixels": 72
+    },
+    {
+      "logical_id": "PLATFORM_EDGE_PLANT",
+      "family": "PLATFORM_EDGE_PLANT",
+      "id": "I-PLATFORM-EDGE-PLANT",
+      "world": "inner",
+      "source_texture": "inner/inner_decorations.png",
+      "source_id": 1,
+      "atlas_coords": [
+        5,
+        0
+      ],
+      "texture_region": [
+        320,
+        0,
+        64,
+        96
+      ],
+      "logical_footprint": [
+        1,
+        1
+      ],
+      "diamond": [
+        32,
+        16
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "texture_origin": [
+        0,
+        0
+      ],
+      "elevation": 0,
+      "direction": "NONE",
+      "walkable": false,
+      "collision_required": false,
+      "collision_polygons": [],
+      "category": "decoration",
+      "paired_tile": "S-PLATFORM-EDGE-PLANT",
+      "status": "GODOT_READY",
+      "traversal": "overlay",
+      "bounds": [
+        29,
+        44,
+        36,
+        61
+      ],
+      "visual_dimensions": [
+        7,
+        17
+      ],
+      "opaque_pixels": 51
+    }
+  ]
+}

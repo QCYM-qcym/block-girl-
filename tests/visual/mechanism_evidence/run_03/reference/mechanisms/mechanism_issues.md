@@ -1,0 +1,6 @@
+# Mechanism issues (record before correction)
+
+- M-001 MAJOR — run_01 engine checks read Area2D entry/exit state too early after direct test-body placement. Evidence: plate_pressed_actor and exit_active_actor screenshots show correct states; signal event log contains pressed/active after corresponding failed assertions. Collision masks and shape overlap are correct. Replace fixed two-frame expectation with bounded polling of actual state/overlap (30 physics frames maximum), retaining explicit timeout failures. Production trigger code unchanged.
+- M-002 INFO — layer 1 is obstruction, layer 2 is platform support, layer 4 is test actor; this top-down isometric resource contract does not implement gravity or a full rider attachment controller.
+- M-003 INFO — generated reference sheets still contained illustrative checker backgrounds and irregular perspective. They were retained only under sources/. Exact production PNGs were rebuilt as hard alpha native geometry; none of the checker pixels is imported.
+- M-004 MINOR — ready goal breathing frame initially repeated already-lit tip pixels, making the intended subtle pulse invisible. Give alternate frame two one-pixel lateral accents, preserving pedestal and pivot. Analyze completion readability against its settled last frame, since the transition intentionally starts from active.

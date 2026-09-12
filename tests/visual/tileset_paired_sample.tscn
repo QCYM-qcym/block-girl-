@@ -1,0 +1,157 @@
+[gd_scene format=4]
+
+[ext_resource type="TileSet" path="res://production/tilesets/surface_tileset.tres" id="1_qmekn"]
+[ext_resource type="SpriteFrames" path="res://production/sprites/mutsumi_sprite_frames.tres" id="2_sq7fk"]
+[ext_resource type="TileSet" path="res://production/tilesets/inner_tileset.tres" id="3_fargp"]
+[ext_resource type="SpriteFrames" path="res://production/sprites/mortis_sprite_frames.tres" id="4_oqgif"]
+
+[node name="TilesetPairedSample" type="Node2D" unique_id=482830169]
+texture_filter = 1
+
+[node name="@Label@24" type="Label" parent="." unique_id=659062082]
+offset_left = 32.0
+offset_top = 20.0
+offset_right = 32.0
+offset_bottom = 20.0
+theme_override_font_sizes/font_size = 25
+text = "PAIRED ENVIRONMENT  /  SAME LOGICAL LAYOUT  /  3x"
+
+[node name="@Label@25" type="Label" parent="." unique_id=1508578562]
+offset_left = 180.0
+offset_top = 100.0
+offset_right = 180.0
+offset_bottom = 100.0
+theme_override_font_sizes/font_size = 24
+text = "SURFACE"
+
+[node name="Surface" type="Node2D" parent="." unique_id=1022865843]
+y_sort_enabled = true
+position = Vector2(240, 300)
+scale = Vector2(3, 3)
+
+[node name="Ground" type="TileMapLayer" parent="Surface" unique_id=979430472]
+z_index = -2
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -8)
+tile_map_data = PackedByteArray("AAAAAAIAAAAAAAAAAAAAAAMAAAAAAAAAAAABAAIAAAAAAAAAAAABAAMAAAAAAAAAAAACAAIAAAAAAAAAAAACAAMAAAAAAAAAAAA=")
+tile_set = ExtResource("1_qmekn")
+
+[node name="Structures" type="TileMapLayer" parent="Surface" unique_id=181100701]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -8)
+tile_map_data = PackedByteArray("AAAAAAAAAAAFAAEAAAABAAAAAAAFAAEAAAACAAAAAAAFAAEAAAABAAEAAAACAAQAAAAFAAAAAAACAAYAAAD//wEAAAADAAYAAAAEAAMAAAADAAUAAAA=")
+tile_set = ExtResource("1_qmekn")
+
+[node name="ElevatedBridge" type="TileMapLayer" parent="Surface" unique_id=1133233580]
+z_index = -1
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -16)
+tile_map_data = PackedByteArray("AAADAAAAAAAHAAQAAAAEAAAAAAAHAAQAAAA=")
+tile_set = ExtResource("1_qmekn")
+
+[node name="ElevatedWall" type="TileMapLayer" parent="Surface" unique_id=1030961009]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -16)
+tile_map_data = PackedByteArray("AAAAAAAAAAACAAIAAAA=")
+tile_set = ExtResource("1_qmekn")
+
+[node name="Decorations" type="TileMapLayer" parent="Surface" unique_id=452012760]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -8)
+tile_map_data = PackedByteArray("AAACAAMAAQADAAAAAAAAAAMAAQABAAAAAAA=")
+tile_set = ExtResource("1_qmekn")
+
+[node name="Mutsumi" type="AnimatedSprite2D" parent="Surface" unique_id=737918101]
+texture_filter = 1
+position = Vector2(-32, 32)
+sprite_frames = ExtResource("2_sq7fk")
+animation = &"idle"
+offset = Vector2(0, -9)
+
+[node name="@Label@27" type="Label" parent="." unique_id=1290703740]
+offset_left = 820.0
+offset_top = 100.0
+offset_right = 820.0
+offset_bottom = 100.0
+theme_override_font_sizes/font_size = 24
+text = "INNER"
+
+[node name="Inner" type="Node2D" parent="." unique_id=845552031]
+y_sort_enabled = true
+position = Vector2(880, 300)
+scale = Vector2(3, 3)
+
+[node name="Ground" type="TileMapLayer" parent="Inner" unique_id=1655982124]
+z_index = -2
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -8)
+tile_map_data = PackedByteArray("AAAAAAIAAAAAAAAAAAAAAAMAAAAAAAAAAAABAAIAAAAAAAAAAAABAAMAAAAAAAAAAAACAAIAAAAAAAAAAAACAAMAAAAAAAAAAAA=")
+tile_set = ExtResource("3_fargp")
+
+[node name="Structures" type="TileMapLayer" parent="Inner" unique_id=798862797]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -8)
+tile_map_data = PackedByteArray("AAAAAAAAAAAFAAEAAAABAAAAAAAFAAEAAAACAAAAAAAFAAEAAAABAAEAAAACAAQAAAAFAAAAAAACAAYAAAD//wEAAAADAAYAAAAEAAMAAAADAAUAAAA=")
+tile_set = ExtResource("3_fargp")
+
+[node name="ElevatedBridge" type="TileMapLayer" parent="Inner" unique_id=2103728116]
+z_index = -1
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -16)
+tile_map_data = PackedByteArray("AAADAAAAAAAHAAQAAAAEAAAAAAAHAAQAAAA=")
+tile_set = ExtResource("3_fargp")
+
+[node name="ElevatedWall" type="TileMapLayer" parent="Inner" unique_id=391711399]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -16)
+tile_map_data = PackedByteArray("AAAAAAAAAAACAAIAAAA=")
+tile_set = ExtResource("3_fargp")
+
+[node name="Decorations" type="TileMapLayer" parent="Inner" unique_id=1888696660]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(-16, -8)
+tile_map_data = PackedByteArray("AAACAAMAAQADAAAAAAAAAAMAAQABAAAAAAA=")
+tile_set = ExtResource("3_fargp")
+
+[node name="Mortis" type="AnimatedSprite2D" parent="Inner" unique_id=1160272116]
+texture_filter = 1
+position = Vector2(-32, 32)
+sprite_frames = ExtResource("4_oqgif")
+animation = &"idle"
+offset = Vector2(0, -9)
+
+[node name="@Label@29" type="Label" parent="." unique_id=439824183]
+offset_left = 32.0
+offset_top = 650.0
+offset_right = 32.0
+offset_bottom = 650.0
+theme_override_font_sizes/font_size = 18
+text = "6 floors / raised landing / stairs / continuous bridge / floating platform / wall / pillar / separate gap sample"
+
+[node name="@Label@30" type="Label" parent="." unique_id=737615640]
+offset_left = 32.0
+offset_top = 686.0
+offset_right = 32.0
+offset_bottom = 686.0
+theme_override_font_sizes/font_size = 18
+text = "Character feet: tile center. Test placement only. No level or puzzle logic."
+
+[node name="@Label@31" type="Label" parent="." unique_id=367601929]
+offset_left = 32.0
+offset_top = 908.0
+offset_right = 32.0
+offset_bottom = 908.0
+theme_override_font_sizes/font_size = 17
+text = "Manual: D paired scene | 1-4 pixel scales | F floor joins | W wall corner | T stair join | O depth poses"

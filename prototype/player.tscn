@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://prototype/player.gd" id="1"]
+[ext_resource type="SpriteFrames" path="res://production/sprites/mutsumi_sprite_frames.tres" id="2"]
+
+[node name="Player" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1")
+
+[node name="Shadow" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"shadow"
+offset = Vector2(0, -9)
+modulate = Color(1, 1, 1, 0.35)
+
+[node name="Body" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"idle"
+offset = Vector2(0, -9)

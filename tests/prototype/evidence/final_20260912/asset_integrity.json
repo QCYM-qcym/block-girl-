@@ -1,0 +1,12 @@
+{
+  "baseline_files": 970,
+  "unchanged_files": 969,
+  "changes": [
+    {
+      "path": "project.godot",
+      "status": "changed"
+    }
+  ],
+  "production_files": 88,
+  "visual_test_files": 877
+}

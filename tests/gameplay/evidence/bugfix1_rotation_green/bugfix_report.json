@@ -1,0 +1,165 @@
+{
+	"case": "rotation",
+	"checks": 57,
+	"display": "Windows",
+	"driver": "d3d12",
+	"failures": [],
+	"godot": {
+		"build": "steam",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (steam)",
+		"timestamp": 0
+	},
+	"renderer": "forward_plus",
+	"trace": [
+		{
+			"action": "E",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "E",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(-16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 2
+		},
+		{
+			"action": "E",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(-16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 3
+		},
+		{
+			"action": "E",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "Q",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(-16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 3
+		},
+		{
+			"action": "Q",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(-16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 2
+		},
+		{
+			"action": "Q",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "Q",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "drag_right",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "drag_right",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(-16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 2
+		},
+		{
+			"action": "drag_right",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(-16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 3
+		},
+		{
+			"action": "drag_right",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		},
+		{
+			"action": "drag_left",
+			"expected": 3,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 1,
+			"tile_east": "(-16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 3
+		},
+		{
+			"action": "drag_left",
+			"expected": 2,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 2,
+			"tile_east": "(-16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 2
+		},
+		{
+			"action": "drag_left",
+			"expected": 1,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 3,
+			"tile_east": "(16.0, -8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 1
+		},
+		{
+			"action": "drag_left",
+			"expected": 0,
+			"pose": "(1, 0, 0)|(0, 1, 0)|(0, 0, 1)",
+			"step": 4,
+			"tile_east": "(16.0, 8.0)",
+			"tile_origin": "(0.0, 0.0)",
+			"view": 0
+		}
+	]
+}

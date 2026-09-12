@@ -1,0 +1,207 @@
+{
+  "frame_size": [
+    24,
+    24
+  ],
+  "columns": 6,
+  "rows": 11,
+  "sheet_size": [
+    144,
+    264
+  ],
+  "anchor": [
+    12,
+    21
+  ],
+  "baseline_y": 20,
+  "animations": [
+    {
+      "name": "idle",
+      "row": 0,
+      "cols": [
+        0
+      ],
+      "fps": 1,
+      "loop": true
+    },
+    {
+      "name": "subtle_idle",
+      "row": 1,
+      "cols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 8,
+      "loop": true,
+      "durations": [
+        18,
+        1,
+        1,
+        1,
+        1,
+        10
+      ]
+    },
+    {
+      "name": "roll_left",
+      "row": 2,
+      "cols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 18,
+      "loop": false
+    },
+    {
+      "name": "roll_right",
+      "row": 3,
+      "cols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 18,
+      "loop": false
+    },
+    {
+      "name": "roll_forward",
+      "row": 4,
+      "cols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 18,
+      "loop": false
+    },
+    {
+      "name": "roll_backward",
+      "row": 5,
+      "cols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 18,
+      "loop": false
+    },
+    {
+      "name": "interaction",
+      "row": 6,
+      "cols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 10,
+      "loop": false
+    },
+    {
+      "name": "world_switch_start",
+      "row": 7,
+      "cols": [
+        0,
+        1,
+        2
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    {
+      "name": "world_switch_midpoint",
+      "row": 8,
+      "cols": [
+        0,
+        1,
+        2
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    {
+      "name": "puzzle_complete",
+      "row": 9,
+      "cols": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 10,
+      "loop": false
+    },
+    {
+      "name": "shadow",
+      "row": 10,
+      "cols": [
+        0
+      ],
+      "fps": 1,
+      "loop": true
+    }
+  ],
+  "palettes": [
+    [
+      "#263b3d",
+      "#465b57",
+      "#64776c",
+      "#81917e",
+      "#9fab95",
+      "#bdc7af",
+      "#dce1ca",
+      "#eeeedd",
+      "#6e8580",
+      "#b6c7bc",
+      "#d9d9c2",
+      "#8e8770"
+    ],
+    [
+      "#242e40",
+      "#404d60",
+      "#60717a",
+      "#7b8c8e",
+      "#a0afb0",
+      "#c4cdcb",
+      "#e1e7df",
+      "#f0f0e7",
+      "#697989",
+      "#a7b8ba",
+      "#d4dace",
+      "#9b89b0"
+    ]
+  ],
+  "inputs": [
+    "exec-4e7ee545-f9d9-4563-8b52-ac5b9366545b.png",
+    "exec-de5b69a9-09c2-4c47-ab6c-ec9dcc7add30.png"
+  ],
+  "status": "GODOT_READY",
+  "engine_playback_tested": true,
+  "shared_shadow_color": "#263138",
+  "runtime_validation": {
+    "status": "SPRITE_RUNTIME_ACCEPTANCE_PASS",
+    "engine": "4.7.2-stable (steam)",
+    "evidence": "E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\visual\\evidence\\run_02"
+  }
+}

@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="SpriteFrames" path="res://production/sprites/mutsumi_sprite_frames.tres" id="1_frames"]
+
+[node name="mutsumi_cube" type="Node2D"]
+
+[node name="Shadow" type="AnimatedSprite2D" parent="."]
+z_index = -1
+texture_filter = 1
+sprite_frames = ExtResource("1_frames")
+animation = &"shadow"
+offset = Vector2(0, -9)
+modulate = Color(1, 1, 1, 0.35)
+
+[node name="Body" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = ExtResource("1_frames")
+animation = &"idle"
+offset = Vector2(0, -9)

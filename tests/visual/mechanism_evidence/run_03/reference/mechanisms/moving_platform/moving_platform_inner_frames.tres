@@ -1,0 +1,53 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://production/mechanisms/moving_platform/moving_platform_inner.png" id="1_1f7b4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ev3ug"]
+atlas = ExtResource("1_1f7b4")
+region = Rect2(192, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmbuc"]
+atlas = ExtResource("1_1f7b4")
+region = Rect2(0, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jtkus"]
+atlas = ExtResource("1_1f7b4")
+region = Rect2(64, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1nruf"]
+atlas = ExtResource("1_1f7b4")
+region = Rect2(128, 0, 64, 96)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ev3ug")
+}],
+"loop": 1,
+"name": &"arrived",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmbuc")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jtkus")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1nruf")
+}],
+"loop": 1,
+"name": &"moving",
+"speed": 8.0
+}]

@@ -1,0 +1,7 @@
+{
+  "baseline_files": 1054,
+  "changed_existing_files": [],
+  "source_preserved": true,
+  "tileset_sample_recovered_sha256": "AA4CCBBE859FEA4084CAB6DBD7A2987F5E702A448D00829A3048B3A244744BB1",
+  "note": "Legacy tileset harness re-saved random node IDs. Restored exact baseline bytes; new runner preserves sample in finally; protection re-tested."
+}

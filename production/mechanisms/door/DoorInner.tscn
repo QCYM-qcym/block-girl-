@@ -1,0 +1,165 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://production/mechanisms/door/door.gd" id="1_a1usl"]
+[ext_resource type="Texture2D" path="res://production/mechanisms/door/door_inner.png" id="2_lnbxx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ahfpc"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(0, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48bo0"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(320, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52irg"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(256, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5djd5"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(192, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lf74j"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(128, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6v78c"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(64, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wyr6q"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(0, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_65hxp"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(320, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yt6v5"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(0, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hbitw"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(64, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f11yo"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(128, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sqj8g"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(192, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qndl5"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(256, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_huwrp"]
+atlas = ExtResource("2_lnbxx")
+region = Rect2(320, 0, 64, 96)
+filter_clip = true
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nwdgb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ahfpc")
+}],
+"loop": 1,
+"name": &"closed",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48bo0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52irg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5djd5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lf74j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6v78c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wyr6q")
+}],
+"loop": 0,
+"name": &"closing",
+"speed": 18.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_65hxp")
+}],
+"loop": 1,
+"name": &"open",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yt6v5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hbitw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f11yo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sqj8g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qndl5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_huwrp")
+}],
+"loop": 0,
+"name": &"opening",
+"speed": 18.0
+}]
+
+[node name="DOOR_01" type="Node2D" unique_id=1870931739]
+texture_filter = 1
+script = ExtResource("1_a1usl")
+world = 1
+kind = "door"
+
+[node name="Visual" type="AnimatedSprite2D" parent="." unique_id=1887295078]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_nwdgb")
+animation = &"closed"
+
+[node name="Piers" type="StaticBody2D" parent="." unique_id=1843273059]
+collision_mask = 0
+
+[node name="Left" type="CollisionPolygon2D" parent="Piers" unique_id=162621523]
+polygon = PackedVector2Array(-6, -5, -4, -4, -8, -2, -10, -3)
+
+[node name="Right" type="CollisionPolygon2D" parent="Piers" unique_id=476974724]
+polygon = PackedVector2Array(8, 2, 10, 3, 6, 5, 4, 4)
+
+[node name="Shutter" type="StaticBody2D" parent="." unique_id=2112632270]
+collision_mask = 0
+
+[node name="Shape" type="CollisionPolygon2D" parent="Shutter" unique_id=1100277777]
+polygon = PackedVector2Array(-5, -3.5, 7, 2.5, 5, 3.5, -7, -2.5)

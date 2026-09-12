@@ -1,0 +1,299 @@
+{
+  "run": "run_02",
+  "failures": [],
+  "scales": {
+    "1": {
+      "samples": 307200,
+      "errors": 0,
+      "maxdiff": 0,
+      "frames": 50
+    },
+    "2": {
+      "samples": 1228800,
+      "errors": 0,
+      "maxdiff": 0,
+      "frames": 50
+    },
+    "3": {
+      "samples": 2764800,
+      "errors": 0,
+      "maxdiff": 0,
+      "frames": 50
+    },
+    "4": {
+      "samples": 4915200,
+      "errors": 0,
+      "maxdiff": 0,
+      "frames": 50
+    }
+  },
+  "alpha": [
+    {
+      "texture": "pressure_plate/pressure_plate_surface.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "pressure_plate/pressure_plate_inner.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "door/door_surface.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "door/door_inner.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "moving_platform/moving_platform_surface.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "moving_platform/moving_platform_inner.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "rotator/rotator_surface.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "rotator/rotator_inner.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "exit/exit_surface.png",
+      "values": [
+        0,
+        255
+      ]
+    },
+    {
+      "texture": "exit/exit_inner.png",
+      "values": [
+        0,
+        255
+      ]
+    }
+  ],
+  "state_differences": [
+    {
+      "kind": "pressure_plate",
+      "world": "surface",
+      "from": "idle",
+      "to": "pressed",
+      "changed": 80,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "pressure_plate",
+      "world": "surface",
+      "from": "pressed",
+      "to": "active",
+      "changed": 142,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "pressure_plate",
+      "world": "inner",
+      "from": "idle",
+      "to": "pressed",
+      "changed": 69,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "pressure_plate",
+      "world": "inner",
+      "from": "pressed",
+      "to": "active",
+      "changed": 62,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "door",
+      "world": "surface",
+      "from": "closed",
+      "to": "open",
+      "changed": 220,
+      "alphaChanged": 198
+    },
+    {
+      "kind": "door",
+      "world": "inner",
+      "from": "closed",
+      "to": "open",
+      "changed": 265,
+      "alphaChanged": 202
+    },
+    {
+      "kind": "moving_platform",
+      "world": "surface",
+      "from": "idle",
+      "to": "moving",
+      "changed": 32,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "moving_platform",
+      "world": "surface",
+      "from": "moving",
+      "to": "arrived",
+      "changed": 80,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "moving_platform",
+      "world": "inner",
+      "from": "idle",
+      "to": "moving",
+      "changed": 32,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "moving_platform",
+      "world": "inner",
+      "from": "moving",
+      "to": "arrived",
+      "changed": 80,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "rotator",
+      "world": "surface",
+      "from": "orientation_a",
+      "to": "orientation_b",
+      "changed": 217,
+      "alphaChanged": 118
+    },
+    {
+      "kind": "rotator",
+      "world": "inner",
+      "from": "orientation_a",
+      "to": "orientation_b",
+      "changed": 221,
+      "alphaChanged": 118
+    },
+    {
+      "kind": "exit",
+      "world": "surface",
+      "from": "locked",
+      "to": "ready",
+      "changed": 87,
+      "alphaChanged": 17
+    },
+    {
+      "kind": "exit",
+      "world": "surface",
+      "from": "ready",
+      "to": "active",
+      "changed": 21,
+      "alphaChanged": 21
+    },
+    {
+      "kind": "exit",
+      "world": "surface",
+      "from": "active",
+      "to": "complete",
+      "changed": 0,
+      "alphaChanged": 0
+    },
+    {
+      "kind": "exit",
+      "world": "inner",
+      "from": "locked",
+      "to": "ready",
+      "changed": 85,
+      "alphaChanged": 17
+    },
+    {
+      "kind": "exit",
+      "world": "inner",
+      "from": "ready",
+      "to": "active",
+      "changed": 21,
+      "alphaChanged": 21
+    },
+    {
+      "kind": "exit",
+      "world": "inner",
+      "from": "active",
+      "to": "complete",
+      "changed": 0,
+      "alphaChanged": 0
+    }
+  ],
+  "depth": [
+    {
+      "pose": "plate_top",
+      "world": 0,
+      "overlap": 1120,
+      "errors": 0
+    },
+    {
+      "pose": "plate_top",
+      "world": 1,
+      "overlap": 1120,
+      "errors": 0
+    },
+    {
+      "pose": "moving_top",
+      "world": 0,
+      "overlap": 1120,
+      "errors": 0
+    },
+    {
+      "pose": "moving_top",
+      "world": 1,
+      "overlap": 1120,
+      "errors": 0
+    },
+    {
+      "pose": "door_front",
+      "world": 0,
+      "overlap": 1440,
+      "errors": 0
+    },
+    {
+      "pose": "door_front",
+      "world": 1,
+      "overlap": 1440,
+      "errors": 0
+    },
+    {
+      "pose": "door_behind",
+      "world": 0,
+      "overlap": 2832,
+      "errors": 0
+    },
+    {
+      "pose": "door_behind",
+      "world": 1,
+      "overlap": 2832,
+      "errors": 0
+    }
+  ],
+  "status": "PASS"
+}

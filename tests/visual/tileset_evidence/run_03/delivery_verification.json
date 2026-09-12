@@ -1,0 +1,28 @@
+{
+  "status": "TILESET_RUNTIME_ACCEPTANCE_PASS",
+  "protected_baseline": {
+    "project.godot": {
+      "before": "ab62e026fc13ea6045b13d5447ad2624a8c82a2dcbbdf08fbaf622e119ec345c",
+      "after": "ab62e026fc13ea6045b13d5447ad2624a8c82a2dcbbdf08fbaf622e119ec345c"
+    },
+    "production/sprites/mutsumi_cube_sheet.png": {
+      "before": "403a9510f1984bb69d87ceff66710c67b6efaeb894a7a00cb1bed7fdb800b1be",
+      "after": "403a9510f1984bb69d87ceff66710c67b6efaeb894a7a00cb1bed7fdb800b1be"
+    },
+    "production/sprites/mortis_cube_sheet.png": {
+      "before": "308aed6f83fb7d18c280a7647bccb1891c33731a88e04f1dc6ea1833e258c420",
+      "after": "308aed6f83fb7d18c280a7647bccb1891c33731a88e04f1dc6ea1833e258c420"
+    }
+  },
+  "engine_checks": "ENGINE_CHECKS_PASS",
+  "pixel_checks": "PASS",
+  "saved_sample": "PASS",
+  "files": {
+    "surface/surface_tileset.png": "d9e95ca510744d0a702fa99a57498c5acf959dc77c0a952d43705d18eb2b754a",
+    "surface/surface_decorations.png": "c767bb5aff871729acfa8480cc713d8d9bb9fd1f090b66553f40ac55c0b588ff",
+    "inner/inner_tileset.png": "e30ac604a4087644f2505174f9c4d8b5847b1882eb27a8c3a4549d2c5bae72e3",
+    "inner/inner_decorations.png": "50f580eceb0bbf1b9c58d56c6f5398390167d06927b8c39ec5a776b72d13abda",
+    "surface_tileset.tres": "c87983dd58119ccbc9317e10c49faf524fef40a8f63697827e61faf680b13bd0",
+    "inner_tileset.tres": "b9414b8abd71173562602cec74a705a6b8d1692cd5a6a8253b47ea225334d753"
+  }
+}

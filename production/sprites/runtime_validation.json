@@ -1,0 +1,71 @@
+{
+  "status": "SPRITE_RUNTIME_ACCEPTANCE_PASS",
+  "date": "2026-09-12",
+  "engine": {
+    "build": "steam",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (steam)",
+    "timestamp": 0
+  },
+  "renderer": "forward_plus",
+  "driver": "d3d12",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "import": "PASS",
+  "mutsumi": "PASS",
+  "mortis": "PASS",
+  "pixel_scaling": {
+    "1x": "PASS",
+    "2x": "PASS",
+    "3x": "PASS",
+    "4x": "PASS"
+  },
+  "anchor_consistency": "PASS",
+  "footprint_parity": "PASS",
+  "pixel_samples": 1723680,
+  "pixel_mismatches": 0,
+  "world_switch_handoff_differences": 0,
+  "shadow_stability": "PASS",
+  "blockers": [],
+  "major_open": [],
+  "major_resolved": [
+    "R-001: incorrect visible-face culling in the original PNG roll frames"
+  ],
+  "minor": [
+    "R-003: interaction and completion cues are subtle at 1x"
+  ],
+  "evidence": "E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\visual\\evidence\\run_02",
+  "changes": [
+    {
+      "file": "mutsumi_cube_sheet.png",
+      "before_sha256": "c7b7fd84e1411a8be8109dc8cab26b50a597bdc7e4ec2f55db6db1809c5547e6",
+      "after_sha256": "403a9510f1984bb69d87ceff66710c67b6efaeb894a7a00cb1bed7fdb800b1be",
+      "modified_rows": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "R-001 visible-face projection correction",
+      "before_file": "E:\\godot\\若叶睦\\sprite_production_work\\runtime_validation\\before_png_fix\\mutsumi_cube_sheet.png"
+    },
+    {
+      "file": "mortis_cube_sheet.png",
+      "before_sha256": "bea21ec0e5d9cc712c1a86dce0add18c303fedecf7998bf1d2adc175eac110d4",
+      "after_sha256": "308aed6f83fb7d18c280a7647bccb1891c33731a88e04f1dc6ea1833e258c420",
+      "modified_rows": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "R-001 visible-face projection correction",
+      "before_file": "E:\\godot\\若叶睦\\sprite_production_work\\runtime_validation\\before_png_fix\\mortis_cube_sheet.png"
+    }
+  ],
+  "project_configuration_unchanged": true
+}

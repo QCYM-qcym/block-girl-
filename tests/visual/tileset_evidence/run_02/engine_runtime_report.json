@@ -1,0 +1,10306 @@
+{
+	"captures": [
+		{
+			"file": "paired_environment.png",
+			"kind": "demo",
+			"placements": []
+		},
+		{
+			"file": "gallery_1x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_8.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_12.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_16.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_20.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_24.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_28.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_32.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_36.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_40.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_44.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_48.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_52.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_56.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_60.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_64.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_1x_68.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_floor_1x.png",
+			"kind": "seam_floor",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_stair_1x.png",
+			"kind": "seam_stair",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_wall_1x.png",
+			"kind": "seam_wall",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 1,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_8.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_12.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_16.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_20.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_24.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_28.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_32.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_36.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_40.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_44.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_48.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_52.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_56.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_60.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_64.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_2x_68.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_floor_2x.png",
+			"kind": "seam_floor",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_stair_2x.png",
+			"kind": "seam_stair",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_wall_2x.png",
+			"kind": "seam_wall",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 2,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_8.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_12.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_16.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_20.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_24.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_28.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_32.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_36.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_40.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_44.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_48.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_52.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_56.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_60.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_64.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_3x_68.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 3,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_floor_3x.png",
+			"kind": "seam_floor",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_stair_3x.png",
+			"kind": "seam_stair",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_wall_3x.png",
+			"kind": "seam_wall",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_01",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_SW",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "FLOOR_EDGE_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_SW",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_8.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_OUT_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_SW",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_12.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CORNER_IN_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_RAISED",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_16.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_LOW_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_20.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_TALL_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_24.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "CLIFF_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_28.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_SIDE_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_32.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_SINGLE_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_36.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "STAIR_MULTI_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_40.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_44.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "BRIDGE_BROKEN_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_48.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_SW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALKWAY_NARROW_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_FLOATING",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PILLAR",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_52.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SUPPORT",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_SW",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_56.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ARCH_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_SW",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_60.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "DEAD_END_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_SW",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_64.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "ELEVATION_TRANSITION_NW",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "TINY_PLANT",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "GRASS_TUFT",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "SMALL_VINE",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_4x_68.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WHITE_FLOWER",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "WALL_VINE",
+					"scale": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"cell_center": [
+						16.0,
+						8.0
+					],
+					"logical_id": "PLATFORM_EDGE_PLANT",
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_floor_4x.png",
+			"kind": "seam_floor",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								2,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								3,
+								0
+							],
+							"id": "FLOOR_01"
+						},
+						{
+							"cell": [
+								4,
+								0
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_stair_4x.png",
+			"kind": "seam_stair",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								-1
+							],
+							"id": "PLATFORM_RAISED"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "STAIR_MULTI_NE"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "FLOOR_01"
+						}
+					],
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "seam_wall_4x.png",
+			"kind": "seam_wall",
+			"placements": [
+				{
+					"anchor": [
+						180.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						820.0,
+						330.0
+					],
+					"items": [
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								1,
+								0
+							],
+							"id": "WALL_TALL_NE"
+						},
+						{
+							"cell": [
+								0,
+								0
+							],
+							"id": "WALL_TALL_NW"
+						},
+						{
+							"cell": [
+								0,
+								1
+							],
+							"id": "WALL_TALL_NW"
+						}
+					],
+					"scale": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_wall_front_tile_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_wall_front_character_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_wall_front_combined.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_wall_behind_tile_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_wall_behind_character_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_wall_behind_combined.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "WALL_TALL_SW",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_front_tile_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_front_character_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_front_combined.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_behind_tile_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_behind_character_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_behind_combined.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 0,
+					"expected_front": false,
+					"feet": [
+						0.0,
+						-10.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_top_tile_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-8.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-8.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_top_character_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-8.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-8.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_platform_top_combined.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-8.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-8.0
+					],
+					"tile": "PLATFORM_RAISED",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_stair_tile_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-4.0
+					],
+					"tile": "STAIR_MULTI_NE",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-4.0
+					],
+					"tile": "STAIR_MULTI_NE",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_stair_character_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-4.0
+					],
+					"tile": "STAIR_MULTI_NE",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-4.0
+					],
+					"tile": "STAIR_MULTI_NE",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_stair_combined.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-4.0
+					],
+					"tile": "STAIR_MULTI_NE",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						-4.0
+					],
+					"tile": "STAIR_MULTI_NE",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_bridge_tile_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						0.0
+					],
+					"tile": "BRIDGE_NE",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						0.0
+					],
+					"tile": "BRIDGE_NE",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_bridge_character_only.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						0.0
+					],
+					"tile": "BRIDGE_NE",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						0.0
+					],
+					"tile": "BRIDGE_NE",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "depth_bridge_combined.png",
+			"kind": "depth",
+			"placements": [
+				{
+					"anchor": [
+						320.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						0.0
+					],
+					"tile": "BRIDGE_NE",
+					"world": 0
+				},
+				{
+					"anchor": [
+						960.0,
+						390.0
+					],
+					"character_z": 1,
+					"expected_front": true,
+					"feet": [
+						0.0,
+						0.0
+					],
+					"tile": "BRIDGE_NE",
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "paired_environment_final.png",
+			"kind": "demo",
+			"placements": []
+		}
+	],
+	"display_server": "Windows",
+	"driver": "d3d12",
+	"engine": {
+		"build": "steam",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (steam)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"filter": 1,
+	"gpu": "NVIDIA GeForce RTX 5060 Ti",
+	"map_positions": [
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				0
+			],
+			"local": [
+				16.0,
+				8.0
+			]
+		},
+		{
+			"cell": [
+				1,
+				0
+			],
+			"local": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"cell": [
+				0,
+				1
+			],
+			"local": [
+				0.0,
+				16.0
+			]
+		}
+	],
+	"renderer": "forward_plus",
+	"resource_checks": [
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "res://production/tilesets/surface/surface_tileset.png",
+			"tiles": 65,
+			"world": "surface"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "res://production/tilesets/surface/surface_decorations.png",
+			"tiles": 6,
+			"world": "surface"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "res://production/tilesets/inner/inner_tileset.png",
+			"tiles": 65,
+			"world": "inner"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "res://production/tilesets/inner/inner_decorations.png",
+			"tiles": 6,
+			"world": "inner"
+		}
+	],
+	"status": "ENGINE_CHECKS_PASS",
+	"window": [
+		1280,
+		960
+	]
+}

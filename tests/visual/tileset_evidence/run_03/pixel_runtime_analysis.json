@@ -1,0 +1,426 @@
+{
+  "run": "run_03",
+  "engine": "ENGINE_CHECKS_PASS",
+  "failures": [],
+  "scale": {
+    "1": {
+      "samples": 872448,
+      "errors": 0,
+      "maxdiff": 0,
+      "tiles": 142
+    },
+    "2": {
+      "samples": 3489792,
+      "errors": 0,
+      "maxdiff": 0,
+      "tiles": 142
+    },
+    "3": {
+      "samples": 7852032,
+      "errors": 0,
+      "maxdiff": 0,
+      "tiles": 142
+    },
+    "4": {
+      "samples": 13959168,
+      "errors": 0,
+      "maxdiff": 0,
+      "tiles": 142
+    }
+  },
+  "alpha": [
+    {
+      "world": "surface",
+      "kind": "tileset",
+      "values": [
+        0,
+        255
+      ],
+      "colors": 7
+    },
+    {
+      "world": "surface",
+      "kind": "decorations",
+      "values": [
+        0,
+        255
+      ],
+      "colors": 5
+    },
+    {
+      "world": "inner",
+      "kind": "tileset",
+      "values": [
+        0,
+        255
+      ],
+      "colors": 7
+    },
+    {
+      "world": "inner",
+      "kind": "decorations",
+      "values": [
+        0,
+        255
+      ],
+      "colors": 3
+    }
+  ],
+  "seams": [
+    {
+      "file": "seam_floor_1x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_floor_1x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_stair_1x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_stair_1x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_wall_1x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 400,
+      "analyticErrors": 0,
+      "native_occupied": 1776
+    },
+    {
+      "file": "seam_wall_1x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 394,
+      "analyticErrors": 0,
+      "native_occupied": 1774
+    },
+    {
+      "file": "seam_floor_2x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_floor_2x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_stair_2x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_stair_2x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_wall_2x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 400,
+      "analyticErrors": 0,
+      "native_occupied": 1776
+    },
+    {
+      "file": "seam_wall_2x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 394,
+      "analyticErrors": 0,
+      "native_occupied": 1774
+    },
+    {
+      "file": "seam_floor_3x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_floor_3x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_stair_3x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_stair_3x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_wall_3x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 400,
+      "analyticErrors": 0,
+      "native_occupied": 1776
+    },
+    {
+      "file": "seam_wall_3x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 394,
+      "analyticErrors": 0,
+      "native_occupied": 1774
+    },
+    {
+      "file": "seam_floor_4x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_floor_4x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 0,
+      "analyticErrors": 0,
+      "native_occupied": 1280
+    },
+    {
+      "file": "seam_stair_4x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_stair_4x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 128,
+      "analyticErrors": 0,
+      "native_occupied": 1104
+    },
+    {
+      "file": "seam_wall_4x.png",
+      "world": 0,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 400,
+      "analyticErrors": 0,
+      "native_occupied": 1776
+    },
+    {
+      "file": "seam_wall_4x.png",
+      "world": 1,
+      "missing": 0,
+      "extra": 0,
+      "colorErrors": 0,
+      "overlap": 394,
+      "analyticErrors": 0,
+      "native_occupied": 1774
+    }
+  ],
+  "depth": [
+    {
+      "pose": "wall_front",
+      "world": 0,
+      "overlap": 2128,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 6576
+    },
+    {
+      "pose": "wall_front",
+      "world": 1,
+      "overlap": 2112,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 6560
+    },
+    {
+      "pose": "wall_behind",
+      "world": 0,
+      "overlap": 1840,
+      "errors": 0,
+      "charVisible": 1440,
+      "tileVisible": 8704
+    },
+    {
+      "pose": "wall_behind",
+      "world": 1,
+      "overlap": 1840,
+      "errors": 0,
+      "charVisible": 1440,
+      "tileVisible": 8672
+    },
+    {
+      "pose": "platform_front",
+      "world": 0,
+      "overlap": 2672,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 5520
+    },
+    {
+      "pose": "platform_front",
+      "world": 1,
+      "overlap": 2672,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 5520
+    },
+    {
+      "pose": "platform_behind",
+      "world": 0,
+      "overlap": 640,
+      "errors": 0,
+      "charVisible": 2640,
+      "tileVisible": 8192
+    },
+    {
+      "pose": "platform_behind",
+      "world": 1,
+      "overlap": 640,
+      "errors": 0,
+      "charVisible": 2640,
+      "tileVisible": 8192
+    },
+    {
+      "pose": "platform_top",
+      "world": 0,
+      "overlap": 1120,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 7072
+    },
+    {
+      "pose": "platform_top",
+      "world": 1,
+      "overlap": 1120,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 7072
+    },
+    {
+      "pose": "stair",
+      "world": 0,
+      "overlap": 2016,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 5408
+    },
+    {
+      "pose": "stair",
+      "world": 1,
+      "overlap": 2016,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 5408
+    },
+    {
+      "pose": "bridge",
+      "world": 0,
+      "overlap": 848,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 3568
+    },
+    {
+      "pose": "bridge",
+      "world": 1,
+      "overlap": 848,
+      "errors": 0,
+      "charVisible": 3280,
+      "tileVisible": 3568
+    }
+  ],
+  "status": "PASS"
+}

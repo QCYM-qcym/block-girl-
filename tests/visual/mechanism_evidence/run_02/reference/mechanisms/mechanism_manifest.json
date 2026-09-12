@@ -1,0 +1,908 @@
+{
+  "version": 1,
+  "base_tile": [
+    32,
+    16
+  ],
+  "frame_size": [
+    64,
+    96
+  ],
+  "pivot": [
+    32,
+    48
+  ],
+  "world_switch_device": "NOT_INCLUDED",
+  "mechanisms": [
+    {
+      "kind": "pressure_plate",
+      "logical_id": "PRESSURE_PLATE_01",
+      "world": "surface",
+      "texture": "pressure_plate/pressure_plate_surface.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "Area2D occupant trigger",
+      "states": {
+        "idle": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "pressed": {
+          "frames": [
+            1
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "active": {
+          "frames": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "fps": 6,
+          "loop": true
+        }
+      },
+      "interaction_type": "body_entered / body_exited, set_active",
+      "frame_count": 4,
+      "bounds": [
+        [
+          16,
+          40,
+          48,
+          58
+        ],
+        [
+          16,
+          40,
+          48,
+          58
+        ],
+        [
+          16,
+          40,
+          48,
+          58
+        ],
+        [
+          16,
+          40,
+          48,
+          58
+        ]
+      ],
+      "scene": "pressure_plate/PressurePlate.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "pressure_plate",
+      "logical_id": "PRESSURE_PLATE_01",
+      "world": "inner",
+      "texture": "pressure_plate/pressure_plate_inner.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "Area2D occupant trigger",
+      "states": {
+        "idle": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "pressed": {
+          "frames": [
+            1
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "active": {
+          "frames": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "fps": 6,
+          "loop": true
+        }
+      },
+      "interaction_type": "body_entered / body_exited, set_active",
+      "frame_count": 4,
+      "bounds": [
+        [
+          16,
+          40,
+          48,
+          58
+        ],
+        [
+          16,
+          40,
+          48,
+          58
+        ],
+        [
+          16,
+          40,
+          48,
+          58
+        ],
+        [
+          16,
+          40,
+          48,
+          58
+        ]
+      ],
+      "scene": "pressure_plate/PressurePlateInner.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "door",
+      "logical_id": "DOOR_01",
+      "world": "surface",
+      "texture": "door/door_surface.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "StaticBody2D piers + state-controlled central shutter",
+      "states": {
+        "closed": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "opening": {
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fps": 18,
+          "loop": false
+        },
+        "open": {
+          "frames": [
+            5
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "closing": {
+          "frames": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 18,
+          "loop": false
+        }
+      },
+      "interaction_type": "set_open(bool); state_changed",
+      "frame_count": 6,
+      "bounds": [
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ]
+      ],
+      "scene": "door/Door.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "door",
+      "logical_id": "DOOR_01",
+      "world": "inner",
+      "texture": "door/door_inner.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "StaticBody2D piers + state-controlled central shutter",
+      "states": {
+        "closed": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "opening": {
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fps": 18,
+          "loop": false
+        },
+        "open": {
+          "frames": [
+            5
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "closing": {
+          "frames": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 18,
+          "loop": false
+        }
+      },
+      "interaction_type": "set_open(bool); state_changed",
+      "frame_count": 6,
+      "bounds": [
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ],
+        [
+          22,
+          19,
+          42,
+          53
+        ]
+      ],
+      "scene": "door/DoorInner.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "moving_platform",
+      "logical_id": "MOVING_PLATFORM_01",
+      "world": "surface",
+      "texture": "moving_platform/moving_platform_surface.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "AnimatableBody2D support layer 2 + Area2D rider detection",
+      "states": {
+        "idle": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "moving": {
+          "frames": [
+            1,
+            2
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "arrived": {
+          "frames": [
+            3
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      },
+      "interaction_type": "move_to(integer grid target, duration); arrived",
+      "frame_count": 4,
+      "bounds": [
+        [
+          16,
+          40,
+          48,
+          60
+        ],
+        [
+          16,
+          40,
+          48,
+          60
+        ],
+        [
+          16,
+          40,
+          48,
+          60
+        ],
+        [
+          16,
+          40,
+          48,
+          60
+        ]
+      ],
+      "scene": "moving_platform/MovingPlatform.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "moving_platform",
+      "logical_id": "MOVING_PLATFORM_01",
+      "world": "inner",
+      "texture": "moving_platform/moving_platform_inner.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "AnimatableBody2D support layer 2 + Area2D rider detection",
+      "states": {
+        "idle": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "moving": {
+          "frames": [
+            1,
+            2
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "arrived": {
+          "frames": [
+            3
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      },
+      "interaction_type": "move_to(integer grid target, duration); arrived",
+      "frame_count": 4,
+      "bounds": [
+        [
+          16,
+          40,
+          48,
+          60
+        ],
+        [
+          16,
+          40,
+          48,
+          60
+        ],
+        [
+          16,
+          40,
+          48,
+          60
+        ],
+        [
+          16,
+          40,
+          48,
+          60
+        ]
+      ],
+      "scene": "moving_platform/MovingPlatformInner.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "rotator",
+      "logical_id": "ROTATOR_01",
+      "world": "surface",
+      "texture": "rotator/rotator_surface.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "Area2D + support layer 2; disabled during transition",
+      "states": {
+        "orientation_a": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "rotating": {
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "orientation_b": {
+          "frames": [
+            4
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "rotating_back": {
+          "frames": [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 15,
+          "loop": false
+        }
+      },
+      "interaction_type": "rotate_to(0 or 1); orientation_changed after commit",
+      "frame_count": 5,
+      "bounds": [
+        [
+          20,
+          42,
+          44,
+          58
+        ],
+        [
+          22,
+          42,
+          42,
+          58
+        ],
+        [
+          24,
+          42,
+          40,
+          58
+        ],
+        [
+          22,
+          42,
+          42,
+          58
+        ],
+        [
+          20,
+          42,
+          44,
+          58
+        ]
+      ],
+      "scene": "rotator/RotatingPlatform.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "rotator",
+      "logical_id": "ROTATOR_01",
+      "world": "inner",
+      "texture": "rotator/rotator_inner.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "Area2D + support layer 2; disabled during transition",
+      "states": {
+        "orientation_a": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "rotating": {
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "orientation_b": {
+          "frames": [
+            4
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "rotating_back": {
+          "frames": [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 15,
+          "loop": false
+        }
+      },
+      "interaction_type": "rotate_to(0 or 1); orientation_changed after commit",
+      "frame_count": 5,
+      "bounds": [
+        [
+          20,
+          42,
+          44,
+          58
+        ],
+        [
+          22,
+          42,
+          42,
+          58
+        ],
+        [
+          24,
+          42,
+          40,
+          58
+        ],
+        [
+          22,
+          42,
+          42,
+          58
+        ],
+        [
+          20,
+          42,
+          44,
+          58
+        ]
+      ],
+      "scene": "rotator/RotatingPlatformInner.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "exit",
+      "logical_id": "EXIT_01",
+      "world": "surface",
+      "texture": "exit/exit_surface.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "Area2D eligible goal trigger",
+      "states": {
+        "locked": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "ready": {
+          "frames": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "active": {
+          "frames": [
+            3
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "complete": {
+          "frames": [
+            3,
+            4,
+            5
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "completed": {
+          "frames": [
+            5
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      },
+      "interaction_type": "set_ready; body entry -> active; complete_goal; completed signal",
+      "frame_count": 6,
+      "bounds": [
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          45,
+          56
+        ],
+        [
+          18,
+          21,
+          47,
+          56
+        ]
+      ],
+      "scene": "exit/ExitGoal.tscn",
+      "status": "DRAFT"
+    },
+    {
+      "kind": "exit",
+      "logical_id": "EXIT_01",
+      "world": "inner",
+      "texture": "exit/exit_inner.png",
+      "frame_size": [
+        64,
+        96
+      ],
+      "pivot": [
+        32,
+        48
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "collision_type": "Area2D eligible goal trigger",
+      "states": {
+        "locked": {
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "ready": {
+          "frames": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        "active": {
+          "frames": [
+            3
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        "complete": {
+          "frames": [
+            3,
+            4,
+            5
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        "completed": {
+          "frames": [
+            5
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      },
+      "interaction_type": "set_ready; body entry -> active; complete_goal; completed signal",
+      "frame_count": 6,
+      "bounds": [
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          44,
+          56
+        ],
+        [
+          20,
+          21,
+          45,
+          56
+        ],
+        [
+          18,
+          21,
+          47,
+          56
+        ]
+      ],
+      "scene": "exit/ExitGoalInner.tscn",
+      "status": "DRAFT"
+    }
+  ]
+}

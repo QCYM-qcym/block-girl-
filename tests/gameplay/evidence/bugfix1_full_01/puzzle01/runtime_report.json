@@ -1,0 +1,139 @@
+{
+	"animation_frames": {
+		"mortis/interaction": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_backward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_forward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_left": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_right": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/subtle_idle": {
+			"0": true
+		},
+		"mortis/world_switch": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/puzzle_complete": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/roll_backward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/roll_forward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/roll_left": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/roll_right": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/subtle_idle": {
+			"0": true
+		},
+		"mutsumi/world_switch": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		}
+	},
+	"checks": 3452,
+	"display_server": "Windows",
+	"driver": "d3d12",
+	"elapsed_seconds": 56.699,
+	"failures": [],
+	"godot": {
+		"build": "steam",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (steam)",
+		"timestamp": 0
+	},
+	"gpu": "NVIDIA GeForce RTX 5060 Ti",
+	"renderer": "forward_plus",
+	"screenshots": [
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/01_surface_start.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/02_surface_roll.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/03_inner_route.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/04_switch_rejected.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/05_closed_gate.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/06_plate_pressed.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/07_plate_latched.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/08_open_gate_passed.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/08_open_gate_passed.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/09_complete.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/10_reset.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/size_960x640.png",
+		"E:\\godot\\若叶睦\\方块少女-若叶睦\\tests\\gameplay\\evidence\\bugfix1_full_01\\puzzle01/size_1600x1000.png"
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "method": "Windows Computer Use @oai/sky, independent TECH window",
+  "observed_pass": [
+    "W moves one full cell and face becomes top",
+    "Space preserves top face and cell while changing skin",
+    "E snaps to B; Inner remains inactive",
+    "Space Surface activates aligned link",
+    "horizontal left drag changes view",
+    "short drag rebounds",
+    "horizontal right drag changes view",
+    "Q changes view",
+    "F3 hides/restores overlay",
+    "R restores initial pose/cell/world/view"
+  ],
+  "held_duration_and_link_traversal": "Covered by actual graphical Godot Input.parse_input_event suite, not claimed as manual physical-key holds",
+  "window_left_open": true,
+  "stderr_empty": true
+}

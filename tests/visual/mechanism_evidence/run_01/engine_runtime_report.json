@@ -1,0 +1,3387 @@
+{
+	"animation_observed": {
+		"door/closed/0": [
+			0
+		],
+		"door/closed/1": [
+			0
+		],
+		"door/closing/0": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5
+		],
+		"door/closing/1": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5
+		],
+		"door/open/0": [
+			0
+		],
+		"door/open/1": [
+			0
+		],
+		"door/opening/0": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5
+		],
+		"door/opening/1": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5
+		],
+		"exit/active/0": [
+			0
+		],
+		"exit/active/1": [
+			0
+		],
+		"exit/complete/0": [
+			0,
+			1,
+			2
+		],
+		"exit/complete/1": [
+			0,
+			1,
+			2
+		],
+		"exit/completed/0": [
+			0
+		],
+		"exit/completed/1": [
+			0
+		],
+		"exit/locked/0": [
+			0
+		],
+		"exit/locked/1": [
+			0
+		],
+		"exit/ready/0": [
+			0,
+			1,
+			2,
+			3
+		],
+		"exit/ready/1": [
+			0,
+			1,
+			2,
+			3
+		],
+		"moving_platform/arrived/0": [
+			0
+		],
+		"moving_platform/arrived/1": [
+			0
+		],
+		"moving_platform/idle/0": [
+			0
+		],
+		"moving_platform/idle/1": [
+			0
+		],
+		"moving_platform/moving/0": [
+			0,
+			1
+		],
+		"moving_platform/moving/1": [
+			0,
+			1
+		],
+		"pressure_plate/active/0": [
+			0,
+			1,
+			2,
+			3
+		],
+		"pressure_plate/active/1": [
+			0,
+			1,
+			2,
+			3
+		],
+		"pressure_plate/idle/0": [
+			0
+		],
+		"pressure_plate/idle/1": [
+			0
+		],
+		"pressure_plate/pressed/0": [
+			0
+		],
+		"pressure_plate/pressed/1": [
+			0
+		],
+		"rotator/orientation_a/0": [
+			0
+		],
+		"rotator/orientation_a/1": [
+			0
+		],
+		"rotator/orientation_b/0": [
+			0
+		],
+		"rotator/orientation_b/1": [
+			0
+		],
+		"rotator/rotating/0": [
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"rotator/rotating/1": [
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"rotator/rotating_back/0": [
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"rotator/rotating_back/1": [
+			0,
+			1,
+			2,
+			3,
+			4
+		]
+	},
+	"captures": [
+		{
+			"file": "paired_mechanisms.png",
+			"kind": "demo",
+			"placements": []
+		},
+		{
+			"file": "gallery_pressure_plate_1x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_1x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_1x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 1,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_moving_platform_1x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_1x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_1x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 1,
+					"source_frame": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_1x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_1x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 1,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_pressure_plate_2x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_2x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_2x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 2,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_moving_platform_2x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_2x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_2x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 2,
+					"source_frame": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_2x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_2x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 2,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_pressure_plate_3x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_3x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_3x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 3,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_moving_platform_3x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_3x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_3x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 3,
+					"source_frame": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_3x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_3x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 3,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_pressure_plate_4x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "pressure_plate",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_4x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_door_4x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "door",
+					"scale": 4,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_moving_platform_4x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "moving_platform",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_4x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_rotator_4x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "rotator",
+					"scale": 4,
+					"source_frame": 4,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_4x_0.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 0
+				},
+				{
+					"anchor": [
+						800.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 0
+				},
+				{
+					"anchor": [
+						1120.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 0,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 1,
+					"world": 1
+				},
+				{
+					"anchor": [
+						800.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 2,
+					"world": 1
+				},
+				{
+					"anchor": [
+						1120.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 3,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "gallery_exit_4x_4.png",
+			"kind": "gallery",
+			"placements": [
+				{
+					"anchor": [
+						160.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 4,
+					"world": 0
+				},
+				{
+					"anchor": [
+						480.0,
+						270.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 5,
+					"world": 0
+				},
+				{
+					"anchor": [
+						160.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 4,
+					"world": 1
+				},
+				{
+					"anchor": [
+						480.0,
+						710.0
+					],
+					"mechanism": "exit",
+					"scale": 4,
+					"source_frame": 5,
+					"world": 1
+				}
+			]
+		},
+		{
+			"file": "animation_pressure_plate_idle.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_pressure_plate_pressed.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_pressure_plate_active.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_door_closed.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_door_opening.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_door_open.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_door_closing.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_moving_platform_idle.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_moving_platform_moving.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_moving_platform_arrived.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_rotator_orientation_a.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_rotator_rotating.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_rotator_orientation_b.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_rotator_rotating_back.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_exit_locked.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_exit_ready.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_exit_active.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_exit_complete.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "animation_exit_completed.png",
+			"kind": "animation",
+			"placements": []
+		},
+		{
+			"file": "plate_pressed_actor.png",
+			"kind": "interaction",
+			"placements": []
+		},
+		{
+			"file": "plate_active_actor.png",
+			"kind": "interaction",
+			"placements": []
+		},
+		{
+			"file": "door_open_passage.png",
+			"kind": "interaction",
+			"placements": []
+		},
+		{
+			"file": "moving_32.0_16.0_mid.png",
+			"kind": "motion",
+			"placements": []
+		},
+		{
+			"file": "moving_32.0_16.0_arrived.png",
+			"kind": "motion",
+			"placements": []
+		},
+		{
+			"file": "moving_-32.0_16.0_mid.png",
+			"kind": "motion",
+			"placements": []
+		},
+		{
+			"file": "moving_-32.0_16.0_arrived.png",
+			"kind": "motion",
+			"placements": []
+		},
+		{
+			"file": "moving_32.0_0.0_mid.png",
+			"kind": "motion",
+			"placements": []
+		},
+		{
+			"file": "moving_32.0_0.0_arrived.png",
+			"kind": "motion",
+			"placements": []
+		},
+		{
+			"file": "rotator_B.png",
+			"kind": "interaction",
+			"placements": []
+		},
+		{
+			"file": "exit_ready.png",
+			"kind": "interaction",
+			"placements": []
+		},
+		{
+			"file": "exit_active_actor.png",
+			"kind": "interaction",
+			"placements": []
+		},
+		{
+			"file": "exit_completed.png",
+			"kind": "interaction",
+			"placements": []
+		},
+		{
+			"file": "depth_plate_top_mechanism_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_plate_top_actor_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_plate_top_combined.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_moving_top_mechanism_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_moving_top_actor_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_moving_top_combined.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_door_front_mechanism_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_door_front_actor_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_door_front_combined.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_door_behind_mechanism_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_door_behind_actor_only.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "depth_door_behind_combined.png",
+			"kind": "depth",
+			"placements": []
+		},
+		{
+			"file": "paired_mechanisms_final.png",
+			"kind": "demo",
+			"placements": []
+		}
+	],
+	"display_server": "Windows",
+	"driver": "d3d12",
+	"engine": {
+		"build": "steam",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (steam)",
+		"timestamp": 0
+	},
+	"events": [
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "active",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "active",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "closed",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "closed",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "opening",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "opening",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "open",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "open",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "open",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "open",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "closing",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "closing",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "closed",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "closed",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "idle",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "idle",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_b",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_b",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating_back",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating_back",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "locked",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "locked",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "active",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "active",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "complete",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "complete",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "completed",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "completed",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "completed",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "completed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "active",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "active",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "opening",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "opening",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "open",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "open",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "closing",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "closing",
+			"world": 1
+		},
+		{
+			"kind": "door",
+			"state": "closed",
+			"world": 0
+		},
+		{
+			"kind": "door",
+			"state": "closed",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "moving",
+			"world": 1
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 0
+		},
+		{
+			"kind": "moving_platform",
+			"state": "arrived",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_b",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_b",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating_back",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "rotating_back",
+			"world": 1
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 0
+		},
+		{
+			"kind": "rotator",
+			"state": "orientation_a",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "active",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "active",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "complete",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "complete",
+			"world": 1
+		},
+		{
+			"kind": "exit",
+			"state": "completed",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "completed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "idle",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 0
+		},
+		{
+			"kind": "exit",
+			"state": "ready",
+			"world": 1
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 0
+		},
+		{
+			"kind": "pressure_plate",
+			"state": "pressed",
+			"world": 1
+		}
+	],
+	"failures": [
+		"plate area entry",
+		"plate area entry",
+		"plate active latch and area exit",
+		"plate reset",
+		"plate active latch and area exit",
+		"plate reset",
+		"ready exit trigger",
+		"ready exit trigger"
+	],
+	"filter": 1,
+	"gpu": "NVIDIA GeForce RTX 5060 Ti",
+	"imports": [
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "pressure_plate/pressure_plate_surface.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "pressure_plate/pressure_plate_inner.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "door/door_surface.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "door/door_inner.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "moving_platform/moving_platform_surface.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "moving_platform/moving_platform_inner.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "rotator/rotator_surface.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "rotator/rotator_inner.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "exit/exit_surface.png"
+		},
+		{
+			"compression": 0,
+			"loaded_mipmaps": false,
+			"mipmaps": false,
+			"path": "exit/exit_inner.png"
+		}
+	],
+	"interactions": [
+		{
+			"activated_reset": true,
+			"area_enter_exit": true,
+			"kind": "pressure_plate"
+		},
+		{
+			"closed_blocked": true,
+			"kind": "door",
+			"open_passable": true,
+			"reclosed": true
+		},
+		{
+			"a_b_a": true,
+			"kind": "rotator",
+			"sprite_rotation": 0,
+			"transient_support_disabled": true
+		},
+		{
+			"complete_finished": true,
+			"kind": "exit",
+			"locked_rejected": true,
+			"ready_triggered": true
+		}
+	],
+	"motion": [
+		{
+			"docked": true,
+			"integer_positions": true,
+			"rider_offset": [
+				0,
+				0
+			],
+			"samples": 70,
+			"target": [
+				32.0,
+				16.0
+			]
+		},
+		{
+			"docked": true,
+			"integer_positions": true,
+			"rider_offset": [
+				0,
+				0
+			],
+			"samples": 70,
+			"target": [
+				-32.0,
+				16.0
+			]
+		},
+		{
+			"docked": true,
+			"integer_positions": true,
+			"rider_offset": [
+				0,
+				0
+			],
+			"samples": 70,
+			"target": [
+				32.0,
+				0.0
+			]
+		}
+	],
+	"renderer": "forward_plus",
+	"status": "ENGINE_CHECKS_FAIL",
+	"window": [
+		1280,
+		960
+	]
+}

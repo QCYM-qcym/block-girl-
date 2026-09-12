@@ -1,0 +1,137 @@
+{
+	"animation_frames": {
+		"mortis/interaction": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_backward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_forward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_left": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/roll_right": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mortis/subtle_idle": {
+			"0": true
+		},
+		"mortis/world_switch": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/puzzle_complete": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"mutsumi/roll_backward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/roll_forward": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/roll_left": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/roll_right": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"mutsumi/subtle_idle": {
+			"0": true
+		},
+		"mutsumi/world_switch": {
+			"0": true,
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		}
+	},
+	"checks": 3503,
+	"display_server": "Windows",
+	"driver": "d3d12",
+	"elapsed_seconds": 57.654,
+	"failures": [],
+	"godot": {
+		"build": "steam",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (steam)",
+		"timestamp": 0
+	},
+	"gpu": "NVIDIA GeForce RTX 5060 Ti",
+	"renderer": "forward_plus",
+	"screenshots": [
+		"res://tests/prototype/evidence/run_01/01_surface_start.png",
+		"res://tests/prototype/evidence/run_01/02_surface_roll.png",
+		"res://tests/prototype/evidence/run_01/03_inner_route.png",
+		"res://tests/prototype/evidence/run_01/04_switch_rejected.png",
+		"res://tests/prototype/evidence/run_01/05_closed_gate.png",
+		"res://tests/prototype/evidence/run_01/06_plate_pressed.png",
+		"res://tests/prototype/evidence/run_01/07_plate_latched.png",
+		"res://tests/prototype/evidence/run_01/08_open_gate_passed.png",
+		"res://tests/prototype/evidence/run_01/08_open_gate_passed.png",
+		"res://tests/prototype/evidence/run_01/09_complete.png",
+		"res://tests/prototype/evidence/run_01/10_reset.png",
+		"res://tests/prototype/evidence/run_01/size_960x640.png",
+		"res://tests/prototype/evidence/run_01/size_1600x1000.png"
+	]
+}

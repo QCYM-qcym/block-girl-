@@ -1,0 +1,17 @@
+# MECHANISM_SPEC v1
+
+Base: Godot 4.7.2 / Forward Plus D3D12. Same 32×16 isometric diamond, 8px elevation increments, fixed upper-left lighting and one-pixel density as accepted Tileset. PNG frame **64×96**, pivot **(32,48)**; AnimatedSprite2D centered, offset zero. Standalone mechanism origin is the normalized tile center. When placing on TileMapLayer use layer.position + map_to_local(cell). No camera rotation, real-time Sprite rotation, antialiasing or fractional resting positions.
+
+Five logical IDs: PRESSURE_PLATE_01, DOOR_01, MOVING_PLATFORM_01, ROTATOR_01, EXIT_01. All reserve 1×1 tile and share pivot, footprint, collision/activation semantics across Surface/Inner. World Switch Device: NOT_INCLUDED; no full world system/interface needed now.
+
+- Pressure plate: idle raised 2px; pressed top 0px; active depressed with expanded geometric inlay. Area2D occupant detection; occupancy controls pressed/idle, caller may activate independently. Character is drawn above plate.
+- Gate: compact two piers + retracting segmented shutter, height 24px; closed / opening / open. Closed collider fills the narrow gate strip; opening remains blocked until animation ends; open only piers block, central path visibly clear. Pass axis is local Z (NE/SW), one fixed orientation this batch. Closing uses the same short transition in reverse and blocks immediately.
+- Moving platform: 1×1 top at 0; 3px slab below, rail-like edge markers. idle / moving / arrived. Support Area2D + AnimatableBody2D on dedicated support collision layer 2; trigger layer uses character layer 4. Local move_to uses integer-rounded physics-tick position and exact integer destination; destination must be on 32×16 grid relative to start. Test rider follows same translation, no general attachment controller.
+- Rotator: 16×8 world-space bar on pivot/base, 1×1 reserved envelope. A aligns local X, B local Z. Five pre-rendered 3D isometric geometric orientations over 90 degrees. No Sprite/Camera2D rotation. Area/support footprint updates only on A/B commit; support is disabled during transient rotation, interaction locked. No camera/game-world reorientation. Rotation signal reports integer orientation only after completion.
+- Exit: abstract floating diamond + pedestal. locked has crossed central split, ready opens hollow diamond, active has central restrained silver/ivory core, complete briefly expands two geometric accents then resolves to a stable fulfilled motif. Area2D entry activates only when ready. No scene change, reward, score or UI.
+
+Single-purpose local scripts expose state/finished signals and small methods. No manager, event bus, global FSM or level rules. All test control/character transport remains under tests/visual. Runtime colliders are children of visual root, ensuring shared movement.
+
+Rendering: same-height objects/characters Y-sort at z=0; floor-like mechanism visual below standing character (character z=1); gate Y-sort uses root ground center. Surface pale stone/sage/cyan, Inner dark bluegray/silver/violet with segmentation. Alpha 0/255, Nearest, Lossless, no mipmaps. Preserve project.godot, all accepted Sprite and Tileset PNGs/resources.
+
+Acceptance: real graphical Godot with every state/transition exercised; all frames at 1–4x compared to source; Area2D entry, gate physical passage, platform X/Z/screen-horizontal travel and rider offsets, A/B orientation/support polygons, gate front/behind and standing depth, exit state eligibility. Record defects before fixes. Scope ends after report.

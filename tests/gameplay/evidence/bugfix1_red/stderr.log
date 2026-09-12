@@ -1,0 +1,34 @@
+FAIL: E advances exactly one 90-degree view step 2
+FAIL: E advances exactly one 90-degree view step 3
+FAIL: E visits all four views
+FAIL: Q advances exactly one 90-degree view step 1
+FAIL: Q advances exactly one 90-degree view step 2
+FAIL: Q visits all four views
+FAIL: drag_right advances exactly one 90-degree view step 2
+FAIL: drag_right advances exactly one 90-degree view step 3
+FAIL: drag_right visits all four views
+FAIL: drag_left advances exactly one 90-degree view step 1
+FAIL: drag_left advances exactly one 90-degree view step 2
+FAIL: drag_left visits all four views
+FAIL: 1000 discrete rotations without drift
+FAIL: Inner valid view and projection activates link attempt 0
+FAIL: Inner graph exposes authored edge attempt 0
+FAIL: Inner neighbor query returns B attempt 0
+FAIL: Inner starts roll before node commit attempt 0
+FAIL: Inner completes A to B traversal attempt 0
+FAIL: Inner disabled edge blocks return
+FAIL: round-trip Shift preserves cell pose and view
+FAIL: Inner valid view and projection activates link attempt 1
+FAIL: Inner graph exposes authored edge attempt 1
+FAIL: Inner neighbor query returns B attempt 1
+FAIL: Inner starts roll before node commit attempt 1
+FAIL: Inner completes A to B traversal attempt 1
+FAIL: Inner disabled edge blocks return
+FAIL: round-trip Shift preserves cell pose and view
+FAIL: Inner valid view and projection activates link attempt 2
+FAIL: Inner graph exposes authored edge attempt 2
+FAIL: Inner neighbor query returns B attempt 2
+FAIL: Inner starts roll before node commit attempt 2
+FAIL: Inner completes A to B traversal attempt 2
+FAIL: Inner disabled edge blocks return
+FAIL: round-trip Shift preserves cell pose and view

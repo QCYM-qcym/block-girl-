@@ -630,15 +630,22 @@ func _integration_level() -> Dictionary:
 		"goal": {"face_id": &"floor/TOP", "required_flags": []}, "flag_definitions": [], "build_info": {}}
 
 func _integration_anchor(snapshot: Dictionary) -> Dictionary:
-	for anchor in snapshot.anchors:
+	if not snapshot.ok:
+		check(false, "Spatial failed before anchor consumption: " + str(snapshot.issues))
+		return {}
+	for anchor in snapshot.value.anchors:
 		if anchor.face_id == &"floor/TOP":
 			return anchor
 	check(false, "real snapshot provides floor/TOP")
 	return {}
 
 func _integration_query(lighting: Script, snapshot: Dictionary, slot: Dictionary) -> Dictionary:
+	# Test adapter only: a failed Spatial result never reaches the light query.
+	if not snapshot.ok:
+		check(false, "Spatial failed before lighting consumption: " + str(snapshot.issues))
+		return {"ok": false, "light_state": null, "reason": &"INVALID", "occluder_id": &"", "issues": snapshot.issues.duplicate(true)}
 	var cubes: Array[Dictionary] = []
-	cubes.assign(snapshot.cubes)
+	cubes.assign(snapshot.value.cubes)
 	return lighting.query(_integration_anchor(snapshot), slot, cubes)
 
 func _test_integration(lighting: Script) -> void:
@@ -706,7 +713,7 @@ func _test_integration(lighting: Script) -> void:
 	check(spatial.snapshot(reversed_level, state) == snapshot, "real snapshot independent of definition array order")
 	var snapshot_before := snapshot.duplicate(true)
 	var reversed_snapshot := snapshot.duplicate(true)
-	reversed_snapshot.cubes.reverse()
+	reversed_snapshot.value.cubes.reverse()
 	check(_integration_query(lighting, reversed_snapshot, slot) == _integration_query(lighting, snapshot, slot), "real lighting independent of snapshot array order")
 	check(snapshot == snapshot_before and level == original_level and state == original_state, "integration queries preserve nested snapshot and inputs")
 	integration_complete = true

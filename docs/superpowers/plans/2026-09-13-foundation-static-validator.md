@@ -1,6 +1,6 @@
 # FOUNDATION-2B Static Validator Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. NOT EXECUTED; wait for subsequent user authorization.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking. Executed under subsequent user authorization; see the dedicated acceptance report.
 
 **Goal:** 对完整声明的有限构型域给出可解释VALID/INVALID/INCOMPLETE，并提供唯一共享几何Safety查询。
 
@@ -12,10 +12,10 @@
 
 ## Global Constraints
 
-- FROZEN DESIGN / NOT IMPLEMENTED。数据schema与既有错误码不改；没有INVALID_SPAWN/INVALID_EXIT等自定义替代码。
+- FROZEN DESIGN / IMPLEMENTED AND VERIFIED（2026-09-13）。数据schema与既有错误码不改；没有INVALID_SPAWN/INVALID_EXIT等自定义替代码。
 - 2B只依赖FOUNDATION-1；不得反向依赖Kernel动作执行。对动作记录只检查静态引用/声明profile，Safety只读几何。
 - 枚举声明域是静态验证，不是玩家可达性/BFS。未完成不能输出VALID。
-- 本轮无实现/commit/push/merge；其它Work和旧P-01只读。
+- 本轮仅按后续授权实现2B；无commit/push/merge，其它Work和旧P-01只读。
 
 ## Exact files / Ownership
 
@@ -55,7 +55,7 @@ SafetyStatus: SAFE=0,UNSAFE=1,UNPROVEN=2,ERROR=3
 
 Files：validation_types、safety_queries、validation_fixture、test_safety_queries。
 
-- [ ] RED：同层Cube内穿透、支撑接触、跨世界重合、非walkable、引用错误、极限anchor+normal范围失败。
+- [x] RED：同层Cube内穿透、支撑接触、跨世界重合、非walkable、引用错误、极限anchor+normal范围失败。
 
 ```gdscript
 var safe := Safety.validate_state(level, state)
@@ -66,14 +66,14 @@ check(failed.status == ValidationTypes.SafetyStatus.ERROR, "overflow is not unsa
 check(has_code(failed.issues, 1105), "canonical arithmetic overflow")
 ```
 
-- [ ] 最小实现：先DATA→checked snapshot→validate_snapshot，再中心2=anchor+normal的宽整数体积检查；规范边长1，开内部穿透拒绝，接触允许。绝不使用Godot PhysicsServer或float collision。
-- [ ] GREEN：输入全量不变、错误包装无半数据、TRUE/FALSE几何正反例及跨层隔离。
+- [x] 最小实现：先DATA→checked snapshot→validate_snapshot，再中心2=anchor+normal的宽整数体积检查；规范边长1，开内部穿透拒绝，接触允许。绝不使用Godot PhysicsServer或float collision。
+- [x] GREEN：输入全量不变、错误包装无半数据、TRUE/FALSE几何正反例及跨层隔离。
 
 ## Task 2：唯一保守运动安全查询
 
 Files：safety_queries、test_safety_queries。
 
-- [ ] RED：World整体旋转、组内玩家跟随、组外玩家阻挡、普通roll、显式同Cube换面三段通道；端点合法但扫掠无法证明返回UNPROVEN。
+- [x] RED：World整体旋转、组内玩家跟随、组外玩家阻挡、普通roll、显式同Cube换面三段通道；端点合法但扫掠无法证明返回UNPROVEN。
 
 ```gdscript
 check(Safety.validate_motion(level, before, after, rotate).status == ValidationTypes.SafetyStatus.SAFE, "clear rigid carrier")
@@ -83,14 +83,14 @@ check(has_code(uncertain.issues, 1601), "explicit incomplete safety proof")
 check(before == saved_before and after == saved_after, "query never patches state")
 ```
 
-- [ ] 最小实现：正式Math与Spatial解析载体，按Spec §16.1构造整段保守整数包围域；运动路径不按渲染采样。支持§8固定三段换面运输；源/目标实际中心与normal必须匹配声明，禁止回正或路径穿透豁免。
-- [ ] GREEN：SAFE/UNSAFE/UNPROVEN/ERROR四态、+/-90与极限pivot、支撑合法接触、其它实体不误豁免；不依赖当前Shadow/机关权限。并发承载正例需通过先包局部roll再包global旋转的组合包围证明；同层组外玩家则比较不旋转的roll域与Group扫掠域，另世界旋转退化为普通roll。三分支均有测试；Spec中(4,4,4)障碍反例不能因为串行路径安全而放行。换面三段运输须有真实SAFE正例，原距离2中心旋转的穿透不得豁免。
+- [x] 最小实现：正式Math与Spatial解析载体，按Spec §16.1构造整段保守整数包围域；运动路径不按渲染采样。支持§8固定三段换面运输；源/目标实际中心与normal必须匹配声明，禁止回正或路径穿透豁免。
+- [x] GREEN：SAFE/UNSAFE/UNPROVEN/ERROR四态、+/-90与极限pivot、支撑合法接触、其它实体不误豁免；不依赖当前Shadow/机关权限。并发承载正例需通过先包局部roll再包global旋转的组合包围证明；同层组外玩家则比较不旋转的roll域与Group扫掠域，另世界旋转退化为普通roll。三分支均有测试；Spec中(4,4,4)障碍反例不能因为串行路径安全而放行。换面三段运输须有真实SAFE正例，原距离2中心旋转的穿透不得豁免。
 
 ## Task 3：静态结构profile与声明域验证
 
 Files：static_validator、test_static_validator、validation_fixture。
 
-- [ ] RED：在初态合法但另一allowed配置重叠、封面、Slot光源非法或1105的fixture上验证不能只查初态；坏组边、机制自引用不符、跨Cube换面、错误spawn/goal引用逐条断言canonical codes。
+- [x] RED：在初态合法但另一allowed配置重叠、封面、Slot光源非法或1105的fixture上验证不能只查初态；坏组边、机制自引用不符、跨Cube换面、错误spawn/goal引用逐条断言canonical codes。
 
 ```gdscript
 var result := StaticValidator.validate(level, {"max_configurations": 4096, "max_checks": 100000})
@@ -100,14 +100,14 @@ check(invalid.status == ValidationTypes.ValidationStatus.INVALID, "noninitial ba
 check(has_code(invalid.issues, Types.ValidationCode.SAME_WORLD_CUBE_OVERLAP), "existing1200")
 ```
 
-- [ ] 最小实现：shape→机制/通道profile→按稳定顺序笛卡尔域→每构型的Spatial、walkable安全、Lighting、Mapping及声明边Safety。不存在映射通常正常；多候选含全部ID，不能按光照/blocked裁掉。
-- [ ] GREEN：所需12类静态错误完整覆盖；同位置内部封面先1201而不是伪造合法多候选；独立完整candidate测试标明边界；失效列表不被静默裁剪。
+- [x] 最小实现：shape→机制/通道profile→按稳定顺序笛卡尔域→每构型的Spatial、walkable安全、Lighting、Mapping及声明边Safety。不存在映射通常正常；多候选含全部ID，不能按光照/blocked裁掉。
+- [x] GREEN：所需12类静态错误完整覆盖；同位置内部封面先1201而不是伪造合法多候选；独立完整candidate测试标明边界；失效列表不被静默裁剪。
 
 ## Task 4：预算、确定性与生产联调
 
 Files：test_static_validator、run_validation、report、本plan。
 
-- [ ] RED：构型数量超过预算返回INCOMPLETE1600；保守扫掠不够证明返回INCOMPLETE1601；坏定义+预算不足仍INVALID且保留预算诊断。
+- [x] RED：构型数量超过预算返回INCOMPLETE1600；保守扫掠不够证明返回INCOMPLETE1601；坏定义+预算不足仍INVALID且保留预算诊断。
 
 ```gdscript
 var short := StaticValidator.validate(level, {"max_configurations": 1, "max_checks": 1})
@@ -116,13 +116,13 @@ check(short.configurations_checked <= 1 and short.checks_performed <= 1, "bounde
 check(StaticValidator.validate(reordered_level, budget) == StaticValidator.validate(level, budget), "stable enumeration and issue paths")
 ```
 
-- [ ] 最小实现：预算在每次新增构型/语义查询前扣计数，无墙钟参与结果；规范顺序来自layer/ID/枚举值，issues canonical路径稳定。
-- [ ] GREEN：重复、重排、空/非法预算、极大域不先展开内存爆炸；记录真实依赖HEAD与测试数。
-- [ ] 提供真实Safety给2A，完整Validator给2C；不主动修改他们的目录。最终检查无规则权限算法/BFS/默认VALID或测试double生产泄漏。
+- [x] 最小实现：预算在每次新增构型/语义查询前扣计数，无墙钟参与结果；规范顺序来自layer/ID/枚举值，issues canonical路径稳定。
+- [x] GREEN：重复、重排、空/非法预算、极大域不先展开内存爆炸；记录真实依赖HEAD与测试数。
+- [x] 提供真实Safety给2A，完整Validator给2C；不主动修改他们的目录。最终检查无规则权限算法/BFS/默认VALID或测试double生产泄漏。
 
 ## Acceptance command / PASS
 
-后续运行：
+验收命令（已执行，具体EvidenceName见报告）：
 
 ```powershell
 & 'D:/APP/steam/steamapps/common/Godot Engine/godot.windows.opt.tools.64.exe' --headless --path . --script res://tests/foundation/validation/test_safety_queries.gd
@@ -131,4 +131,4 @@ check(StaticValidator.validate(reordered_level, budget) == StaticValidator.valid
 & './tests/foundation/run_validation.ps1' -EvidenceName static_validator_foundation_regression
 ```
 
-wrapper记录exit0/错误扫描/真实依赖、计数、failures=[]；日志写ignored新目录，进程隐藏、超时60秒。所有正反例与旧FOUNDATION回归通过后输出 **FOUNDATION_STATIC_VALIDATOR_PASS**。该token是模块测试通过，不表示任何INCOMPLETE关卡可Bake或已证明可解。当前这些生产文件和命令结果均不存在，不能提前勾选。
+wrapper记录exit0/错误扫描/真实依赖、计数、failures=[]；日志写ignored新目录，进程隐藏、超时60秒。所有正反例与旧FOUNDATION回归通过后输出 **FOUNDATION_STATIC_VALIDATOR_PASS**。该token是模块测试通过，不表示任何INCOMPLETE关卡可Bake或已证明可解。已执行：Safety 199 + Static 171 = 370 checks，0 failures；FOUNDATION-1全回归81,014 checks通过。实际exit/log/hash证据见专属报告。

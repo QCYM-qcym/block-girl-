@@ -10,6 +10,25 @@
 
 **Spec:** `docs/superpowers/specs/2026-09-13-foundation-puzzle-rule-kernel-contracts.md` §3–15、§18–20。
 
+## Execution record — 2026-09-13
+
+User authorized FOUNDATION-2D implementation in this worktree and explicitly allowed a strict Kernel Adapter/Test Double when the real Kernel is not integrated. This supersedes the historical “not executed” notes and real-Kernel-only prototype gate below. Public ABI remains unchanged.
+
+- [x] Task 1: InputMapper TDD, 330 checks PASS.
+- [x] Task 2: RuntimeSession/KernelPort TDD, 62 checks PASS, including synchronous signal reentrancy.
+- [x] Task 4: independent real graphical scene, ghost interpolation, MOVE/Rotate/Shadow Shift/Reset, 116 checks PASS with explicit test injection.
+- [x] Runtime new-stage wrapper: 60-second stage limits, logs, PASS/error/exit gates; optional legacy regression import preflight.
+- [x] First-wave FOUNDATION regression: 81,014 checks PASS.
+- [x] P-01 state/runtime: 31 + 167 checks PASS after generating missing import caches; initial failed evidence retained.
+- [x] Full legacy regression chain PASS: Perspective, earlier prototype, Sprite, Tileset, Mechanism; no tracked legacy changes.
+- [ ] Task 3 / real 2A+2B integration: NOT RUN; dependencies absent. Canned busy/composite results test scheduling only. No real safety/permission proof claimed.
+
+Ruling: accept the explicitly authorized contract-double Runtime prototype; do not claim real Kernel/Safety integration. Production adapter has no double fallback. User instructions override the earlier plan gate, not the frozen result/state schemas.
+
+Ruling: ghost endpoint interpolation is visual-only and uses formal Spatial/Orientation owners; it does not approximate a physical safety proof.
+
+Report: `docs/development-records/FOUNDATION_RUNTIME_PROTOTYPE_REPORT.md`. No commit/push/merge or public contract/P-01 changes. The original checklists below retain their historical real-integration meaning.
+
 ## Global Constraints
 
 - FROZEN DESIGN / NOT IMPLEMENTED。最多Surface 2–3 Cube、Inner 2–3 Cube、一个Shadow Shift、一个Rotate，不制作P-02或正式美术。

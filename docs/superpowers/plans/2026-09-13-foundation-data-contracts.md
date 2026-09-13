@@ -67,3 +67,62 @@ git diff --check
 ```
 
 RED 与最终日志分别保存。通过输出 FOUNDATION_DATA_CONTRACTS_PASS、字段清单和报告；停止，不替其它模块实现算法。
+
+## FOUNDATION-0.1 恢复补充（新增任务，不重写已完成结构部分）
+
+**Revision:** API合同 foundation.contract.v1.1；LevelDefinition 标签仍 schema_version=1 / foundation.contract.v1 / cube24.v1 / foundation.rules.v1，仍19字段；PuzzleState 仍6字段。前文 Task 1/2 和“不实现 StateHasher”是旧范围记录，以下仅授权新增 StateKey 字符串编码；不授权 BFS/Kernel/Baker。中央计划不复制或覆盖 D worktree 原有完成勾选。历史655项结构检查已通过，StateKey 未实现；新任务需重新验证，不能继承该计数作为新功能 PASS。
+
+**新增文件权限：** D 可新增 `foundation/contracts/state_key.gd`、其 UID、`tests/foundation/contracts/test_state_key.gd`、其 UID。可修改原 foundation_types.gd、contract_validation.gd、tests/foundation/contracts/test_contracts.gd 与自己的报告/计划；其它模块仍只读。
+
+### Task 3：Canonical ValidationCode 与新增结果枚举
+
+**Interfaces:** foundation_types 维持原 ValidationCode 全部名字/值；新增 MappingResolutionStatus={NONE:0,UNIQUE:1,AMBIGUOUS:2,ERROR:3}，记录只是公共 Dictionary schema，不建别名类。唯一语义表为公共合同 §8.1。
+
+- [ ] 增补 RED：固定四态枚举；检查1105只有 ARITHMETIC_OVERFLOW，无 COORDINATE_OVERFLOW/DUPLICATE_CUBE_ID/CUBE_OVERLAP/INVALID_SPAWN/INVALID_EXIT 等旧提示词别名；LOCAL_GROUP_ROTATE 仍6。
+- [ ] 针对已知 Slot 引用的缺失目标/覆盖错误，分别建立 level.celestial（initial/order/edges）、PuzzleState.celestial.slot_id、MOVE_CELESTIAL target/alternate 的案例，期望1300。缺字段/类型/重复ID等独立形状错误保留1002/1000/1005。机关和其它普通引用仍1006。
+- [ ] 运行 test_contracts 保存 RED；只将 DATA 中已确定的 Celestial 引用失败从通用1006收敛到已有1300，并更新相应旧断言。不能把所有 _reference 调用无差别改码；不修改 C 已通过的专用引用检查。
+
+```gdscript
+check(Types.MappingResolutionStatus.NONE == 0, "resolution NONE ABI")
+check(Types.MappingResolutionStatus.ERROR == 3, "resolution ERROR ABI")
+check(Types.ValidationCode.ARITHMETIC_OVERFLOW == 1105, "single overflow code")
+check(Types.ValidationCode.INVALID_CELESTIAL_REFERENCE == 1300, "slot reference canonical code")
+check(not Types.ValidationCode.has("COORDINATE_OVERFLOW"), "no overflow alias")
+```
+
+- [ ] 重跑完整结构回归，报告因1300收敛而改变的断言清单与最终 check 数；不声称 DATA 已实现几何、安全或歧义求解。其它原655检查语义保留，不为了绿灯删除案例。
+
+### Task 4：唯一 StateKey API 与 canonical format
+
+**Interfaces:** `foundation/contracts/state_key.gd::build(level: Dictionary,state: Dictionary)->Dictionary`，StateKeyResult={ok:bool,key:String,issues:Array[ValidationIssue]}。依赖仅为 DATA.contract_validation/foundation_types；不依赖 MATH/SPATIAL/CELESTIAL。格式严格按合同 §6.1/6.2，schema prefix 为 statekey.v1:。
+
+- [ ] 新建独立 headless SceneTree test_state_key.gd，缺实现明确失败并非零退出。建立合同 golden A/B 的完整 shape 合法 LevelDefinition；B 的组、机制、flags、Inner Face/Slot 和允许姿态域必须真实声明，不能跳过 validator；canonical key 预期从文档固定字符串复制，不能用待测编码器生成 expected。
+- [ ] RED：所有六状态字段和嵌套位置/姿态分别做合法单变量改变，key均改变；三个map正序/逆序/多种插入次序均得到golden B。world_orientations 保留 [Surface,Inner] 序，不排序；false flag不省略。新增未声明map成员、缺成员、嵌套 UI/derived字段、错误类型/引用/版本一律失败，key=""。
+
+```gdscript
+var first = state_key.build(level, state)
+check(first.ok and first.key == expected_golden, "statekey.v1 exact golden")
+var reversed = state.duplicate(true)
+var groups: Dictionary = {}
+groups[&"beta"] = 22
+groups[&"alpha"] = 2
+reversed.group_orientations = groups
+check(state_key.build(level, reversed).key == first.key, "map insertion order ignored")
+var invalid = state.duplicate(true)
+invalid["rotate_target"] = 1
+var rejected = state_key.build(level, invalid)
+check(not rejected.ok and rejected.key == "", "unknown UI state rejected")
+```
+
+- [ ] 单独 RED 覆盖文本转义 golden、合法非ASCII、引号/反斜线/控制字符、无BOM、无末尾LF/CR、枚举符号而非数字、十进制Orientation、no-whitespace对象边界。非法 Unicode scalar 返回INVALID_TYPE，不做正规化。两个合法不同content_hash得到不同key；unsupported rule_version得到VERSION_MISMATCH，不能伪造两个都合法的v1规则版本来测试。
+- [ ] 运行新入口保存 RED；实现 build 的两阶段shape检查和唯一字符串编码。保留完整String相等/UTF-8序列化，不做二进制打包或hash-only返回；不新增第二个 debug/compact key方法。只编码严格验证后的完整状态和level_hash/rule_version namespace，不把build_info/表现/派生加入。
+- [ ] GREEN：检查输入深比较不变，返回issues可修改但不污染后续调用。对成功key直接用 Dictionary 建visited并确认同状态去重、不同状态不合并；invalid key不能插入。重跑 test_contracts 与 test_state_key 两个入口，记录独立check数与错误输出，不把文档JSON检查称作GDScript实现验证。
+
+新入口验收命令（在恢复后的 D 工作区/其独立真实依赖测试工程执行，日志使用本轮新文件名；不在中央合同修订中执行）：
+
+```powershell
+& 'D:/APP/steam/steamapps/common/Godot Engine/godot.windows.opt.tools.64.exe' --headless --path 'E:/godot/worktrees/block-girl-foundation-contracts' --script res://tests/foundation/contracts/test_state_key.gd
+if ($LASTEXITCODE -ne 0) { throw 'StateKey failed' }
+```
+
+最终报告分别给 STRUCTURE_CONTRACT 与 STATEKEY 验证结果、API revision和statekey.v1；二者新检查均通过才清除本轮 CONTRACT_MISMATCH。本计划不执行恢复动作、不自动改其它 Work、不 commit/push/merge。

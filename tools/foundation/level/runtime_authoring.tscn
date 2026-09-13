@@ -1,0 +1,41 @@
+[gd_scene format=3]
+
+[node name="RuntimeAuthoring" type="Node3D"]
+metadata/foundation_authoring = {
+"schema_version": 1, "contract_version": "foundation.contract.v1", "orientation_version": "cube24.v1", "rule_version": "foundation.rules.v1",
+"level_id": &"runtime_baked", "cell_size": 1,
+"worlds": [{"layer": 0, "pivot2": Vector3i(0,0,0), "initial_orientation": 0, "allowed_states": [0,22], "allowed_rotation_deltas": [22], "allowed_rotation_intents": [0]}, {"layer": 1, "pivot2": Vector3i(0,0,0), "initial_orientation": 0, "allowed_states": [0], "allowed_rotation_deltas": [], "allowed_rotation_intents": []}],
+"cubes": [], "faces": [], "groups": [],
+"celestial": {"slots": [], "slot_order": [&"a",&"b"], "wrap": false, "initial_slot_id": &"a", "edges": [{"from_slot_id": &"a", "to_slot_id": &"b"}, {"from_slot_id": &"b", "to_slot_id": &"a"}]},
+"mechanisms": [], "face_transitions": [], "shift_compatibilities": [0], "spawn": {"location": {"layer": 0, "cube_id": &"s0", "face": 4}, "orientation": 0}, "goal": {"face_id": &"i1/TOP", "required_flags": []}, "flag_definitions": [], "build_info": {"purpose": "FOUNDATION-2 real end-to-end technical fixture"}
+}
+
+[node name="Cubes" type="Node3D" parent="."]
+
+[node name="SurfaceSpawn" type="Node3D" parent="Cubes"]
+metadata/foundation_cube = {"cube_id": &"s0", "layer": 0, "group_id": &"", "occludes_light": true, "tags": []}
+metadata/foundation_faces = [{"face": 0, "walkable": false, "shift_exit_blocked": true, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 1, "walkable": false, "shift_exit_blocked": true, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 2, "walkable": false, "shift_exit_blocked": true, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 3, "walkable": false, "shift_exit_blocked": true, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 4, "walkable": true, "shift_exit_blocked": true, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 5, "walkable": false, "shift_exit_blocked": true, "shift_entry_blocked": false, "mechanism_ids": []}]
+
+[node name="SurfaceStep" type="Node3D" parent="Cubes"]
+position = Vector3(1,0,0)
+metadata/foundation_cube = {"cube_id": &"s1", "layer": 0, "group_id": &"", "occludes_light": true, "tags": []}
+metadata/foundation_faces = [{"face": 0, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 1, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 2, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 3, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 4, "walkable": true, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 5, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []}]
+
+[node name="InnerSpawn" type="Node3D" parent="Cubes"]
+metadata/foundation_cube = {"cube_id": &"i0", "layer": 1, "group_id": &"", "occludes_light": true, "tags": []}
+metadata/foundation_faces = [{"face": 0, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 1, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 2, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 3, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 4, "walkable": true, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 5, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []}]
+
+[node name="InnerExit" type="Node3D" parent="Cubes"]
+position = Vector3(0,0,-1)
+metadata/foundation_cube = {"cube_id": &"i1", "layer": 1, "group_id": &"", "occludes_light": true, "tags": []}
+metadata/foundation_faces = [{"face": 0, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 1, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 2, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 3, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 4, "walkable": true, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []},{"face": 5, "walkable": false, "shift_exit_blocked": false, "shift_entry_blocked": false, "mechanism_ids": []}]
+
+[node name="Slots" type="Node3D" parent="."]
+
+[node name="A" type="Node3D" parent="Slots"]
+position = Vector3(0,-4,0)
+metadata/slot_id = &"a"
+
+[node name="B" type="Node3D" parent="Slots"]
+position = Vector3(0,-5,0)
+metadata/slot_id = &"b"

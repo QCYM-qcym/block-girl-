@@ -9,7 +9,7 @@ const Session = preload("res://foundation/runtime/runtime_session.gd")
 const Presenter = preload("res://foundation/runtime/prototype_presenter.gd")
 const Fixture = preload("res://prototype/foundation/runtime/runtime_fixture.gd")
 var session_override: RefCounted
-var backend_label := "REAL KERNEL / requires FOUNDATION-2A + 2B"
+var backend_label := "REAL BAKER → VALIDATOR → KERNEL → SAFETY"
 var session: RefCounted
 var presenter: Node3D
 var camera: Camera3D
@@ -30,14 +30,13 @@ func _ready() -> void:
 	session.committed.connect(_on_committed)
 	session.feedback.connect(_on_feedback)
 	session.transition_started.connect(_on_transition)
-	var result: Dictionary = session.load_level(Fixture.make_level())
+	var baked := Fixture.bake()
+	var result: Dictionary = session.load_level(baked.level) if baked.ok else baked
 	loaded = result.ok
 	if loaded:
 		_status.text = "Ready. Demo route: D → Q → Space. R restores the initial state."
 	else:
-		_status.text = "Backend unavailable: " + str(result.issues) + "\nUse the explicit test launcher for the contract demonstration."
-		# The fixture remains inspectable; no session state is invented on failure.
-		presenter.sync_state(Fixture.make_level(), Records.initial_state(Fixture.make_level()))
+		_status.text = "Level unavailable: " + str(result.issues)
 
 func _unhandled_input(event: InputEvent) -> void:
 	if not event is InputEventKey or not event.pressed or event.echo:

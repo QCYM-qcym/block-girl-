@@ -36,7 +36,13 @@ func run() -> void:
 	var level := Fixture.make_level()
 	check(level.size() == 19 and Data.validate_level_shape(level).is_empty(), "fixture full DATA shape")
 	var production = Session.new()
-	check(not production.load_level(level).ok and not production.ready, "missing real dependencies fail closed")
+	check(production.load_level(level).ok and production.ready, "default session loads real Kernel and Safety")
+	var unavailable_port = Port.new()
+	unavailable_port._kernel = null
+	unavailable_port._records = null
+	unavailable_port._goal = null
+	var unavailable_session = Session.new(unavailable_port)
+	check(not unavailable_session.load_level(level).ok and not unavailable_session.ready, "explicit missing real dependencies fail closed")
 	var pair := setup()
 	var s = pair[0]
 	var d = pair[1]
@@ -149,6 +155,9 @@ func test_busy_and_composite() -> void:
 	check(s.state == after and s.commit_count == 1 and s.context.ticket == null, "composite full player and world effect commit once")
 func test_port() -> void:
 	var unavailable = Port.new()
+	unavailable._kernel = null
+	unavailable._records = null
+	unavailable._goal = null
 	check(unavailable.idle_context() == {"global_transition_state":0,"ticket":null,"local_moves":[]}, "unavailable port idle context keeps frozen record shape")
 	var issue: Dictionary = unavailable.unavailable_issues()[0]
 	check(issue.size() == 6 and issue.has("message"), "dependency issue has full six-field core schema")

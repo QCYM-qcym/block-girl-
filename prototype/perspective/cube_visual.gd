@@ -51,9 +51,11 @@ func _draw() -> void:
 		# Marker exists only on local +Z, and disappears when that face is hidden.
 		if face.index==4:
 			face_visible=true
-			for x in [-0.14,0.14]:
-				var dot:=project_vertex(transform_basis*Vector3(x,0.08,0.385)+center)
-				draw_rect(Rect2(dot-Vector2.ONE,Vector2(2,2)),Color("283944"))
-			var mouth_a:=project_vertex(transform_basis*Vector3(-0.08,-0.12,0.386)+center)
-			var mouth_b:=project_vertex(transform_basis*Vector3(0.08,-0.12,0.386)+center)
-			draw_line(mouth_a,mouth_b,Color("e5b884"),1.0,false)
+			draw_face_marker(transform_basis,center)
+func draw_face_marker(transform_basis: Basis,center: Vector3) -> void:
+	for x in [-0.14,0.14]:
+		var dot:=project_vertex(transform_basis*Vector3(x,0.08,0.385)+center)
+		draw_rect(Rect2(dot-Vector2.ONE,Vector2(2,2)),Color("283944"))
+	var mouth_a:=project_vertex(transform_basis*Vector3(-0.08,-0.12,0.386)+center)
+	var mouth_b:=project_vertex(transform_basis*Vector3(0.08,-0.12,0.386)+center)
+	draw_line(mouth_a,mouth_b,Color("e5b884"),1.0,false)

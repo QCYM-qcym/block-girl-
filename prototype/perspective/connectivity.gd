@@ -4,6 +4,8 @@ const Link=preload("res://prototype/perspective/perspective_link.gd")
 var nodes: Dictionary = {}
 var link
 var revision:=0
+func can_stand(cell: Vector2i,_world: int) -> bool:
+	return nodes.has(cell)
 func _init() -> void:
 	for x in range(0,5):
 		for z in range(0,5): nodes[Vector2i(x,z)]=0

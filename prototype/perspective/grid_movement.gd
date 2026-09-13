@@ -1,4 +1,5 @@
 extends RefCounted
+signal committed
 const Orientation=preload("res://prototype/perspective/cube_orientation.gd")
 const ROLL_SECONDS:=0.32
 var orientation=Orientation.new()
@@ -48,6 +49,9 @@ func try_held() -> void:
 	message="穿越投影连接：正常滚动一格……" if crossing else "松开按键后，当前完整滚动结束即停。"
 func shift() -> bool:
 	if phase!="idle" or view.busy: return false
+	if not graph.can_stand(cell,1-world):
+		message="无法切换：另一世界此处没有落脚点。"
+		return false
 	phase="shift"
 	elapsed=0.0
 	return true
@@ -60,6 +64,7 @@ func tick(delta: float) -> void:
 			moves+=1
 			phase="idle"
 			crossing=false
+			committed.emit()
 	elif phase=="shift":
 		elapsed+=delta
 		if elapsed>=0.25:
@@ -67,6 +72,7 @@ func tick(delta: float) -> void:
 			phase="idle"
 			graph.recalculate(view,world)
 			message="世界已切换；格坐标与物理脸朝向保留。"
+			committed.emit()
 	try_held()
 func reset() -> void:
 	orientation=Orientation.new()

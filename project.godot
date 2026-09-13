@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="方块少女-若叶睦"
-run/main_scene="res://prototype/puzzle_01.tscn"
+run/main_scene="res://game/levels/mutsumi/p01_another_world.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

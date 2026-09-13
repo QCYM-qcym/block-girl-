@@ -1,6 +1,6 @@
 # FOUNDATION-2C LevelDefinition / Baker Prototype Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. NOT EXECUTED; wait for subsequent user authorization.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking. EXECUTED with the user's FOUNDATION-2C authorization on 2026-09-13. All four tasks and final real-Validator acceptance passed; no commit/push/merge.
 
 **Goal:** 最小Godot authoring scene经严格量化、规范编码/hash和真实Static Validator，产生可消费LevelDefinition。
 
@@ -12,11 +12,11 @@
 
 ## Global Constraints
 
-- FROZEN DESIGN / NOT IMPLEMENTED。不是Editor Plugin/正式关卡/P-02；不加Face Edit Mode/Overlay/Heatmap。
+- FROZEN DESIGN / IMPLEMENTED AND VERIFIED。不是Editor Plugin/正式关卡/P-02；不加Face Edit Mode/Overlay/Heatmap。
 - LevelDefinition仍19字段、schema1；Baker是content_hash的唯一生产编码Owner，不创建第二StateKey。
 - 通用Scene元数据仅在authoring边界；输出不得保留Node/Basis/float/隐藏规则字段。
 - 2C只消费2B验证合同，不实现静态Validator替代品或默认返回VALID。
-- 本轮不实现/commit/push/merge；后续输出与临时证据写E盘项目ignored目录，不写C盘资源。
+- 本轮已获用户授权执行实现；不commit/push/merge。输出与临时证据仅写E盘项目ignored目录，不写C盘资源。
 
 ## Exact files / Ownership
 
@@ -59,7 +59,7 @@ StaticValidator.validate(level: Dictionary,options: Dictionary) -> StaticValidat
 
 Files：level_codec、baker_fixture、test_level_codec。
 
-- [ ] RED：同定义重排记录、改build_info、改真正逻辑字段；UTF-8转义、枚举符号、坐标数组、无BOM/LF、未知字段和错误hash。
+- [x] RED：同定义重排记录、改build_info、改真正逻辑字段；UTF-8转义、枚举符号、坐标数组、无BOM/LF、未知字段和错误hash。
 
 ```gdscript
 var first := Codec.compute_content_hash(level)
@@ -72,14 +72,14 @@ check(encoded.ok and not encoded.text.ends_with("\n"), "no final LF")
 check(Codec.decode(encoded.text).level == canonical_level, "typed canonical roundtrip")
 ```
 
-- [ ] 最小实现：按Spec规定字段/记录排序及有序数组规则序列化；先验证类型/Unicode/枚举，数字字段禁止默默截断float。hash排除content_hash/build_info。编码不调用StateKey私有方法。
-- [ ] GREEN：固定已人工确认的canonical JSON/hash golden，字符串转义反例，重复ID不去重；decode恢复StringName/Vector3i/int，验证内容hash真实性，不默许旧Bake的伪造hash。保留StateKey v1 golden不改。
+- [x] 最小实现：按Spec规定字段/记录排序及有序数组规则序列化；先验证类型/Unicode/枚举，数字字段禁止默默截断float。hash排除content_hash/build_info。编码不调用StateKey私有方法。
+- [x] GREEN：固定已人工确认的canonical JSON/hash golden，字符串转义反例，重复ID不去重；decode恢复StringName/Vector3i/int，验证内容hash真实性，不默许旧Bake的伪造hash。保留StateKey v1 golden不改。
 
 ## Task 2：Authoring读取与拒绝量化
 
 Files：authoring_reader、minimal_authoring.tscn、test_level_baker。
 
-- [ ] RED：根平移/旋转归一化后一致；偏离半格超过1e-6、奇数Cube中心、非单位basis、镜像、缩放、溢出、漏Face配置、重复ID。
+- [x] RED：根平移/旋转归一化后一致；偏离半格超过1e-6、奇数Cube中心、非单位basis、镜像、缩放、溢出、漏Face配置、重复ID。
 
 ```gdscript
 var read := AuthoringReader.read_scene(root)
@@ -90,14 +90,14 @@ check(not off_lattice.ok and has_code(off_lattice.issues, 1100), "no silent snap
 check(not overflow.ok and has_code(overflow.issues, 1105), "range checked before Vector3i")
 ```
 
-- [ ] 最小实现：读取明确元数据与根相对Transform；按容差比较最近整数/合法Math基；生成规范预输入，失败authoring=null。无隐藏Node扫描规则，无Editor插件。
-- [ ] GREEN：真实.tscn加载后读取，不仅手写Dictionary测试；重排scene兄弟节点、改显示名不影响ID与hash；报错路径可定位Node/字段。
+- [x] 最小实现：读取明确元数据与根相对Transform；按容差比较最近整数/合法Math基；生成规范预输入，失败authoring=null。无隐藏Node扫描规则，无Editor插件。
+- [x] GREEN：真实.tscn加载后读取，不仅手写Dictionary测试；重排scene兄弟节点、改显示名不影响ID与hash；报错路径可定位Node/字段。
 
 ## Task 3：Bake→真实Validator Gate
 
 Files：level_baker、validator_double、test_level_baker。
 
-- [ ] RED：Validator INVALID/INCOMPLETE、预算不足、坏spawn/goal、非法槽源、宽机制profile；任何失败level=null，不能返回仅shape通过的“可用level”。
+- [x] RED：Validator INVALID/INCOMPLETE、预算不足、坏spawn/goal、非法槽源、宽机制profile；任何失败level=null，不能返回仅shape通过的“可用level”。
 
 ```gdscript
 var baked := Baker.bake(authoring, {"max_configurations": 4096, "max_checks": 100000})
@@ -107,20 +107,20 @@ check(Codec.compute_content_hash(baked.level).content_hash == baked.level.conten
 check(not incomplete.ok and incomplete.level == null, "INCOMPLETE is not bake success")
 ```
 
-- [ ] 最小实现：纯authoring→shape检查→规范hash→真实StaticValidator；失败issues保留，成功完整level。占位hash只允许局部shape校验，绝不作为产物输出。
-- [ ] GREEN：先double单测，再真实2B加载，报告清楚区分；实际最小scene可Bake VALID，坏scene拒绝输出。调用Baker不写磁盘、不修改输入。
+- [x] 最小实现：纯authoring→shape检查→规范hash→真实StaticValidator；失败issues保留，成功完整level。占位hash只允许局部shape校验，绝不作为产物输出。
+- [x] GREEN：先double单测，再真实2B加载，报告清楚区分；实际最小scene可Bake VALID，坏scene拒绝输出。调用Baker不写磁盘、不修改输入。
 
 ## Task 4：命令行产物与证据
 
 Files：bake_level.gd、run_validation、report、本plan。
 
-- [ ] RED：目标文件已存在/路径非法、解析/Bake失败时不创建最终文件；不同逻辑level不能同hash。
-- [ ] 最小实现：命令行只在完整成功后写UTF-8无BOM文本；默认路径要求调用者显式指定，并检查不覆盖现有文件。scene/free由工具层处理，不放入纯Baker。
-- [ ] GREEN：真实产物decode→Validator VALID→StateKey(initial_state)成功；main场景与旧资源无diff；日志ignored。记录产物hash及完整命令。
+- [x] RED：目标文件已存在/路径非法、解析/Bake失败时不创建最终文件；不同逻辑level不能同hash。
+- [x] 最小实现：命令行只在完整成功后写UTF-8无BOM文本；默认路径要求调用者显式指定，并检查不覆盖现有文件。scene/free由工具层处理，不放入纯Baker。
+- [x] GREEN：真实产物decode→Validator VALID→StateKey(initial_state)成功；main场景与旧资源无diff；日志ignored。记录产物hash及完整命令。
 
 ## Acceptance command / PASS
 
-后续实现完成后执行：
+计划验收入口（真实2B未合并时，用下方wrapper生成隔离依赖项目）：
 
 ```powershell
 & 'D:/APP/steam/steamapps/common/Godot Engine/godot.windows.opt.tools.64.exe' --headless --path . --script res://tests/foundation/level/test_level_codec.gd
@@ -130,4 +130,4 @@ Files：bake_level.gd、run_validation、report、本plan。
 & './tests/foundation/run_validation.ps1' -EvidenceName level_baker_foundation_regression
 ```
 
-CLI负责创建输出父目录，已有输出必须换新路径而非覆盖。wrapper采用隐藏进程/60秒超时/exit0+明确PASS+错误扫描，记录真实2B版本；不得提交.godot、evidence或日志。真实scene→Bake→Validator→decode全链及回归通过后输出 **FOUNDATION_LEVEL_BAKER_PROTOTYPE_PASS**。只有double时不允许该token。本轮上述文件与实现均未创建。
+CLI负责创建输出父目录，已有输出必须换新路径而非覆盖。wrapper采用隐藏进程/60秒超时/exit0+明确PASS+错误扫描，记录真实2B版本；不得提交.godot、evidence或日志。真实scene→Bake→Validator→decode全链及回归通过后输出 **FOUNDATION_LEVEL_BAKER_PROTOTYPE_PASS**。只有double时不允许该token。上述文件已创建并验收。最终wrapper证据：.godot/foundation-2c/level_baker_final/；真实Validator为VALID（4 configurations / 156 checks），Codec 75 checks、Baker 65 checks、产物复验70 checks。第一波六套回归证据：.godot/foundation-1-validation/level_baker_foundation_regression_final/。完整交付见本Work专属report。

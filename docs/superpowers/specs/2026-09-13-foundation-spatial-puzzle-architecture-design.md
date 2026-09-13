@@ -4,14 +4,17 @@ project: 方块少女 / Block Girl - 若叶睦
 stage: FOUNDATION_ARCHITECTURE_SPEC_FREEZE
 design_status: FROZEN DESIGN
 implementation_status: NOT IMPLEMENTED YET
-review_status: CORE CONTRACT FROZEN BY FOUNDATION-0
+review_status: CORE CONTRACT RECONCILED BY FOUNDATION-0.1
 contract_version: foundation.contract.v1
+contract_revision: foundation.contract.v1.1
 date: 2026-09-13
 baseline_branch: feat/playable-puzzle-p02
 baseline_head: 0043ea56dc1cd19b87139e7c989b9fc5126ad71f
 ---
 
 # FOUNDATION Spatial Puzzle Architecture Design
+
+> FOUNDATION-0.1 更新（2026-09-13）：本轮仅在 feat/foundation-core 中修订公共合同与 B/D 计划。公共 API 修订为 foundation.contract.v1.1，数据标签 foundation.contract.v1 / cube24.v1 / foundation.rules.v1 不变。§33.7 记录四路真实反馈及恢复边界；下文旧“本轮/未实现”表述保留原冻结阶段的历史含义，不抹除 A/C 已完成的模块验收，也不把模块 PASS 升格为整体 FOUNDATION PASS。
 
 > FOUNDATION-0 更新（2026-09-13）：用户已授权在既有架构冻结基础上完成 CORE CONTRACT FREEZE。§33.5 的三项决策与 `2026-09-13-foundation-core-contracts.md` 为当前规范；本文件原阶段范围/日志保留历史含义。当前只修订文档并准备四份计划，不实施系统。公共字段拼写、枚举值和编号以公共合同为准。
 
@@ -81,6 +84,8 @@ Shared Space 使用右手系，FRONT=+Z、BACK=-Z、RIGHT=+X、LEFT=-X、TOP=+Y�
 作者摆放的 Cube 中心吸附整数 L 网格；逻辑内部用半格单位的整数坐标，Cube 中心分量为偶数，FaceAnchor = Center2 + Normal（Normal 为有符号轴单位向量）。旋转 pivot 可在半格格点，但所有合法端态必须使 Cube 中心回到允许网格。禁止累计浮点 Transform 作为 StateKey 或 AnchorOverlap 依据。
 
 Cube 的静态基变换、所属 World 与 Group 的离散变换组合后，自动导出 Shared Space Center/Normal/Anchor。Bake 可保存派生缓存，但作者不能自由编辑派生值。
+
+Vector3i 坐标分量仅为 int32；先提升分量到 int64 计算完整 Group/World 端态及 Anchor，再检查表示范围，禁止先做可能溢出的 Vector3i 运算。Group 端态、World 端态或任一六面 Anchor 越界均返回 ARITHMETIC_OVERFLOW=1105；snapshot 整体失败，不保留部分几何。精确临时差可超 int32，不能误拒最终可表示的变换。细节、两个极端坐标 golden 和结果包装以公共合同 §5.1 为准。
 
 ### 5.3 重叠与邻接
 
@@ -155,6 +160,8 @@ Space 的目标来自空间推导，不使用 Surface Face A→人工 Inner Face
 
 0 候选：NO_SHIFT_MAPPING；1 候选：唯一几何映射；多于 1：AMBIGUOUS_SHIFT_MAPPING。先查歧义，再检查阴影/blocked；不能靠当前亮暗暂时遮住结构歧义。不同世界布局可不同，但必须满足同一个空间规则。
 
+公共接口显式分为 Candidate Discovery（另一层 walkable + exact AnchorOverlap pairs）→ Compatibility Classification（SAME_NORMAL / OPPOSITE_NORMAL，按关卡启用项收集）→ Unique Mapping Resolution。SpatialMappingCandidate={source_face,target_face,compatibility}，按完整 source_face/target_face ID 字节序排序。最终 MappingResolutionStatus 为 NONE / UNIQUE / AMBIGUOUS / ERROR；损坏输入或上游溢出必须 ERROR，不能冒充无映射。>1 项保留完整候选、mapping=null，禁止排序后取第一项。Owner、签名与唯一返回记录见公共合同 §5.2/9；这里只做单稳定构型，不引入跨状态搜索。
+
 World Shift 使用真实 AnchorOverlap；Perspective Connection 使用独立视觉投影/连通策略。不能复用旧投影容差当 Shift 的空间阈值；也不能把 Bake 自动生成的映射缓存误称人工传送表。
 
 ## 13. FaceCompatibility
@@ -162,6 +169,8 @@ World Shift 使用真实 AnchorOverlap；Perspective Connection 使用独立视�
 底层支持 SAME_NORMAL（n_target=n_source）和 OPPOSITE_NORMAL（n_target=-n_source）；每关配置启用模式，早期只开 SAME_NORMAL。中后期才教学 TOP↔BOTTOM 等背面切换。
 
 不接受任意斜角法线。SAME_NORMAL 保持 Shared Space 角色姿态。OPPOSITE_NORMAL 必须使用完整 SourceSurfaceFrame / TargetSurfaceFrame 的 U/V/N 列基：ShiftFrameTransform = TargetSurfaceFrame × inverse(SourceSurfaceFrame)，NewCubeOrientation = ShiftFrameTransform × OldCubeOrientation。仅取 Frame 的旋转基，不把 Anchor 平移左乘进 Orientation；结果必须属于 24 个合法正旋转。
+
+FaceCompatibility 查询仅输出几何分类；其它合法轴关系返回正常不兼容，不是输入错误。它不读取 LightState、ShiftPermission 或 GlobalTransitionState，也不执行姿态更新；上段姿态规则留给后续成功 Shift 的 Kernel 结算。
 
 这不是固定轴 180° 特例，也不是回正。目标切向轴不同会产生不同确定变换；角色中心的表现偏移另从目标支撑法线派生，不混入 AnchorOverlap。最终位置、姿态和净空仍须通过 PlayerSafety。详见 §33 DECISION-02 与公共合同。
 
@@ -312,6 +321,8 @@ Camera Transform 不能凭空由状态推导：玩法相机策略来自 LevelDef
 
 StateKey 使用固定字段顺序、稳定 ID、24 态 ID、按 ID 排序的组/机关/flags；不要哈希图像、Node 指针或浮点矩阵。删字段必须证明对动作/Goal 无影响；不得把有不同未来行为的姿态合并。缓存命中还比较规范序列化内容，避免只凭短哈希碰撞合并。
 
+FOUNDATION-0.1 的唯一入口为 DATA `foundation/contracts/state_key.gd::build(level,state)`，输出 StateKeyResult。成功 key 为 `statekey.v1:` 加 canonical JSON，字段顺序/转义/UTF-8/no-BOM/no-final-newline/golden 以公共合同 §6.1–6.2 为唯一格式定义。其命名空间包含 level.content_hash/rule_version，状态包含完整 player、world_orientations、celestial、group_orientations、mechanism_states、level_flags；先严格 shape 验证，未知 UI/derived 字段直接报错，不静默删去。visited 使用完整成功 String，失败 key 为空且禁止使用。不会在本轮实现编码器或搜索。
+
 ## 23. PuzzleAction / 原子转换
 
 MOVE(face_axis)、SHIFT_WORLD、ROTATE_SURFACE(rotation_delta)、ROTATE_INNER(rotation_delta)、USE_FACE_TRANSITION(transition_id)、TRIGGER_MECHANISM(mechanism_id)、LOCAL_GROUP_ROTATE(group_id,rotation_delta)、MOVE_CELESTIAL(celestial_op,target_slot_id,alternate_slot_id) 为语义动作族。rotation_delta 是 DiscreteOrientation 的一个合法 ±90° 增量 ID，RotationAxis 仅在内部数学层。目标/增量域来自配置，Solver 不模拟 WASD/Q/E/Drag/Tab/Space。
@@ -459,7 +470,19 @@ SourceSurfaceFrame 与 TargetSurfaceFrame 必须完整提供 Tangent U、Tangent
 
 FOUNDATION_CORE_CONTRACT_FREEZE_PASS 要求：三决策无正文矛盾，命名唯一，坐标与 Frame 一致，四计划接口/所有权一致，现有业务代码不改，Git 差异仅限本 Spec、公共合同、四计划及冻结报告。前一阶段 33.1 的文档 Gate 是历史记录；本阶段以本条为准。完成后停止，不 commit/push/merge/rebase、不启动 Blender。
 
-### 33.4 需求覆盖与来源
+### 33.7 FOUNDATION-0.1 合同修订与模块反馈
+
+只读核对四个工作区报告、B/C/D 的相关实现与 C 依赖复制证据：A 报告 77,965 数学检查与66旧逻辑回归通过；B 最终1018项中2项范围失败，仍 CONTRACT_MISMATCH；C 报告132项模块/真实依赖检查通过；D 结构655项通过但 StateKey 未实现。此处引用各报告历史运行结果，本轮不重跑 Godot，也不替 B/D 报实现 PASS。
+
+C 的 Stable A→MOVING(A)→Stable B、busy reject/no queue 是已接受的调用层合同；其报告与计划明确未实现 Scheduler/Kernel/Runtime 事务锁。§15/33.5 的目标规则保留，但不能把 C 的纯 Slot/Lighting 查询通过视为事务执行已验收。
+
+本次中央规范冻结：SpatialQueryResult 与 checked range；AnchorOverlap/FaceCompatibility/三个候选阶段；MappingResolutionStatus 四态；ValidationCode 语义表；唯一 StateKeyResult 与 statekey.v1。公共合同 §8.1 是 canonical 名称映射，保留1105并将已确定的 Celestial 引用失败统一1300，不新增同义代码。公共签名修订不变更 A 数学编号或 C 生产输出。
+
+B/D 计划仅附加 FOUNDATION-0.1 恢复任务与新文件边界，旧完成历史不重写。B/C 的快照接线须同步新包装，旧真实集成证据只证明当时被复制的版本；C 副本与源逐字节相同不等于 B 极端坐标安全。各自实施恢复时重新验收，A 无需改算法，C 只需同步其依赖测试消费边界。中央工作不修改四 worktree，不自行恢复它们。
+
+本轮 Gate：FOUNDATION_CONTRACT_RECONCILIATION_PASS。检查公共名字唯一、StateKey 唯一、overflow 无静默退化、Geometry 不混入权限、所有多候选显式歧义、无代码/资产/运行配置变化；差异限两 Spec、B/D 计划及本轮报告。完成后停止，不 commit/push/merge/rebase。
+
+### 33.4 原需求覆盖与来源（续）
 
 用户要求 5.1–5.11 对应本文 5–10/17/18；6.1–6.6 对应 11–14；7.1–7.4 对应 15；8 对应 16；9.1–9.9 对应 19/20/29；10–14 对应 7/21–23；15–19 对应 24–26；20–26 对应 27–30/33；27–32 对应本文件、知识库同步与独立自检记录。
 

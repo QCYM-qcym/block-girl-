@@ -65,3 +65,60 @@ git diff --check
 ```
 
 RED 与最终日志分别保存。真实依赖集成未跑则不能报告 FOUNDATION_SPATIAL_MODEL_PASS；通过后停止，只交付模块报告。
+
+## FOUNDATION-0.1 恢复补充（新增任务，不重写 Task 1/2 历史）
+
+**Revision:** 公共合同 `foundation.contract.v1.1`，序列化标签仍 foundation.contract.v1 / cube24.v1。以上 Task 1/2 的原始代码示例和范围为旧实施记录；恢复执行时以公共合同 §5.1/5.2/9 与下列增量为准，旧裸 resolve/snapshot 返回不再合法。此前最终1018 checks / 2 failures，不能沿用更早1011/0作为通过。中央只修改本主仓库计划，不覆盖 B worktree 的完成勾选/日志。
+
+**新增文件权限：** B 可新增 `foundation/spatial/mapping_query.gd`、其 UID；其余沿用 surface_geometry.gd、spatial_validation.gd、tests/foundation/spatial/test_spatial.gd 及其 UID、本 Work 报告/计划。只做当前稳定构型的几何查询，不做 Lighting/ShiftPermission/全构型搜索/Kernel/BFS。新 MappingResolutionStatus 只消费 DATA 定义；缺依赖先记录 RED，不能在 B 本地另建公共枚举。
+
+### Task 3：Checked 派生结果与六 FaceNode 工厂
+
+**Interfaces:** surface_geometry 的 resolve_cube/resolve_anchor/snapshot 签名参数不变，统一返回 SpatialQueryResult={ok,value,issues}；spatial_validation.validate_snapshot(snapshot_result: Dictionary,faces: Array[Dictionary])->Array[Dictionary] 消费包装。surface_geometry.make_face_nodes(cube_id: StringName)->Array[Dictionary] 返回六个独立默认 FaceNode（规范见 §9）。消费 DATA shape validator 与 MATH.columns/compose，不修改 A。
+
+- [ ] 保留旧2条失败证据；先补 RED：两个范围 golden 经 resolve→snapshot→validator 均1105，failure.value=null。覆盖 GROUP_TRANSFORM、WORLD_TRANSFORM、ANCHOR_DERIVATION，完整group端态越界后world抵消仍拒绝；identity 大 pivot 而端态可表示不得误拒。测试禁用面 Anchor 溢出也让快照失败。
+- [ ] 将已有合法几何 golden 改为先断言 ok，再读 value，预期坐标不变；只调整返回包装，不重写独立 golden 数值。
+
+```gdscript
+var resolved = spatial.resolve_cube(cube, identity, identity)
+check(resolved.ok and resolved.issues.is_empty(), "checked cube")
+if resolved.ok:
+	var anchor = spatial.resolve_anchor(resolved.value, 4)
+	check(anchor.ok and anchor.value.position2 == Vector3i(2,1,0), "checked TOP")
+cube.center2 = Vector3i(-2147483648,0,0)
+var edge = spatial.resolve_cube(cube, identity, identity)
+if edge.ok:
+	var overflow = spatial.resolve_anchor(edge.value, 2)
+	check(not overflow.ok and overflow.value == null, "LEFT overflow fails atomically")
+	check(overflow.issues[0].code == 1105, "canonical overflow code")
+```
+
+- [ ] 运行原验收入口保存独立 RED；按 §5.1 修为标量 int64 分量计算与端态 int32 预检。不得先 Vector3i 运算再检查；不得复制 A 旋转表或为错误默认 identity。
+- [ ] validate_snapshot 对上游失败直接传播 issues，成功才校验 value；重新推导 Anchor 同样 checked。保留奇数端态 OFF_LATTICE 校验，不把可表示但非格点的数值误作 overflow。
+- [ ] make_face_nodes 测试六面0..5、三个bool默认false、机制数组独立、face_id与localface一致；修改一次返回的数组/记录不影响同次其它面或下一次输出。
+- [ ] 运行 GREEN，单独列出原2失败已解决的真实证据、范围结果形状、历史全量回归，不能只打印新测试通过。
+
+### Task 4：Candidate API / 四态 Resolution
+
+**Interfaces:** surface_geometry.anchor_overlap(source,target)->AnchorOverlapResult；classify_face_compatibility(source,target)->FaceCompatibilityResult。mapping_query.discover_mapping_candidates(snapshot_result,faces,source_face,target_layer)->MappingDiscoveryResult；collect_mapping_candidates(snapshot_result,faces,source_face,target_layer,enabled_compatibilities)->MappingCandidateResult；resolve_mapping(collection_result)->MappingResolutionResult。完整参数类型见合同 §9，唯一字段见 §5.2。
+
+- [ ] RED 覆盖 exact integer overlap、±1不重合、Frame非法ERROR；分类 SAME/OPPOSITE/垂直正常null，与位置/亮暗/blocked无关。0/1候选用下列真实有效快照验收；多候选用独立 resolution fixture 验收。相邻 TOP 不会重合 Anchor，不能伪造其成为有效多候选证据；结构非法快照必须先 ERROR。
+
+```gdscript
+var candidates: Array[Dictionary] = [
+	{"source_face": &"source/TOP", "target_face": &"target_b/BOTTOM", "compatibility": 1},
+	{"source_face": &"source/TOP", "target_face": &"target_a/TOP", "compatibility": 0},
+]
+var result = mapping.resolve_mapping({"ok": true, "candidates": candidates, "issues": []})
+check(result.status == 2 and result.mapping == null, "multiple candidates are AMBIGUOUS")
+check(result.candidates[0].target_face == &"target_a/TOP", "canonical full face ID order")
+check(result.issues[0].code == 1401, "ambiguity canonical code")
+```
+
+- [ ] 真实 discovery/collect fixture：源 Surface Cube 中心(0,0,0)的TOP，目标 Inner Cube 中心(0,0,0)的TOP及另一个 Inner Cube 中心(0,2,0)的BOTTOM，共享Anchor(0,1,0)。两个目标面均walkable时先由结构校验报 SEALED_WALKABLE_FACE→ERROR；不得靠非法内部面制造“有效多候选”。独立 resolution 的上例检验必须保留，真实几何若可证明结构域内不会歧义也不能删去公共 AMBIGUOUS 状态。
+- [ ] 合法两层同中心、各仅TOP walkable检验 UNIQUE；源TOP、目标同中心但仅BOTTOM walkable检验 NONE；目标位于(0,2,0)且仅BOTTOM walkable检验 OPPOSITE_NORMAL，启用仅SAME时collect为空。打乱 cubes/anchors/faces 和 compatibility 输入顺序，输出完全一致。
+- [ ] 保存 RED 后实现三个显式阶段；mapping_query 调用 geometry+spatial_validation，geometry 不反向依赖 mapping_query/validator。查询不改 PuzzleState，不按 light、blocked、busy 过滤；同一几何 fixture 翻转所有两个 Shift bool 后结果保持一致。
+- [ ] 覆盖上游1105/缺引用/同层目标/非法compatibility/重复pair→ERROR；collect 任一步失败 candidates=[]，resolution mapping=null；0→NONE/1400，1→UNIQUE，>1→AMBIGUOUS/1401，禁止任选第一。独立 synthetic collection 仅为 resolution 单元测试，不称真实空间映射集成。
+- [ ] 用真实 DATA/MATH 集成重跑本 Work 入口，保留各阶段计数、所有原范围失败回归；报告本次 API revision。C 的测试包装适配由 C 自己后续同步，B 不修改 C。Gate 为新接口和全量现有测试通过后才能 FOUNDATION_SPATIAL_MODEL_PASS，不含完整 ShiftPermission/全构型 LEVEL_VALID。
+
+以上待恢复任务本轮不执行，不自动启动其它 Work，不 commit/push/merge。

@@ -53,7 +53,7 @@ Prohibited files：foundation/{orientation,contracts,spatial,celestial,validatio
 
 Files：rule_types、rule_records、kernel、goal、kernel_fixture、test_rule_kernel。
 
-- [ ] RED：写下列断言及坏level/state/action/context、UNKNOWN_FIELD、1105副本隔离反例；运行主测试确认因入口缺失或断言失败退出1，保存原失败。
+- [x] RED：写下列断言及坏level/state/action/context、UNKNOWN_FIELD、1105副本隔离反例；运行主测试确认因入口缺失或断言失败退出1，保存原失败。
 
 ```gdscript
 var before := state.duplicate(true)
@@ -67,14 +67,14 @@ var goal_result := Goal.is_goal(level, state)
 check(goal_result.ok and not goal_result.is_goal and state == before, "goal is read only")
 ```
 
-- [ ] 最小实现：先串联DATA shape与封闭Result工厂；成功next_state=`state.duplicate(true)`后仅在私有candidate中变更；ERROR工厂固定next_state=null。Goal按face_id与required_flags，不新增完成字段。
-- [ ] GREEN：有效/无效输入与修改输出后输入不变；初态与Goal真实Safety未接前标记为单元double结果，不能最终PASS。
+- [x] 最小实现：先串联DATA shape与封闭Result工厂；成功next_state=`state.duplicate(true)`后仅在私有candidate中变更；ERROR工厂固定next_state=null。Goal按face_id与required_flags，不新增完成字段。
+- [x] GREEN：有效/无效输入与修改输出后输入不变；初态与Goal真实Safety未接前标记为单元double结果，不能最终PASS。
 
 ## Task 2：MOVE、Shift及Derived真实链接
 
 Files：derived、connectivity、kernel、fixture、test_rule_kernel。
 
-- [ ] RED：fixture包含一对共面相邻Face、同Cube不同法线Face、另世界SAME/OPPOSITE重合、一个遮挡体；分别断言roll方向、边缘拒绝、亮面拒切/回切不要求阴影、source/target独立blocked。
+- [x] RED：fixture包含一对共面相邻Face、同Cube不同法线Face、另世界SAME/OPPOSITE重合、一个遮挡体；分别断言roll方向、边缘拒绝、亮面拒切/回切不要求阴影、source/target独立blocked。
 
 ```gdscript
 var shifted := Kernel.evaluate_action(level, state, Records.make_action(1, {}), RuleRecords.idle_context())
@@ -86,14 +86,14 @@ check(overflow_result.status == RuleTypes.TransitionStatus.ERROR, "1105 is ERROR
 check(overflow_result.next_state == null and light_call_count == 0, "no light call after failed snapshot")
 ```
 
-- [ ] 最小实现：调用正式collect→resolve，NONE/UNIQUE/AMBIGUOUS/ERROR四分支；roll用Math.quarter_turn/compose，OPPOSITE用reframe；对target搜索只比较提升后的整数坐标。
-- [ ] GREEN：固定3→2结果1和3→17结果19；四roll/正反恢复；抖乱数据不改结果；真实sealed多目标先ERROR1201，独立resolution AMBIGUOUS测试不能冒称合法多目标关卡。
+- [x] 最小实现：调用正式collect→resolve，NONE/UNIQUE/AMBIGUOUS/ERROR四分支；roll用Math.quarter_turn/compose，OPPOSITE用reframe；对target搜索只比较提升后的整数坐标。
+- [x] GREEN：固定3→2结果1和3→17结果19；四roll/正反恢复；抖乱数据不改结果；真实sealed多目标先ERROR1201，独立resolution AMBIGUOUS测试不能冒称合法多目标关卡。
 
 ## Task 3：旋转、显式换面与机关/Slot事务
 
 Files：kernel、mechanism_effects、fixture、test_rule_kernel。
 
-- [ ] RED：World承载/不承载、不同World下Group的W×delta×W逆、合法/非法组边、同Cube多step通道与逆路径；远程机关、伪造目标、ENTER重复站立、两个ENTER全局效果失败。
+- [x] RED：World承载/不承载、不同World下Group的W×delta×W逆、合法/非法组边、同Cube多step通道与逆路径；远程机关、伪造目标、ENTER重复站立、两个ENTER全局效果失败。
 
 ```gdscript
 var rotated := Kernel.evaluate_action(level, state, Records.make_action(2, {"rotation_delta": 2}), RuleRecords.idle_context())
@@ -104,14 +104,14 @@ check(two_enter_effects.status == RuleTypes.TransitionStatus.ERROR, "no priority
 check(two_enter_effects.issues[0].code == Types.ValidationCode.MULTIPLE_GLOBAL_MUTATIONS, "1501")
 ```
 
-- [ ] 最小实现：统一效果分派，授权按本Face、trigger与逐字段action等值；读取正式Slot结果；有向边/allowed域先验，再调用共享Safety；通道用source Cube局部steps与正式Math，禁止通过Frame重置pose。
-- [ ] GREEN：SET当前Slot changed=false；NEXT/PREVIOUS/TOGGLE与无边1301；flags/mechanism_states保持全量不变；非法宽profile数据ERROR且不修改DATA使其通过。实际ENTER踏板MOVE+天体效果一次返回完整next_state，begin_global对此拒绝开ticket；local roll落定完整提交，不能分拆player/Slot。
+- [x] 最小实现：统一效果分派，授权按本Face、trigger与逐字段action等值；读取正式Slot结果；有向边/allowed域先验，再调用共享Safety；通道用source Cube局部steps与正式Math，禁止通过Frame重置pose。
+- [x] GREEN：SET当前Slot changed=false；NEXT/PREVIOUS/TOGGLE与无边1301；flags/mechanism_states保持全量不变；非法宽profile数据ERROR且不修改DATA使其通过。实际ENTER踏板MOVE+天体效果一次返回完整next_state，begin_global对此拒绝开ticket；local roll落定完整提交，不能分拆player/Slot。
 
 ## Task 4：Busy可交换MOVE与完成事务
 
 Files：transition_permission、rule_records、kernel、test_busy_transition。
 
-- [ ] RED：稳定A接受global后仍A；移动两步后完成B不丢最新player；承载World/Group MOVE含pose等价；goal/ENTER/跨载体不许可；Reset旧ticket由Runtime测试，Kernel测试坏context/trace。
+- [x] RED：稳定A接受global后仍A；移动两步后完成B不丢最新player；承载World/Group MOVE含pose等价；goal/ENTER/跨载体不许可；Reset旧ticket由Runtime测试，Kernel测试坏context/trace。
 
 ```gdscript
 var prepared := Kernel.evaluate_action(level, state, global_action, RuleRecords.idle_context())
@@ -126,8 +126,8 @@ check(finished.next_state.player.location == moved.player.location, "celestial c
 check(StateKey.build(level, finished.next_state).key == serial_key, "canonical atomic ordering")
 ```
 
-- [ ] 最小实现：context记录已执行MOVE；核内重放原接受授权，按载体变换重映射轴；两种次序比较完整StateKey与安全，并调用共享并发扫掠查询；失败明确1504/ERROR；完成返回完整next_state，不让调用方merge字段。
-- [ ] GREEN：所有global在MOVING和TRANSITION都拒绝且不留任何pending字段；goal/ENTER不被动画窗口悄悄跳过；completion不用重新站回console；无变化Slot不开ticket；不能证明的MOVE拒绝而普通安全路线仍可走。
+- [x] 最小实现：context记录已执行MOVE；核内重放原接受授权，按载体变换重映射轴；两种次序比较完整StateKey与安全，并调用共享并发扫掠查询；失败明确1504/ERROR；完成返回完整next_state，不让调用方merge字段。
+- [x] GREEN：所有global在MOVING和TRANSITION都拒绝且不留任何pending字段；goal/ENTER不被动画窗口悄悄跳过；completion不用重新站回console；无变化Slot不开ticket；不能证明的MOVE拒绝而普通安全路线仍可走。
 
 ## Task 5：真实2B Safety联调与验收
 
@@ -135,8 +135,8 @@ Files：两个test、run_validation、report与本plan。
 
 - [ ] 在真实2B实现可用后，测试入口preload正式Safety；移除测试注入路径在真实模式的使用，保留double仅用于错误分支单测。记录依赖HEAD。
 - [ ] 运行全套真实八动作与所有失败原子性、SAFE/UNSAFE/UNPROVEN/1105；接真实Math/Spatial/Celestial/StateKey，不复制邻模块文件。
-- [ ] wrapper用隐藏进程、退出码+明确PASS+错误扫描+60秒超时，证据只写`.godot/`或ignored evidence的新目录。汇总实际断言数，不把历史81,014当本次新结果。
-- [ ] 完成报告、ownership diff检查；需要改合同则返回CONTRACT_MISMATCH并停止，不自行升级。
+- [x] wrapper用隐藏进程、退出码+明确PASS+错误扫描+60秒超时，证据只写`.godot/`或ignored evidence的新目录。汇总实际断言数，不把历史81,014当本次新结果。
+- [x] 完成报告、ownership diff检查；需要改合同则返回CONTRACT_MISMATCH并停止，不自行升级。
 
 ## Acceptance command / PASS
 
@@ -150,3 +150,15 @@ Files：两个test、run_validation、report与本plan。
 ```
 
 两套件exit0且failures=[]、真实依赖齐备、既有FOUNDATION回归通过、无越权文件后，才可输出 **FOUNDATION_RULE_KERNEL_PASS**。缺真实Safety仅允许报告UNIT_TESTS_WITH_DOUBLE_PASS，不得输出上述最终token。本轮没有运行这些命令、没有创建这些生产文件。
+
+## FOUNDATION-2A 执行记录 / Provisional（2026-09-13）
+
+- 后续用户已授权本 Work 实施，并明确允许在真实 2B 接入前交付 `FOUNDATION_RULE_KERNEL_PROVISIONAL_PASS`；本段更新当前状态，上文 NOT IMPLEMENTED/未运行等语句保留冻结计划的历史语境。
+- 工作树 `E:/godot/worktrees/block-girl-foundation-rule-kernel`；分支 `feat/foundation-rule-kernel`；HEAD 保持 `b7fd6ae9cfa1961a4ca52bb977d66e87903fcec5`。
+- Task 1–4 已完成实现和单元验证；其中几何/运动 Safety 结论全部明确为 test-only double，并非真实 Safety 证明。
+- 最终主套件 717 checks，Busy 套件 116 checks，共 833 项、failures=[]、退出码 0、stderr 为空；独立 query helper 37 项通过；第一波原有回归重新运行 81,014 项通过。
+- 证据：`.godot/foundation-2a-validation/kernel_provisional_final/`；第一波回归 `.godot/foundation-1-validation/kernel_provisional_regression/`；RED/修复过程与辅助记录保留在同工作树 `.godot/` 各专属目录。
+- 独立代码审查与复审完成。诊断排序、Safety 损坏包装/1105 ERROR级说明、光照错误的声明顺序依赖均有 RED→GREEN 证据。
+- 当前状态：`FOUNDATION_RULE_KERNEL_PROVISIONAL_PASS`；`BLOCKER: WAITING_FOR_2B_SAFETY_INTEGRATION`；`CONTRACT_MISMATCH: NONE`。
+- Task 5 的真实 2B 接口接入与联合验收未完成，保留未勾选项；正式运行入口在缺少 Safety 时明确失败，绝不使用 production fallback。
+- 未修改第一波实现、旧测试、公共合同或其它 Work；未复制 2B 文件，未 commit/push/merge。

@@ -54,7 +54,7 @@ func evaluate(level: Dictionary, state: Dictionary, action: Dictionary, context:
 
 func _test_completion() -> void:
 	for global_type in ["celestial", "world", "group"]:
-		var level := Fixture.group_level() if global_type == "group" else Fixture.make_level()
+		var level := Fixture.group_level(not unit_mode) if global_type == "group" else Fixture.make_level(not unit_mode)
 		var state := Records.initial_state(level)
 		var action: Dictionary = Fixture.celestial_action()
 		if global_type == "world":
@@ -71,23 +71,26 @@ func _test_completion() -> void:
 		if not opened.ok:
 			continue
 		var context: Dictionary = opened.context
-		for step in range(2):
-			var local := evaluate(level, state, {"kind": 0, "face_axis": 0}, context)
+		# Real clearance uses a two-support route. Three alternating rolls end
+		# away from base, so stale-player overwrite is still detected.
+		var axes: Array = [0,0] if unit_mode else [0,2,0]
+		for step in range(axes.size()):
+			var local := evaluate(level, state, {"kind": 0, "face_axis": axes[step]}, context)
 			check(local.status == 0, global_type + " busy MOVE allowed " + str(local))
 			if local.status != 0:
 				break
 			check(local.global_kind == 0, "busy MOVE opens no second global")
 			state = local.next_state
-			context.local_moves.append({"kind": 0, "face_axis": 0})
+			context.local_moves.append({"kind": 0, "face_axis": axes[step]})
 		var before := var_to_bytes([state, context])
 		var completed: Dictionary = Kernel.complete_global(level, state, context)
 		check(var_to_bytes([state, context]) == before, "completion is pure")
 		check(completed.status == 0, global_type + " completion " + str(completed))
 		if completed.status == 0:
-			check(completed.next_state.player.location.cube_id == &"end", "latest player retained after two local moves")
+			check(completed.next_state.player.location.cube_id == (&"end" if unit_mode else &"step"), "latest player retained after local moves")
 			var serial: Dictionary = prepared.next_state
-			for step in range(2):
-				var moved := evaluate(level, serial, {"kind": 0, "face_axis": 0}, RuleRecords.idle_context())
+			for axis in axes:
+				var moved := evaluate(level, serial, {"kind": 0, "face_axis": axis}, RuleRecords.idle_context())
 				if moved.status == 0:
 					serial = moved.next_state
 			check(Key.build(level, serial).key == Key.build(level, completed.next_state).key, "two orders have identical full StateKey " + global_type)
@@ -96,7 +99,7 @@ func _test_completion() -> void:
 
 
 func _test_busy_rejections() -> void:
-	var level := Fixture.group_level()
+	var level := Fixture.group_level(not unit_mode)
 	var state := Records.initial_state(level)
 	var prepared := evaluate(level, state, Fixture.celestial_action(), RuleRecords.idle_context())
 	if prepared.status != 0:
@@ -116,7 +119,7 @@ func _test_busy_rejections() -> void:
 	context = RuleRecords.begin_global(level, evaluate(level, state, Fixture.celestial_action(), RuleRecords.idle_context())).context
 	var enter := evaluate(level, state, {"kind": 0, "face_axis": 0}, context)
 	check(enter.status == 1 and enter.rejection_code == 1504, "busy ENTER denied without deferred effect")
-	level = Fixture.group_level()
+	level = Fixture.group_level(not unit_mode)
 	state = Records.initial_state(level)
 	context = RuleRecords.begin_global(level, evaluate(level, state, Fixture.celestial_action(), RuleRecords.idle_context())).context
 	level.goal.face_id = &"step/TOP"
@@ -126,7 +129,7 @@ func _test_busy_rejections() -> void:
 	goal = evaluate(level, state, {"kind": 0, "face_axis": 0}, context)
 	check(goal.status == 1 and goal.rejection_code == 1504, "busy leaving goal denied")
 	if unit_mode:
-		level = Fixture.group_level()
+		level = Fixture.group_level(not unit_mode)
 		Double.concurrent_status = 2
 		var unproven := evaluate(level, state, {"kind": 0, "face_axis": 0}, context)
 		check(unproven.status == 1 and unproven.rejection_code == 1504, "serial safety cannot substitute for concurrent proof")
@@ -142,7 +145,7 @@ func _test_busy_rejections() -> void:
 
 
 func _test_ticket_validation() -> void:
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	var state := Records.initial_state(level)
 	var prepared := evaluate(level, state, Fixture.celestial_action(), RuleRecords.idle_context())
 	if prepared.status != 0:
@@ -174,7 +177,7 @@ func _test_ticket_validation() -> void:
 
 
 func _test_carrier_boundary() -> void:
-	var level := Fixture.group_level()
+	var level := Fixture.group_level(not unit_mode)
 	level.groups[0].cube_ids = [&"floor"]
 	for cube in level.cubes:
 		if cube.cube_id in [&"step", &"end"]:

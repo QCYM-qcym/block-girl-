@@ -98,7 +98,7 @@ func run_action(level: Dictionary, state: Dictionary, action: Dictionary, expect
 
 
 func _test_actions() -> void:
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	check(Data.validate_level_shape(level).is_empty(), "business fixture valid DATA shape")
 	var state := Records.initial_state(level)
 	var move := run_action(level, state, {"kind": 0, "face_axis": 0}, 0, "MOVE")
@@ -122,7 +122,7 @@ func _test_actions() -> void:
 		var reverse := run_action(level, transition.next_state, {"kind": 4, "transition_id": &"untip"}, 0, "FaceTransition inverse")
 		check(reverse.next_state == state, "FaceTransition round trip")
 	run_action(level, state, {"kind": 4, "transition_id": &"untip"}, 1, "FaceTransition wrong source", 2003)
-	var group_level := Fixture.group_level()
+	var group_level := Fixture.group_level(not unit_mode)
 	var group_state := Records.initial_state(group_level)
 	var group_action: Dictionary = group_level.mechanisms[1].action
 	var grouped := run_action(group_level, group_state, group_action, 0, "LOCAL_GROUP_ROTATE")
@@ -131,7 +131,7 @@ func _test_actions() -> void:
 	group_level.groups[0].edges = []
 	run_action(group_level, group_state, group_action, 1, "group edge absent", 2001)
 	for operation in range(4):
-		var slot_level := Fixture.make_level()
+		var slot_level := Fixture.make_level(not unit_mode)
 		var slot_state := Records.initial_state(slot_level)
 		var slot_action := Fixture.celestial_action(&"console", operation, &"b" if operation == 0 else (&"a" if operation == 3 else &""), &"b" if operation == 3 else &"")
 		if operation == 2:
@@ -155,7 +155,7 @@ func _test_shift() -> void:
 		var shifted := run_action(level, state, {"kind": 1}, 0, "OPPOSITE shift %s" % twisted)
 		if shifted.status == 0:
 			check(shifted.next_state.player.orientation == (19 if twisted else 1), "OPPOSITE full-frame golden")
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	var state := Records.initial_state(level)
 	var shifted := run_action(level, state, {"kind": 1}, 0, "SHADOW SAME shift")
 	if shifted.status == 0:
@@ -176,7 +176,7 @@ func _test_shift() -> void:
 
 
 func _test_mechanisms_and_goal() -> void:
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	var state := Records.initial_state(level)
 	var triggered := run_action(level, state, {"kind": 5, "mechanism_id": &"console"}, 0, "TRIGGER_MECHANISM delegates")
 	if triggered.status == 0:
@@ -198,7 +198,7 @@ func _test_mechanisms_and_goal() -> void:
 	state = Records.initial_state(level)
 	var multi := run_action(level, state, {"kind": 0, "face_axis": 0}, 2, "two ENTER globals fail atomically")
 	check(_has_code(multi.issues, 1501), "two globals keep code 1501")
-	level = Fixture.make_level()
+	level = Fixture.make_level(not unit_mode)
 	state = Records.initial_state(level)
 	var before := var_to_bytes([level, state])
 	var goal: Dictionary = Goal.is_goal(level, state)
@@ -216,7 +216,7 @@ func _test_mechanisms_and_goal() -> void:
 
 
 func _test_bad_inputs() -> void:
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	var state := Records.initial_state(level)
 	run_action({}, state, {"kind": 0, "face_axis": 0}, 2, "bad level")
 	run_action(level, {}, {"kind": 0, "face_axis": 0}, 2, "bad state")
@@ -227,17 +227,17 @@ func _test_bad_inputs() -> void:
 	run_action(level, state, {"kind": 0, "face_axis": 0}, 2, "context unknown field", 0, ctx)
 	level.mechanisms[0].allowed_states.append(&"on")
 	run_action(level, state, {"kind": 5, "mechanism_id": &"console"}, 2, "unsupported mechanism FSM profile")
-	level = Fixture.make_level()
+	level = Fixture.make_level(not unit_mode)
 	level.face_transitions[0].target_face_id = &"step/TOP"
 	run_action(level, state, {"kind": 4, "transition_id": &"tip"}, 2, "cross-Cube transition profile rejected")
-	level = Fixture.make_level()
+	level = Fixture.make_level(not unit_mode)
 	level.cubes[0].center2 = Vector3i(-2147483648,0,0)
 	var overflow := run_action(level, state, {"kind": 1}, 2, "snapshot overflow short circuits")
 	check(_has_code(overflow.issues, 1105), "snapshot error preserves 1105")
 
 
 func _test_safety_failures() -> void:
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	var state := Records.initial_state(level)
 	for status in [1,2,3]:
 		Double.reset()
@@ -246,6 +246,10 @@ func _test_safety_failures() -> void:
 		if status == 3:
 			check(_has_code(rejected.issues, 1105), "motion 1105 remains ERROR")
 			check(rejected.issues[0].details == {"probe": [1,2]}, "bottom issue details preserved")
+	Double.reset()
+	Double.state_status = 2
+	var unproven_current := run_action(level, state, {"kind": 2, "rotation_delta": 2}, 2, "defensive current Safety UNPROVEN blocks dangerous World mutation")
+	check(_has_code(unproven_current.issues, 1601) and Double.motion_calls == 0, "current UNPROVEN is never SAFE; no motion starts")
 	Double.reset()
 	Double.state_status = 3
 	var failure := run_action(level, state, {"kind": 0, "face_axis": 0}, 2, "bad current safety")
@@ -285,7 +289,7 @@ func _test_diagnostic_records() -> void:
 
 
 func _test_mapping_and_late_errors() -> void:
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	var state := Records.initial_state(level)
 	# Formal resolver constructs AMBIGUOUS; this is not claimed to be a valid
 	# geometric level with two sealed/coincident walkable target faces.
@@ -311,7 +315,7 @@ func _test_mapping_and_late_errors() -> void:
 
 
 func _test_order_and_group_frame() -> void:
-	var level := Fixture.make_level()
+	var level := Fixture.make_level(not unit_mode)
 	var state := Records.initial_state(level)
 	var action := Fixture.celestial_action()
 	var forward := run_action(level, state, action, 0, "ordered valid level")
@@ -325,7 +329,7 @@ func _test_order_and_group_frame() -> void:
 	level.faces.reverse()
 	var second_error := run_action(level, state, action, 2, "target Slot in occluder with reversed faces")
 	check(first_error == second_error, "lighting failure uses canonical face order")
-	var grouped := Fixture.group_level()
+	var grouped := Fixture.group_level(not unit_mode)
 	grouped.mechanisms[1].action.rotation_delta = 22
 	var group_state := Records.initial_state(grouped)
 	group_state.world_orientations[0] = 2
@@ -343,20 +347,24 @@ func _test_channels_and_entry_atomicity() -> void:
 			record.walkable = record.face == 4
 			level.faces.append(record)
 	var state := Records.initial_state(level)
-	for step in range(4):
-		var moved := run_action(level, state, {"kind": 0, "face_axis": 0}, 0, "four consecutive physical rolls %d" % step)
-		if moved.status != 0:
-			break
-		state = moved.next_state
-	check(state.player.orientation == 0 and state.player.location.cube_id == &"fifth", "four MOVE rolls restore pose without resetting location")
-	level = Fixture.make_level()
+	if unit_mode:
+		for step in range(4):
+			var moved := run_action(level, state, {"kind": 0, "face_axis": 0}, 0, "four consecutive physical rolls %d" % step)
+			if moved.status != 0:
+				break
+			state = moved.next_state
+		check(state.player.orientation == 0 and state.player.location.cube_id == &"fifth", "four MOVE rolls restore pose without resetting location")
+	else:
+		var unproven := run_action(level, state, {"kind": 0, "face_axis": 0}, 1, "conservative multi-support roll refuses unproven clearance", 2000)
+		check(_has_code(unproven.issues, 1601), "real roll preserves UNPROVEN diagnostic instead of assuming double safety")
+	level = Fixture.make_level(not unit_mode)
 	Fixture.face(level, &"floor/BACK").walkable = true
 	level.face_transitions.append({"transition_id": &"long_channel", "source_face_id": &"floor/TOP", "target_face_id": &"floor/BACK", "entry_axis": 0, "exit_axis": 2, "rotation_steps": [2,2,2], "required_flags": []})
 	state = Records.initial_state(level)
 	var channel := run_action(level, state, {"kind": 4, "transition_id": &"long_channel"}, 0, "explicit multi-step same-Cube channel")
 	if channel.status == 0:
 		check(channel.next_state.player.location.face == 1 and channel.next_state.player.orientation == 3, "three X+ channel steps give X- physical pose")
-	level = Fixture.make_level()
+	level = Fixture.make_level(not unit_mode)
 	Fixture.add_mechanism(level, &"plate", &"step/TOP", Fixture.celestial_action(&"plate"), &"ENTER")
 	state = Records.initial_state(level)
 	level.celestial.edges = []
@@ -364,7 +372,7 @@ func _test_channels_and_entry_atomicity() -> void:
 	var standing := state.duplicate(true)
 	standing.player.location.cube_id = &"step"
 	run_action(level, standing, {"kind": 5, "mechanism_id": &"plate"}, 1, "standing cannot USE an ENTER plate", 1503)
-	level = Fixture.make_level()
+	level = Fixture.make_level(not unit_mode)
 	level.cubes.append(Fixture.cube(&"cap", 1, Vector3i(0,2,0)))
 	for record in Geometry.make_face_nodes(&"cap"):
 		record.walkable = record.face == 5

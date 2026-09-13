@@ -27,10 +27,15 @@ static func light(level: Dictionary, state: Dictionary, face_id: StringName) -> 
 	return RealDerived.light(level, state, face_id)
 
 
-static func make_level() -> Dictionary:
+static func make_level(real_clearance: bool = false) -> Dictionary:
 	var cubes: Array[Dictionary] = []
 	for item in [[&"floor", 0, Vector3i.ZERO], [&"step", 0, Vector3i(2,0,0)], [&"end", 0, Vector3i(4,0,0)], [&"goal", 0, Vector3i(10,0,0)], [&"mirror", 1, Vector3i.ZERO]]:
 		cubes.append(cube(item[0], item[1], item[2]))
+	# The frozen conservative roll only exempts its two support Cubes.
+	# Keep the original three-support unit fixture; real positive cases need
+	# the unrelated third Cube outside the swept enclosure.
+	if real_clearance:
+		cubes[2].center2 = Vector3i(20,0,0)
 	var faces: Array[Dictionary] = []
 	for cell in cubes:
 		for record in Geometry.make_face_nodes(cell.cube_id):
@@ -73,15 +78,17 @@ static func add_mechanism(level: Dictionary, id: StringName, face_id: StringName
 	face(level, face_id).mechanism_ids.append(id)
 
 
-static func group_level() -> Dictionary:
-	var level := make_level()
+static func group_level(real_clearance: bool = false) -> Dictionary:
+	var level := make_level(real_clearance)
 	var edges: Array[Dictionary] = []
 	for pose in range(24):
 		for delta in [2,3,22,18,9,12]:
 			edges.append({"from_orientation": pose, "rotation_delta": delta, "to_orientation": Math.compose(delta, pose)})
 	level.groups.append({"group_id": &"bridge", "layer": 0, "cube_ids": [&"floor", &"step", &"end"], "pivot2": Vector3i.ZERO, "initial_orientation": 0, "allowed_states": range(24), "allowed_rotation_deltas": [2,3,22,18,9,12], "edges": edges})
+	if real_clearance:
+		level.groups[0].cube_ids = [&"floor", &"step"]
 	for cell in level.cubes:
-		if cell.cube_id in [&"floor", &"step", &"end"]:
+		if cell.cube_id in level.groups[0].cube_ids:
 			cell.group_id = &"bridge"
 	add_mechanism(level, &"rotator", &"floor/TOP", Records.make_action(6, {"group_id": &"bridge", "rotation_delta": 2, "mechanism_id": &"rotator"}))
 	return level

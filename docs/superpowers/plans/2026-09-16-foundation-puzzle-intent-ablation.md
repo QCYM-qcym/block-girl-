@@ -1,6 +1,6 @@
 # FOUNDATION-3C PuzzleIntent + Mechanic Ablation Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. NOT EXECUTED；等待用户后续授权。
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking. EXECUTED；用户2026-09-16已授权，已通过真实3A最终验收。未commit/push/merge。
 
 **Goal:** 对设计者声明的required/optional机制和禁用集合给出可复现消融结果，并检查一条真实解的教学里程碑。
 
@@ -12,7 +12,7 @@
 
 ## Global Constraints
 
-- FROZEN DESIGN / NOT IMPLEMENTED；本轮不执行、不commit/push/merge/worktree。
+- FROZEN DESIGN / IMPLEMENTED；本轮在用户指定worktree执行，不commit/push/merge。
 - 基线feat/foundation-core / 4dda1fdce9c562427ab7541f1ee21266a3b8214a。不得变更LevelDefinition、PuzzleState、PuzzleAction、Kernel规则或状态身份。
 - MechanicTag与ActionKind不同枚举；唯一分类位置为本Owner mechanic_classifier.gd，3A无反向依赖。
 - 消融删除完整APPLIED.changed边，不能修改Level、只筛顶层kind或剥离ENTER后保留MOVE。
@@ -62,7 +62,7 @@ Ablation内私有callback只按Spec §7返回`{ok,allow,issues}`，不增加公�
 
 **Interfaces:** 消费Level/hash及3A AnalysisIssue；产出封闭PuzzleIntent验证。
 
-- [ ] RED：有效sidecar通过；required/optional重叠、未知tag、无序/重复集合、空forbidden集合、重复milestone ID、错level_hash/rule_version、错误谓词引用、额外DSL字符串字段均失败。
+- [x] RED：有效sidecar通过；required/optional重叠、未知tag、无序/重复集合、空forbidden集合、重复milestone ID、错level_hash/rule_version、错误谓词引用、额外DSL字符串字段均失败。
 
 ```gdscript
 var intent := fixture_intent.duplicate(true)
@@ -73,8 +73,8 @@ intent.optional_mechanics.append(1)
 assert(not IntentValidation.validate(level, intent).ok)
 ```
 
-- [ ] GREEN：按Spec §16/20封闭字段验证；ID、引用和枚举值读取正式合同；只验证sidecar，不把字段塞入Level。QualityFinding codes4000/4001/4002与AnalysisCode3000段严格分开。
-- [ ] GREEN验证：required/optional空数组合法，forbidden可单tag或多tag；milestone顺序保留，不能排序掩盖教学顺序。
+- [x] GREEN：按Spec §16/20封闭字段验证；ID、引用和枚举值读取正式合同；只验证sidecar，不把字段塞入Level。QualityFinding codes4000/4001/4002与AnalysisCode3000段严格分开。
+- [x] GREEN验证：required/optional空数组合法，forbidden可单tag或多tag；milestone顺序保留，不能排序掩盖教学顺序。
 
 ## Task 2: 唯一实际效果分类器
 
@@ -82,7 +82,7 @@ assert(not IntentValidation.validate(level, intent).ok)
 
 **Interfaces:** 消费真实8字段PuzzleTransitionResult及正式Connectivity/Effects；产出排序去重tags/机制IDs。
 
-- [ ] RED：用真实Kernel结果覆盖MOVE、SHIFT、两个WorldRotate、FaceTransition、TRIGGER/direct组/天体。MOVE→ENTER天体必须同时出现MOVE/CELESTIAL_CHANGE/MECHANISM_TRIGGER；相同slot的ENTER只出现MOVE/MECHANISM_TRIGGER；全动作无变化返回空集合。
+- [x] RED：用真实Kernel结果覆盖MOVE、SHIFT、两个WorldRotate、FaceTransition、TRIGGER/direct组/天体。MOVE→ENTER天体必须同时出现MOVE/CELESTIAL_CHANGE/MECHANISM_TRIGGER；相同slot的ENTER只出现MOVE/MECHANISM_TRIGGER；全动作无变化返回空集合。
 
 ```gdscript
 var r := Kernel.evaluate_action(level, initial, move_onto_enter, RuleRecords.idle_context())
@@ -93,9 +93,9 @@ assert(c.tags == [0, 6, 7])
 assert(c.mechanism_ids == [&"enter_plate"])
 ```
 
-- [ ] RED：ENTER绑定FaceTransition，最终Face不同于入场Face，仍识别入场机制与FACE_TRANSITION；REJECTED/ERROR/inconsistent输入不返回空成功。该负例防止仅查看最终player.location。
-- [ ] GREEN：MOVE先复用Connectivity.query_move(level,previous_state,action.face_axis)取得中间目标，再用Effects.enter_effects；其它入口沿机制绑定定义和真实前后字段差异取tag。分类不调用自制roll/lighting/mapping，不使用并不存在的events字段。
-- [ ] GREEN验证：wrapper/direct别名tag相同、平行动作仍不同；发生实际slot变化才CELESTIAL_CHANGE；所有输出深复制且输入不变。
+- [x] RED：ENTER绑定FaceTransition，最终Face不同于入场Face，仍识别入场机制与FACE_TRANSITION；REJECTED/ERROR/inconsistent输入不返回空成功。该负例防止仅查看最终player.location。
+- [x] GREEN：MOVE先复用Connectivity.query_move(level,previous_state,action.face_axis)取得中间目标，再用Effects.enter_effects；其它入口沿机制绑定定义和真实前后字段差异取tag。分类不调用自制roll/lighting/mapping，不使用并不存在的events字段。
+- [x] GREEN验证：wrapper/direct别名tag相同、平行动作仍不同；发生实际slot变化才CELESTIAL_CHANGE；所有输出深复制且输入不变。
 
 ## Task 3: Baseline与原子删边消融
 
@@ -103,7 +103,7 @@ assert(c.mechanism_ids == [&"enter_plate"])
 
 **Interfaces:** 消费Solver唯一入口与classifier；产出Spec §19 AblationResult/IntentAnalysisResult。
 
-- [ ] RED：结果表double按传入descriptor返回既定SolverResult并记录calls；baseline无解/预算/错误时不启动消融。required禁用仍SOLVED报MECHANIC_BYPASS，optional仍SOLVED只essential=false，集合无解只能断言集合整体essential。
+- [x] RED：结果表double按传入descriptor返回既定SolverResult并记录calls；baseline无解/预算/错误时不启动消融。required禁用仍SOLVED报MECHANIC_BYPASS，optional仍SOLVED只essential=false，集合无解只能断言集合整体essential。
 
 ```gdscript
 # 真正运行前先用结果表double控制两次求解：baseline SOLVED，禁用SHIFT仍SOLVED。
@@ -116,7 +116,7 @@ assert(incomplete_result.ablations[0].essential == null)
 assert(incomplete_result.ablations[0].bypass_detected == null)
 ```
 
-- [ ] GREEN：先完整baseline；对required/optional单tag及forbidden集合去重调度，报告仍关联全部声明。闭包callback调用classifier，tags相交返回allow=false；错误返回ok=false，由3A FILTER_ERROR终止。
+- [x] GREEN：先完整baseline；对required/optional单tag及forbidden集合去重调度，报告仍关联全部声明。闭包callback调用classifier，tags相交返回allow=false；错误返回ok=false，由3A FILTER_ERROR终止。
 
 ```text
 filter(level,result):
@@ -126,8 +126,8 @@ filter(level,result):
   return {ok:true,allow:!overlap,issues:[]}
 ```
 
-- [ ] RED/GREEN：检查MOVE+ENTER整条边被删除，没有生成“移动完成但机关未触发”的新状态；Kernel ERROR先于filter；disabled集合必须非空升序。输入policy若不是UNFILTERED返回ERROR/INVALID_SEARCH_POLICY，不能把消融结果当baseline。
-- [ ] GREEN验证：每个SOLVED见证先Trace.validate_semantics且分类确认未用禁用tag，才生成硬finding；虚假double trace只测编排，不计真实质量证据。聚合ERROR优先INCOMPLETE；COMPLETE仅代表分析跑完，不代表设计无缺陷。
+- [x] RED/GREEN：检查MOVE+ENTER整条边被删除，没有生成“移动完成但机关未触发”的新状态；Kernel ERROR先于filter；disabled集合必须非空升序。输入policy若不是UNFILTERED返回ERROR/INVALID_SEARCH_POLICY，不能把消融结果当baseline。
+- [x] GREEN验证：每个SOLVED见证先Trace.validate_semantics且分类确认未用禁用tag，才生成硬finding；虚假double trace只测编排，不计真实质量证据。聚合ERROR优先INCOMPLETE；COMPLETE仅代表分析跑完，不代表设计无缺陷。
 
 ## Task 4: 里程碑与未使用advisory
 
@@ -135,8 +135,8 @@ filter(level,result):
 
 **Interfaces:** 消费Trace.validate_semantics返回真实transitions、唯一classifier、正式Derived/Goal；产出SINGLE_TRACE结果。
 
-- [ ] RED：正式两步Goal trace缺required SHIFT→TRACE_BYPASS/4001；同项optional不产生硬错误；required顺序反转、optional缺失夹在required之间、初态满足AT_FACE、同一步同时满足MOVE+ENTER两个谓词都要有literal sample_indices。
-- [ ] RED：所有StateKey/末Goal正确但一步动作不可达的伪造trace返回ERROR且findings=[]；光照查询失败不能当SHADOW命中。
+- [x] RED：正式两步Goal trace缺required SHIFT→TRACE_BYPASS/4001；同项optional不产生硬错误；required顺序反转、optional缺失夹在required之间、初态满足AT_FACE、同一步同时满足MOVE+ENTER两个谓词都要有literal sample_indices。
+- [x] RED：所有StateKey/末Goal正确但一步动作不可达的伪造trace返回ERROR且findings=[]；光照查询失败不能当SHADOW命中。
 
 ```gdscript
 var checked := Milestones.analyze_trace(level, intent, forged_trace)
@@ -146,17 +146,17 @@ var valid := Milestones.analyze_trace(level, intent, solved_trace)
 assert(valid.scope == "SINGLE_TRACE")
 ```
 
-- [ ] GREEN：先语义验证；采样初态0与每步1..N，required子序列贪心非递减匹配，optional各自找最早命中。MECHANIC_USED只看当步，GOAL使用正式Evaluator。未匹配索引null，required缺失才生成4001。
-- [ ] GREEN：对返回最短见证未出现的mechanism_id仅4002/WARNING，scope RETURNED_SHORTEST_TRACE；预算附带见证scope DISCOVERED_WITNESS。不推断所有解或所有最短解未使用，不实现乘积图/BFS。
+- [x] GREEN：先语义验证；采样初态0与每步1..N，required子序列贪心非递减匹配，optional各自找最早命中。MECHANIC_USED只看当步，GOAL使用正式Evaluator。未匹配索引null，required缺失才生成4001。
+- [x] GREEN：对返回最短见证未出现的mechanism_id仅4002/WARNING，scope RETURNED_SHORTEST_TRACE；预算附带见证scope DISCOVERED_WITNESS。不推断所有解或所有最短解未使用，不实现乘积图/BFS。
 
 ## Task 5: 真实3A消融与独立验收
 
 **Files:** test_intent_integration.gd、intent_fixtures.gd、run_validation.ps1、专属report、本plan。
 
-- [ ] RED：真实Baker关卡准备“必须SHIFT”“存在无需SHIFT的绕过”“必须ENTER天体”“同天体direct/TRIGGER/ENTER多入口”“可选机关”五组。人工列出预期通关动作与禁止集合；基线都由真实Solver获得SOLVED，不能用double报告最终结论。
-- [ ] GREEN：真实Solver反复求解，必需机制消融PROVEN_UNSOLVABLE；绕过例SOLVED且语义校验通过；三入口天体均受同一tag过滤；极小预算INCOMPLETE。对真实返回trace做milestone检查，明确只有SINGLE_TRACE证明。
-- [ ] 编写wrapper支持`-Godot/-EvidenceName`，stage60秒、Hidden、仅清理自身进程；证据`.godot/foundation-3c/<EvidenceName>/`不覆盖，保存HEAD/hash、每次policy/budget/metrics、intent副本、trace与错误。exit0/checks>0/PASS且无错误才通过。
-- [ ] 执行命令，检查写入白名单，完成报告后停止review。
+- [x] RED：真实Baker关卡准备“必须SHIFT”“存在无需SHIFT的绕过”“必须ENTER天体”“同天体direct/TRIGGER/ENTER多入口”“可选机关”五组。人工列出预期通关动作与禁止集合；基线都由真实Solver获得SOLVED，不能用double报告最终结论。
+- [x] GREEN：真实Solver反复求解，必需机制消融PROVEN_UNSOLVABLE；绕过例SOLVED且语义校验通过；三入口天体均受同一tag过滤；极小预算INCOMPLETE。对真实返回trace做milestone检查，明确只有SINGLE_TRACE证明。
+- [x] 编写wrapper支持`-Godot/-EvidenceName`，stage60秒、Hidden、仅清理自身进程；证据`.godot/foundation-3c/<EvidenceName>/`不覆盖，保存HEAD/hash、每次policy/budget/metrics、intent副本、trace与错误。exit0/checks>0/PASS且无错误才通过。
+- [x] 执行命令，检查写入白名单，完成报告后停止review。
 
 ```powershell
 $godotExe = 'D:/APP/steam/steamapps/common/Godot Engine/godot.windows.opt.tools.64.exe'
@@ -176,3 +176,20 @@ git status --short
 **PASS token:** `FOUNDATION_PUZZLE_INTENT_ABLATION_PASS`；真实3A与所有负例通过、CONTRACT_MISMATCH: NONE。模块PASS不是所有关卡意图PASS。
 
 **CONTRACT_MISMATCH stop rule:** 字段、tag映射、Callable接口、ENTER profile或真实API与Spec不一致时停止依赖工作，列expected/actual/path/Owner；不能改Kernel、3A或共享合同自行修正。3A缺席可测试double编排但必须标DEPENDENCY_PENDING，不输出真实PASS。
+
+## Execution record — 2026-09-16
+
+用户指定工作区 E:/godot/worktrees/block-girl-foundation-intent、分支 feat/foundation-puzzle-intent-ablation；实际基线为 69590f91e32c72103f885b32bb29e57eee36a0c3。上文历史命令中的主工作区路径未用于执行本轮写入。
+
+开始3A未就绪，先tests-only结果表测试；最终3A正式实现完成，通过ignored项目中的只读junction接入，无源码复制、跨worktree修改或merge。完整执行命令：
+
+```powershell
+& './tests/foundation/quality/intent/run_validation.ps1' -EvidenceName intent_final_03 -SolverSourceRoot 'E:/godot/worktrees/block-girl-foundation-solver'
+& './tests/foundation/full_integration/run_validation.ps1' -Headless -EvidenceName intent_final_regression
+& './tests/foundation/run_validation.ps1' -EvidenceName intent_final_foundation
+```
+
+最终五套1052项断言、真实五组消融、真实伪造trace拒绝、子消融预算null结论均通过；既有完整集成77项与第一波六套回归通过。全部新代码位于精确3C白名单。详见 docs/development-records/FOUNDATION_PUZZLE_INTENT_ABLATION_REPORT.md 和 .godot/foundation-3c/intent_final_03/。
+
+FOUNDATION_PUZZLE_INTENT_ABLATION_PASS
+CONTRACT_MISMATCH: NONE

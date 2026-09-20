@@ -36,6 +36,17 @@ The current playable level explores a small set of rules through movement,
 world shifting, perspective connections, and mechanisms. In parallel, a reusable
 puzzle foundation is being developed for future levels and more varied spatial rules.
 
+### Character Presentation
+
+<p align="center">
+  <img src="docs/assets/readme/mutsumi-mortis-roll.gif" alt="Mutsumi and Mortis pixel cube skins showing a rolling animation" width="480" />
+</p>
+
+*In-game pixel representations of Wakaba Mutsumi and Mortis.*
+This is an animation preview of the project's production sprites, not a gameplay
+capture or concept scene. The sprite workflow uses AI-assisted texture drafts,
+followed by pixel normalization and orientation-based frame generation.
+
 ## Gameplay
 
 ### Cube Rolling

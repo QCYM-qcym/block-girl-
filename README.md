@@ -6,7 +6,9 @@
 
 一个以若叶睦为主题，围绕方块翻滚、表里世界切换、透视连接与空间机关展开的等距视角独立解谜游戏。
 
-![Mutsumi Veilshift — P-01 in Surface](docs/assets/readme/hero.png)
+![Mutsumi Veilshift Concept — Surface and Inner](docs/assets/readme/hero-concept.png)
+
+*Hero concept art — a visual direction for the project, not a gameplay screenshot.*
 
 **Godot 4.7 · GDScript · Playable prototype**
 
@@ -36,16 +38,22 @@ The current playable level explores a small set of rules through movement,
 world shifting, perspective connections, and mechanisms. In parallel, a reusable
 puzzle foundation is being developed for future levels and more varied spatial rules.
 
-### Character Presentation
+## Two Worlds
 
-<p align="center">
-  <img src="docs/assets/readme/mutsumi-mortis-roll.gif" alt="Mutsumi and Mortis pixel cube skins showing a rolling animation" width="480" />
-</p>
+![Surface World Concept](docs/assets/readme/surface-concept.png)
 
-*In-game pixel representations of Wakaba Mutsumi and Mortis.*
-This is an animation preview of the project's production sprites, not a gameplay
-capture or concept scene. The sprite workflow uses AI-assisted texture drafts,
-followed by pixel normalization and orientation-based frame generation.
+**Surface World / Inner World.** Pale stone, greenery, and open space contrast with
+the dark theatrical atmosphere of Inner shown in the hero concept above.
+These concept scenes establish mood and spatial themes; their environments and
+illustrated interface are not the current playable level.
+
+## Mutsumi / Mortis Concept
+
+![Mutsumi and Mortis character and reward presentation concept](docs/assets/readme/mutsumi-concept.png)
+
+A concept board exploring the two cube identities and a possible character-reveal
+and reward presentation. Character unlocks, the illustrated interface, and Live2D
+presentation shown here are future visual ideas, not implemented P-01 features.
 
 ## Gameplay
 
@@ -88,14 +96,9 @@ The images below are direct captures of the real P-01 runtime on `main`.
 They contain the game's normal interface, with the debug overlay disabled.
 No generated gameplay mockups or official animation images are used.
 
-### Surface / Inner
+### P-01 — Surface World
 
-<p align="center">
-  <img src="docs/assets/readme/surface-world.png" alt="P-01 Surface world with Mutsumi at a broken path" width="49%" />
-  <img src="docs/assets/readme/inner-world.png" alt="The same P-01 location in the Inner world with Mortis" width="49%" />
-</p>
-
-The same position, two world states: these captures show the result of a world shift.
+![P-01 actual gameplay in Surface](docs/assets/readme/surface-world.png)
 
 ### Perspective Connection
 

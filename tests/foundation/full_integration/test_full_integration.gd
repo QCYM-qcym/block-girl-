@@ -11,6 +11,7 @@ const Derived = preload("res://foundation/rules/derived_state_resolver.gd")
 const Goal = preload("res://foundation/rules/goal_evaluator.gd")
 const Records = preload("res://foundation/contracts/contract_records.gd")
 const Key = preload("res://foundation/contracts/state_key.gd")
+const Observer = preload("res://tests/foundation/full_integration/interpolation_observer.gd")
 const OPTIONS := {"max_configurations":4096,"max_checks":100000}
 const AUTHORING := "res://tools/foundation/level/runtime_authoring.tscn"
 var checks := 0
@@ -18,6 +19,16 @@ var failures: Array[String] = []
 var scene: Node
 var evidence := "res://.godot/foundation-2-full/manual"
 var route_keys: Dictionary = {}
+var observation_checks := 0
+var observations: Array[Dictionary] = []
+
+func observe_check(result: Dictionary, label: String) -> bool:
+	observation_checks += 1
+	observations.append({"label":label,"result":result})
+	if not result.ok:
+		failures.append(label + ": " + result.failure)
+		printerr("FAIL: ",label,": ",result.failure)
+	return result.ok
 
 func check(ok: bool, label: String) -> void:
 	checks += 1
@@ -118,15 +129,20 @@ func run() -> void:
 		var before_key := key()
 		var before_visual := visual()
 		var commits: int = scene.session.commit_count
+		var observer = Observer.new()
+		observer.attach(scene)
 		await press(keys[index],false)
 		check(scene.action_log[-1] == actions[index],"physical input maps to exact semantic action")
 		check(scene.session.last_result.status == 0,"runtime real Kernel APPLIED")
 		check(key() == before_key and visual() == before_visual,"proposal does not partially commit")
-		await create_timer(0.08).timeout
+		var sampled: Dictionary = await observer.wait_intermediate()
+		if not observe_check(sampled,"manual intermediate " + names[index]):
+			observer.close(); finish(); return
 		var progress: float = scene.presenter.transition_progress
 		check(progress > 0 and progress < 1 and key() == before_key,"visual interpolation advances independently of stable state")
 		var id: int = scene.session.transaction_id
 		var generation: int = scene.session.generation
+		observer.manual_commit = true
 		if index == 0:
 			scene.session.finish_local(id,generation)
 		else:
@@ -135,7 +151,10 @@ func run() -> void:
 		check(scene.session.commit_count == commits + 1,"whole state commits exactly once")
 		check(scene.presenter.transition_progress == progress,"logical completion does not infer state from animation progress")
 		check(visual() != before_visual,"committed state drives new visual authority")
-		await create_timer(0.55).timeout
+		var completed: Dictionary = await observer.wait_complete()
+		observer.close()
+		if not observe_check(completed,"manual callback completion " + names[index]):
+			finish(); return
 		check(scene.session.commit_count == commits + 1,"later animation callback cannot double commit")
 		route_keys[names[index]] = key()
 		await capture(names[index])
@@ -146,7 +165,16 @@ func run() -> void:
 	# A second replay relies solely on the production animation callbacks.
 	# Breaking scene completion must fail even though manual token tests pass.
 	for index in range(keys.size()):
-		await press(keys[index])
+		var observer = Observer.new()
+		observer.attach(scene)
+		await press(keys[index],false)
+		var sampled: Dictionary = await observer.wait_intermediate()
+		if not observe_check(sampled,"natural intermediate " + names[index]):
+			observer.close(); finish(); return
+		var completed: Dictionary = await observer.wait_complete()
+		observer.close()
+		if not observe_check(completed,"natural completion " + names[index]):
+			finish(); return
 		check(scene.session.state == expected_states[index],"natural scene callback commits complete real endpoint")
 		check(scene.session.commit_count == index + 1,"natural input route commits exactly once per action")
 		var settled_visual := visual()
@@ -197,7 +225,8 @@ func capture(label: String) -> void:
 	check(root.get_texture().get_image().save_png(evidence.path_join(label + ".png")) == OK,"capture " + label)
 
 func finish() -> void:
-	var report := {"checks":checks,"failures":failures,"display":DisplayServer.get_name(),"backend":"REAL Kernel + Safety; real Baker definition","route_state_keys":route_keys}
+	var report := {"checks":checks,"observation_checks":observation_checks,"failures":failures,"display":DisplayServer.get_name(),"backend":"REAL Kernel + Safety; real Baker definition","route_state_keys":route_keys}
+	FileAccess.open(evidence.path_join("interpolation-observations.json"),FileAccess.WRITE).store_string(JSON.stringify(observations,"\t"))
 	FileAccess.open(evidence.path_join("results.json"),FileAccess.WRITE).store_string(JSON.stringify(report,"\t"))
 	print("FOUNDATION_2_E2E_", "PASS" if failures.is_empty() else "FAIL", " checks=",checks)
 	if is_instance_valid(scene):

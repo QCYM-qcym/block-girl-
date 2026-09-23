@@ -1,4 +1,5 @@
 extends "res://tests/gameplay/test_p01_runtime.gd"
+const AudioCleanup = preload("res://tests/gameplay/helpers/polish_audio_cleanup.gd")
 var cue_log: Array[String]=[]
 var capture: AudioEffectCapture
 var meter: Timer
@@ -17,7 +18,7 @@ func run() -> void:
 		if arg.begins_with("--evidence-dir="): evidence=arg.trim_prefix("--evidence-dir=")
 	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(evidence))
 	game=load("res://game/levels/mutsumi/p01_another_world.tscn").instantiate(); root.add_child(game)
-	game.polish.audio.cue_played.connect(func(cue: String): cue_log.append(cue))
+	game.polish.audio.cue_played.connect(record_cue)
 	capture=AudioEffectCapture.new(); capture.buffer_length=0.5
 	AudioServer.add_bus_effect(0,capture)
 	meter=Timer.new(); meter.wait_time=0.05; meter.timeout.connect(sample_audio); game.add_child(meter); meter.start()
@@ -89,8 +90,40 @@ func run() -> void:
 	sample_audio(); save_audio()
 	print("P01 POLISH: ",checks," checks; failures=",failures,"; audio_peak=",audio_peak,"; voices=",max_voices)
 	FileAccess.open(evidence.path_join("polish_report.json"),FileAccess.WRITE).store_string(JSON.stringify({"checks":checks,"failures":failures,"audio_peak":audio_peak,"audio_rms":sqrt(audio_energy/maxi(1,audio_samples)),"audio_samples":audio_samples,"max_sfx_voices":max_voices,"cues":cue_log,"end_states":end_states,"checkpoints":checkpoints,"first_user":"TUTORIAL_FIRST_USER_VALIDATION_REQUIRED"},"\t"))
-	meter.stop(); AudioServer.remove_bus_effect(0,AudioServer.get_bus_effect_count(0)-1)
-	game.queue_free(); await process_frame; quit(0 if failures.is_empty() else 1)
+	# Functional checks and their evidence above remain separate from cleanup.
+	door_stream=null
+	begin_audio_teardown()
+func begin_audio_teardown() -> void:
+	game.process_mode=Node.PROCESS_MODE_DISABLED
+	meter.stop(); meter.timeout.disconnect(sample_audio)
+	game.polish.audio.cue_played.disconnect(record_cue)
+	var targets: Array[Dictionary]=AudioCleanup.capture_audio(game.polish.audio)
+	AudioCleanup.watch(capture,"test Master capture effect",targets)
+	var capture_removed:=false
+	for index in AudioServer.get_bus_effect_count(0):
+		if AudioServer.get_bus_effect(0,index)==capture:
+			AudioServer.remove_bus_effect(0,index); capture_removed=true; break
+	capture.clear_buffer(); capture=null
+	cue_log.clear(); recorded.clear(); meter=null
+	var scene_id: int=game.get_instance_id()
+	game.queue_free(); game=null
+	# Let run() and this synchronous scope return before observing resources:
+	# suspended GDScript frames can otherwise retain temporary capture refs.
+	finish_audio_teardown.call_deferred(targets,scene_id,capture_removed)
+func finish_audio_teardown(targets: Array[Dictionary],scene_id: int,capture_removed: bool) -> void:
+	var cleanup: Dictionary=await AudioCleanup.wait_for_release(self,targets)
+	cleanup["scene_released"]=not is_instance_id_valid(scene_id)
+	cleanup["capture_bus_removed"]=capture_removed
+	if not cleanup.scene_released:
+		cleanup.ok=false; cleanup.exit_code=2; cleanup.failure="SCENE_CLEANUP_INCOMPLETE"
+	if not capture_removed:
+		cleanup.ok=false; cleanup.exit_code=2; cleanup.failure="CAPTURE_EFFECT_NOT_REMOVED"
+	FileAccess.open(evidence.path_join("polish_cleanup.json"),FileAccess.WRITE).store_string(JSON.stringify(cleanup,"\t"))
+	print("P01 AUDIO CLEANUP: ok=",cleanup.ok,"; watched=",cleanup.watched_count,"; frames=",cleanup.frames,"; elapsed_us=",cleanup.elapsed_us)
+	if not cleanup.ok: printerr("FAIL: ",cleanup.failure,"; pending=",cleanup.pending)
+	quit(1 if not failures.is_empty() else int(cleanup.exit_code))
+func record_cue(cue: String) -> void:
+	cue_log.append(cue)
 func sample_audio() -> void:
 	if not is_instance_valid(game): return
 	max_voices=maxi(max_voices,game.polish.audio.active_sfx_count())
